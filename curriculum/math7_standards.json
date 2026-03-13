@@ -1,0 +1,579 @@
+{
+  "meta": {
+    "title": "7th Grade Math — Learning Goals",
+    "jurisdiction": "Washington",
+    "alignment": "CCSS",
+    "source": "Learning Commons Knowledge Graph",
+    "audit_date": "2026-03-12",
+    "total_standards": 30,
+    "total_lcs": 86,
+    "schema_version": "1.0"
+  },
+  "domains": [
+    {
+      "id": "RP",
+      "label": "Ratios & Proportional Relationships",
+      "parents": [
+        {
+          "label": "7.RP.A.1 — Unit rates with fractions",
+          "standards": [
+            {
+              "code": "7.RP.A.1",
+              "graph_uuid": "662aadd5-d7cc-11e8-824f-0242ac160002",
+              "title": "Compute unit rates associated with ratios of fractions",
+              "description": "Compute unit rates associated with ratios of fractions, including ratios of lengths, areas and other quantities measured in like or different units.",
+              "annotation": "The upgrade from 6th grade is that both quantities in the rate can be fractions. Students must recognize the rate structure, divide to isolate the unit rate, and handle the resulting complex fraction (e.g., ½ ÷ ¼ = 2). Both pure computation and real-world contexts are expected.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "5b1f724c-bdc0-5839-9be6-9732031dc911", "text": "Given a rate relationship between two quantities in a mathematical problem, calculate the unit rate" },
+                { "id": "84257a01-2af1-5cad-9f2e-3f6db9a7466b", "text": "Compute unit rates associated with ratios of fractions" },
+                { "id": "863028c4-61cc-5e59-8c83-beea5ec279c3", "text": "Given a rate relationship between two quantities in a real-world problem, calculate the unit rate" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.RP.A.2 — Proportional relationships",
+          "standards": [
+            {
+              "code": "7.RP.A.2.a",
+              "graph_uuid": "662fe31f-d7cc-11e8-824f-0242ac160002",
+              "title": "Decide whether two quantities are in a proportional relationship",
+              "description": "Decide whether two quantities are in a proportional relationship, e.g., by testing for equivalent ratios in a table or graphing on a coordinate plane and observing whether the graph is a straight line through the origin.",
+              "annotation": "Students must be able to test proportionality from multiple representations — not just apply a definition. In tables, they check that all ratios y/x are equal. On graphs, they check for a straight line through the origin. Both methods should be understood, not just one.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "dad3591d-c534-5c37-8768-47da56a149d5", "text": "Determine whether two quantities presented in a table are in a proportional relationship" },
+                { "id": "e979a208-2a83-523a-9a35-2908826d48e5", "text": "Determine whether two quantities presented in a graph are in a proportional relationship" }
+              ]
+            },
+            {
+              "code": "7.RP.A.2.b",
+              "graph_uuid": "66305163-d7cc-11e8-824f-0242ac160002",
+              "title": "Identify the constant of proportionality in multiple representations",
+              "description": "Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams, and verbal descriptions of proportional relationships.",
+              "annotation": "The constant of proportionality k is the same value in every representation, but it looks different in each. In a table it's any y/x ratio; in a graph it's the slope; in an equation it's the coefficient; in a verbal description it's the rate. Students must be fluent in all five.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "a205a83d-652d-5095-9a1a-07676d6a394d", "text": "Identify or determine the constant of proportionality (unit rate) in tables of proportional relationships" },
+                { "id": "5ec9f641-05be-5846-b3fb-fab3138ef0d3", "text": "Identify or determine the constant of proportionality (unit rate) in graphs of proportional relationships" },
+                { "id": "3c7dcfad-a121-5de1-b274-420408f9d54c", "text": "Identify or determine the constant of proportionality (unit rate) in equations of proportional relationships" },
+                { "id": "e927647f-0791-56f7-bf44-879e8f10b981", "text": "Identify or determine the constant of proportionality (unit rate) in diagrams of proportional relationships" },
+                { "id": "8c8b40c3-0da5-5240-90ef-5a93150fd9d6", "text": "Identify or determine the constant of proportionality (unit rate) in verbal descriptions of proportional relationships" }
+              ]
+            },
+            {
+              "code": "7.RP.A.2.c",
+              "graph_uuid": "6630afe8-d7cc-11e8-824f-0242ac160002",
+              "title": "Represent proportional relationships with equations",
+              "description": "Represent proportional relationships by equations.",
+              "annotation": "Given any proportional relationship — from a table, graph, diagram, or verbal description — students must write the equation y = kx. This is the algebraic formalization of proportionality and links directly to linear functions in 8th grade.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "0070d7c9-1b68-571b-a80c-734c63df2bf6", "text": "Represent proportional relationships with equations" }
+              ]
+            },
+            {
+              "code": "7.RP.A.2.d",
+              "graph_uuid": "6630ef65-d7cc-11e8-824f-0242ac160002",
+              "title": "Explain what a point on the graph of a proportional relationship means",
+              "description": "Explain what a point (x, y) on the graph of a proportional relationship means in terms of the situation, with special attention to the points (0, 0) and (1, r) where r is the unit rate.",
+              "annotation": "This is the interpretive capstone of 7.RP.A.2. Any point (x, y) means 'x units of input corresponds to y units of output.' The point (0, 0) means zero input produces zero output. The point (1, r) is the unit rate made visible on the graph.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "7829e94a-2451-57ee-96cb-0b590fa68b40", "text": "Explain what a point (x, y) on the graph of a proportional relationship means in terms of the situation" },
+                { "id": "9ff22c5d-b7f4-51bb-a56d-9ae9123bc23c", "text": "Explain what a point (0, 0) on the graph of a proportional relationship means in terms of the situation" },
+                { "id": "db5f1010-a6c1-55e4-a84f-74ca6899ffa4", "text": "Explain what a point (1, r), where r is the unit rate, on the graph of a proportional relationship means in terms of the situation" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.RP.A.3 — Ratio and percent applications",
+          "standards": [
+            {
+              "code": "7.RP.A.3",
+              "graph_uuid": "662cf0bc-d7cc-11e8-824f-0242ac160002",
+              "title": "Solve multistep ratio and percent problems",
+              "description": "Use proportional relationships to solve multistep ratio and percent problems. Examples: simple interest, tax, markups and markdowns, gratuities and commissions, fees, percent increase and decrease, percent error.",
+              "annotation": "'Multistep' is the operative word — single percent computations are 6th grade. Students must chain proportional reasoning across steps and encounter the full range of contexts.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "da9fc2c7-7cf2-52ef-bd89-1f1c625401e6", "text": "Solve multi-step ratio problems, including by using proportional relationships" },
+                { "id": "fda5f0e0-0366-5113-931b-3d9930bdfb5a", "text": "Solve multi-step percent problems, including by using proportional relationships" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NS",
+      "label": "The Number System",
+      "parents": [
+        {
+          "label": "7.NS.A.1 — Add & subtract rational numbers",
+          "standards": [
+            {
+              "code": "7.NS.A.1.a",
+              "graph_uuid": "662fdda1-d7cc-11e8-824f-0242ac160002",
+              "title": "Describe situations where opposite quantities combine to make 0",
+              "description": "Describe situations in which opposite quantities combine to make 0.",
+              "annotation": "The conceptual entry point for negative numbers. Students must understand what a negative quantity means in a real context before computing.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "b9271b94-582d-549f-b55e-2192fc9a58f0", "text": "Identify or describe a situation in which opposite quantities combine to make 0" }
+              ]
+            },
+            {
+              "code": "7.NS.A.1.b",
+              "graph_uuid": "66304c80-d7cc-11e8-824f-0242ac160002",
+              "title": "Understand p + q on the number line; interpret sums in context",
+              "description": "Understand p + q as the number located a distance |q| from p, in the positive or negative direction depending on whether q is positive or negative. Show that a number and its opposite have a sum of 0 (are additive inverses). Interpret sums of rational numbers by describing real-world contexts.",
+              "annotation": "Addition is reframed as movement on the number line: start at p, move |q| steps in the direction of q's sign. The additive inverse property follows directly.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "bffbcffa-74ab-5c1c-b96e-7944323f7cf6", "text": "Interpret p + q as the number located a distance |q| from p in the positive or negative direction depending on whether q is positive or negative" },
+                { "id": "67ca75ab-ff79-5c61-a49a-79c563ec0357", "text": "Show that a number and its opposite are additive inverses" },
+                { "id": "f1f74202-77c6-5101-9dfa-fbedd982d46a", "text": "Interpret sums of rational numbers (fractions, decimals, and integers) by describing them with real-world contexts" }
+              ]
+            },
+            {
+              "code": "7.NS.A.1.c",
+              "graph_uuid": "6630a963-d7cc-11e8-824f-0242ac160002",
+              "title": "Understand subtraction as adding the additive inverse; absolute value as distance",
+              "description": "Understand subtraction of rational numbers as adding the additive inverse, p − q = p + (−q). Show that the distance between two rational numbers on the number line is the absolute value of their difference, and apply this principle in real-world contexts.",
+              "annotation": "Subtraction is not a separate operation — it is defined as adding the opposite. The distance interpretation |p − q| connects subtraction to absolute value.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "ee49316b-0837-505e-9701-f8b842dc8dd0", "text": "Understand p - q is equivalent to p + (-q)" },
+                { "id": "5bb0a92d-6a26-5447-9ba9-3f05e70ce71c", "text": "Show that the distance between two rational numbers (fractions, decimals, and integers) on the number line is the absolute value of their difference" },
+                { "id": "34863269-640c-5d9f-8e11-09fd92bdc874", "text": "Apply the understanding that the distance between two rational numbers (fractions, decimals, and integers) on the number line is the absolute value of their difference in real-world contexts" }
+              ]
+            },
+            {
+              "code": "7.NS.A.1.d",
+              "graph_uuid": "6630e953-d7cc-11e8-824f-0242ac160002",
+              "title": "Apply properties of operations to add and subtract rational numbers",
+              "description": "Apply properties of operations as strategies to add and subtract rational numbers.",
+              "annotation": "Commutative, associative, and identity properties extend fully to rational numbers. Students use these as strategic tools, not just definitions.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "685131ac-6579-5a09-b675-995525838be5", "text": "Use properties of operations to add rational numbers" },
+                { "id": "7aa5ed91-3ba3-5eff-93af-77123a99843d", "text": "Use properties of operations to subtract rational numbers" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.NS.A.2 — Multiply & divide rational numbers",
+          "standards": [
+            {
+              "code": "7.NS.A.2.a",
+              "graph_uuid": "662fe05a-d7cc-11e8-824f-0242ac160002",
+              "title": "Understand and apply rules for multiplying signed numbers",
+              "description": "Understand that multiplication is extended from fractions to rational numbers by requiring that operations continue to satisfy the properties of operations, particularly the distributive property, leading to products such as (−1)(−1) = 1 and the rules for multiplying signed numbers. Interpret products of rational numbers by describing real-world contexts.",
+              "annotation": "Sign rules are not arbitrary — they follow necessarily from requiring the distributive property to hold.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "056c6b51-39c7-52a5-904d-82ad889b069c", "text": "Understand the rules for multiplying signed numbers" },
+                { "id": "be26c574-9da9-5f75-83d1-d14ac1c00d09", "text": "Interpret products of rational numbers by describing them with real-world contexts" }
+              ]
+            },
+            {
+              "code": "7.NS.A.2.b",
+              "graph_uuid": "66304ef0-d7cc-11e8-824f-0242ac160002",
+              "title": "Understand division of rational numbers and sign rules for quotients",
+              "description": "Understand that integers can be divided, provided that the divisor is not zero, and every quotient of integers (with non-zero divisor) is a rational number. If p and q are integers, then −(p/q) = (−p)/q = p/(−q). Interpret quotients of rational numbers by describing real-world contexts.",
+              "annotation": "Division extends fully to rationals (except by zero). The equivalence −(p/q) = (−p)/q = p/(−q) is an important algebraic flexibility.",
+              "additional_goals": ["Understand and use the equivalence −(p/q) = (−p)/q = p/(−q) — that the negative sign can be placed on the numerator, denominator, or in front of the fraction."],
+              "lcs": [
+                { "id": "17876f9a-7079-5994-beb2-730c4e14393f", "text": "Understand the quotient of integers with non-zero divisors as rational numbers" },
+                { "id": "9dd24851-bd35-5c34-8a65-4b865b8e8567", "text": "Understand the rules for dividing signed numbers" },
+                { "id": "177feacf-8df5-5f64-bf84-2cb624eeb07f", "text": "Interpret quotients of rational numbers by describing them with real-world contexts" }
+              ]
+            },
+            {
+              "code": "7.NS.A.2.c",
+              "graph_uuid": "6630ac4c-d7cc-11e8-824f-0242ac160002",
+              "title": "Apply properties of operations to multiply and divide rational numbers",
+              "description": "Apply properties of operations as strategies to multiply and divide rational numbers.",
+              "annotation": "Commutative, associative, and distributive properties extend to multiplication of rationals. Students use these strategically.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "54a463dd-df6b-5ace-afb5-b3b179799e8e", "text": "Apply properties of operations as strategies to multiply rational numbers" },
+                { "id": "c48c1cff-df43-5290-8c24-3a7166311e44", "text": "Apply properties of operations as strategies to divide rational numbers" }
+              ]
+            },
+            {
+              "code": "7.NS.A.2.d",
+              "graph_uuid": "6630ec9a-d7cc-11e8-824f-0242ac160002",
+              "title": "Convert rational numbers to decimals; recognize terminating and repeating",
+              "description": "Convert a rational number to a decimal using long division; know that the decimal form of a rational number terminates in 0s or eventually repeats.",
+              "annotation": "Every rational number has a decimal that either terminates or eventually repeats — and no other kind of decimal is rational.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "2ab6ac49-716f-507d-bce0-a9696013c6b2", "text": "Convert a rational number to a decimal using long division" },
+                { "id": "0bd082cc-be74-564c-9cf4-941f5d959507", "text": "Identify instances in which the decimal form of a rational number ends in 0 or eventually repeats" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.NS.A.3 — All four operations applied",
+          "standards": [
+            {
+              "code": "7.NS.A.3",
+              "graph_uuid": "662cee4a-d7cc-11e8-824f-0242ac160002",
+              "title": "Solve real-world and mathematical problems with all four operations on rational numbers",
+              "description": "Solve real-world and mathematical problems involving the four operations with rational numbers.",
+              "annotation": "The applied culmination of the 7.NS cluster. Students choose the correct operation in context, execute with rational numbers including negatives, and verify reasonableness.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "2f8040bb-70fe-5a05-9538-59afb5a6b7f4", "text": "Add rational numbers to solve mathematical problems" },
+                { "id": "1bff6614-a6c0-5ee1-84a5-0da4f870a38f", "text": "Add rational numbers to solve real-world problems" },
+                { "id": "1781e56e-47c9-516c-b629-aae8cd68f41b", "text": "Subtract rational numbers to solve mathematical problems" },
+                { "id": "39612eaf-3eed-57be-96d2-4ac4abda7d59", "text": "Subtract rational numbers to solve real-world problems" },
+                { "id": "8c3bf1a0-0301-5a31-8be8-5df2670b3429", "text": "Multiply rational numbers to solve mathematical problems" },
+                { "id": "29a9858d-11e0-5445-9b49-f5eb46ce5341", "text": "Multiply rational numbers to solve real-world problems" },
+                { "id": "d69891ac-e002-5ba0-a6ef-eaed347d9ef8", "text": "Divide rational numbers to solve mathematical problems" },
+                { "id": "d28fda5e-9a78-52d3-b990-f49ae553a303", "text": "Divide rational numbers to solve real-world problems" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EE",
+      "label": "Expressions & Equations",
+      "parents": [
+        {
+          "label": "7.EE.A — Expressions",
+          "standards": [
+            {
+              "code": "7.EE.A.1",
+              "graph_uuid": "662aa651-d7cc-11e8-824f-0242ac160002",
+              "title": "Add, subtract, factor & expand linear expressions with rational coefficients",
+              "description": "Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.",
+              "annotation": "All four operations must work with coefficients that may be fractions or decimals. Factoring — the inverse of distribution — is equally expected and often undertaught.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "6b8e01c1-3828-5323-bb86-45a2477dee47", "text": "Add linear expressions with rational coefficients" },
+                { "id": "c2fa886c-95f6-5cab-90a3-830f2717f585", "text": "Subtract linear expressions with rational coefficients" },
+                { "id": "4ef42a2b-bd4e-5799-ad4c-ab53ca8d0411", "text": "Expand linear expressions with rational coefficients" },
+                { "id": "cde129c9-792e-55c8-817e-1202e78c8b62", "text": "Factor linear expressions with rational coefficients" }
+              ]
+            },
+            {
+              "code": "7.EE.A.2",
+              "graph_uuid": "662bfe0a-d7cc-11e8-824f-0242ac160002",
+              "title": "Rewrite expressions in different forms to reveal relationships",
+              "description": "Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related.",
+              "annotation": "The defining example: a + 0.05a = 1.05a reveals that 'increase by 5%' and 'multiply by 1.05' are the same operation.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "41261db0-5e95-5198-ae17-0e905db9ab53", "text": "Rewrite an expression in different forms in a problem context" },
+                { "id": "75924fc9-b2ad-5273-b21d-e7b8c262153a", "text": "Interpret how quantities in an expression are related" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.EE.B — Equations & inequalities",
+          "standards": [
+            {
+              "code": "7.EE.B.3",
+              "graph_uuid": "662ce95c-d7cc-11e8-824f-0242ac160002",
+              "title": "Solve multi-step problems with rational numbers; assess reasonableness",
+              "description": "Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form, using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers.",
+              "annotation": "Fluency across number forms is the key demand — students must convert between fractions, decimals, and percents as the problem requires, and pause to check whether answers make sense.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "35c2f57a-096a-5414-a8b4-809085eb822e", "text": "Apply properties of operations to calculate with numbers in any form (whole numbers, fractions, and decimals), converting between number forms when appropriate" },
+                { "id": "a314cbdc-2032-5457-83d1-c8e4304e723f", "text": "Solve multi-step real-life problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals)" },
+                { "id": "ec2a48cb-e041-5d38-b392-37aedf26919f", "text": "Solve multi-step mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals)" },
+                { "id": "e26b6696-1fe6-5a93-97f8-2de9dd1d07e2", "text": "Assess the reasonableness of answers using mental computation and estimation strategies" }
+              ]
+            },
+            {
+              "code": "7.EE.B.4.a",
+              "graph_uuid": "662fdade-d7cc-11e8-824f-0242ac160002",
+              "title": "Write and solve equations of the form px + q = r and p(x + q) = r",
+              "description": "Solve word problems leading to equations of the form px + q = r and p(x + q) = r, where p, q, and r are specific rational numbers. Solve equations of these forms fluently. Compare an algebraic solution to an arithmetic solution.",
+              "annotation": "The full arc: read a problem → define a variable → write the equation → solve fluently → compare with the arithmetic approach.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "aad9e34e-6b22-5c2f-af2c-b61134a918b2", "text": "Write multi-step equations to represent real-world problems, including using rational numbers" },
+                { "id": "9d36a76f-680e-5144-9ffc-8404814c44e3", "text": "Solve equations of the forms px + q = r and p(x + q) = r fluently" },
+                { "id": "8077db75-c753-5756-9692-d80f67ed63d7", "text": "Compare an algebraic solution to an arithmetic solution and identify the sequence of the operations used in an algebraic solution and an arithmetic solution" }
+              ]
+            },
+            {
+              "code": "7.EE.B.4.b",
+              "graph_uuid": "663049fa-d7cc-11e8-824f-0242ac160002",
+              "title": "Write and solve inequalities of the form px + q > r; graph and interpret solution sets",
+              "description": "Solve word problems leading to inequalities of the form px + q > r or px + q < r. Graph the solution set of the inequality and interpret it in the context of the problem.",
+              "annotation": "Inequalities parallel equations but the solution is a range. Direction flips when multiplying or dividing by a negative. Graphing and interpreting the solution set in context is explicitly required.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "3cdfa046-f39d-599f-8575-f8795e66d2ca", "text": "Write multi-step inequalities to represent real-world problems, including using rational numbers" },
+                { "id": "4d78d954-250c-55b3-aa2e-88a34869914a", "text": "Solve inequalities in the form px + q > r or px + q < r (including inequalities using symbols expressing \"less than or equal to\" and \"greater than or equal to\")" },
+                { "id": "47e19034-8324-50a2-95c9-c797fd74ad85", "text": "Graph the solution set of a multi-step inequality" },
+                { "id": "e21b23ac-0ae7-58a6-b99e-2b7fc9a16a4e", "text": "Interpret the solution set of an inequality in the context of the problem" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "label": "Geometry",
+      "parents": [
+        {
+          "label": "7.G.A — Shapes and drawings",
+          "standards": [
+            {
+              "code": "7.G.A.1",
+              "graph_uuid": "662aa8cc-d7cc-11e8-824f-0242ac160002",
+              "title": "Solve problems involving scale drawings",
+              "description": "Solve problems involving scale drawings of geometric figures, including computing actual lengths and areas from a scale drawing and reproducing a scale drawing at a different scale.",
+              "annotation": "Length scales linearly; area scales by the square of the scale factor — a critical distinction students often miss.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "9ffdee4b-84bd-56cd-b894-fbec5c1df544", "text": "Compute actual lengths from a scale drawing (using proportional reasoning)" },
+                { "id": "f75552e4-5ff9-5df8-a686-b30b0b1f19f7", "text": "Compute actual areas from a scale drawing (using proportional reasoning)" },
+                { "id": "48cb8621-0c51-560b-a565-ddd9f6e5f5fc", "text": "Reproduce a scale drawing at a different scale (using proportional reasoning)" }
+              ]
+            },
+            {
+              "code": "7.G.A.2",
+              "graph_uuid": "662c01a2-d7cc-11e8-824f-0242ac160002",
+              "title": "Draw geometric shapes with given conditions; determine triangle uniqueness",
+              "description": "Draw geometric shapes with given conditions. Focus on constructing triangles from three measures of angles or sides, noticing when the conditions determine a unique triangle, more than one triangle, or no triangle.",
+              "annotation": "Physical construction with ruler and protractor is part of the standard. The core reasoning task is analyzing whether constraints pin down one triangle, allow multiple, or produce a contradiction.",
+              "additional_goals": ["Use physical tools (ruler and protractor) or appropriate technology to construct geometric shapes — not only recognize or classify them."],
+              "lcs": [
+                { "id": "52ffb8ee-c70d-5076-b2c6-8f3a1b435fa9", "text": "Draw geometric shapes with given conditions (side lengths, angle measures, radius/diameter)" },
+                { "id": "9ddaee28-59fe-5fc5-8752-07e538ce90da", "text": "Know and understand conditions that determine a unique triangle, more than one triangle, or no triangle" }
+              ]
+            },
+            {
+              "code": "7.G.A.3",
+              "graph_uuid": "662cebda-d7cc-11e8-824f-0242ac160002",
+              "title": "Describe 2D cross-sections of 3D figures",
+              "description": "Describe the two-dimensional figures that result from slicing three-dimensional figures, as in plane sections of right rectangular prisms and right rectangular pyramids.",
+              "annotation": "Students must develop genuine 3D spatial visualization — mentally rotating and slicing objects — and name the resulting polygon.",
+              "additional_goals": ["Visualize and describe cross-sections without a physical model — predicting the shape from a verbal or symbolic description of the cut."],
+              "lcs": [
+                { "id": "feecfb2f-8f31-5225-a204-9c659b3df3e9", "text": "Describe and identify the two-dimensional figures that result from slicing a right rectangular prism or pyramid by a plane perpendicular to the base or a plane parallel to the base" },
+                { "id": "08434f52-ce6d-52c1-aee7-dbace1454390", "text": "Describe and identify the two-dimensional figures that result from slicing a right rectangular prism or pyramid by a plane perpendicular to one of the faces" },
+                { "id": "4c290798-184f-51b0-94d9-e54f3297ccc7", "text": "Describe and identify the two-dimensional figures that result from slicing a right rectangular prism or pyramid by a plane that is not parallel or perpendicular to a base" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.G.B — Measurement",
+          "standards": [
+            {
+              "code": "7.G.B.4",
+              "graph_uuid": "662da81c-d7cc-11e8-824f-0242ac160002",
+              "title": "Area and circumference of circles",
+              "description": "Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.",
+              "annotation": "Students must know both formulas, work with diameter vs. radius, leave answers in terms of π when appropriate, and understand why the formulas are related.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "3e117ec0-15e3-504c-9492-f689213dd079", "text": "Find the circumference of a circle to solve problems, including by using the formula for circumference of a circle" },
+                { "id": "a6134b89-4846-52b1-8df2-7fc536318e85", "text": "Find the area of a circle to solve problems, including by using the formula for area of a circle" },
+                { "id": "b220156e-617e-51b1-8609-091e4d92db9e", "text": "Give an informal derivation of the relationship between the circumference and area of a circle" }
+              ]
+            },
+            {
+              "code": "7.G.B.5",
+              "graph_uuid": "662e47a7-d7cc-11e8-824f-0242ac160002",
+              "title": "Use angle relationships to write and solve equations for unknown angles",
+              "description": "Use facts about supplementary, complementary, vertical, and adjacent angles in a multi-step problem to write and solve simple equations for an unknown angle in a figure.",
+              "annotation": "Geometry and algebra merge here: a diagram becomes a system of constraints and solving for x is the tool.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "779be2f1-070a-5d68-9928-0025fa62985f", "text": "Write equations for multi-step problems to find an unknown angle" },
+                { "id": "82575afc-11d9-5184-afb7-76e36fb4384b", "text": "Find an unknown angle, including by writing and solving equations" }
+              ]
+            },
+            {
+              "code": "7.G.B.6",
+              "graph_uuid": "662eae84-d7cc-11e8-824f-0242ac160002",
+              "title": "Area, volume & surface area of 2D and 3D figures",
+              "description": "Solve real-world and mathematical problems involving area, volume and surface area of two- and three-dimensional objects composed of triangles, quadrilaterals, polygons, cubes, and right prisms.",
+              "annotation": "The key demand beyond 6th grade is composition — figures are combinations of shapes requiring decomposition. Surface area problems require connecting a solid to its net.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "370f42c5-303d-5239-acb6-262fef986998", "text": "Determine the area of two-dimensional figures composed of various polygons in mathematical problems" },
+                { "id": "3bc46cc4-1dd7-546f-9ffd-138b27d535d1", "text": "Determine the area of two-dimensional figures composed of various polygons in real-world problems" },
+                { "id": "22098a76-50b2-5d73-8c84-6c8a436a8aa0", "text": "Determine the surface area of three-dimensional prisms in mathematical problems" },
+                { "id": "8b731d33-c19b-5567-909c-26ea35d247d1", "text": "Determine the surface area of three-dimensional prisms in real-world problems" },
+                { "id": "c9233a4b-7017-5a51-964b-5d6377c07a31", "text": "Determine the volume of three-dimensional objects composed of cubes and right prisms in mathematical problems" },
+                { "id": "414ec184-bad9-54a7-a34f-a77dfdf9c0f9", "text": "Determine the volume of three-dimensional objects composed of cubes and right prisms in real-world problems" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SP",
+      "label": "Statistics & Probability",
+      "parents": [
+        {
+          "label": "7.SP.A — Sampling",
+          "standards": [
+            {
+              "code": "7.SP.A.1",
+              "graph_uuid": "662ab059-d7cc-11e8-824f-0242ac160002",
+              "title": "Understand that valid inference requires representative samples",
+              "description": "Understand that statistics can be used to gain information about a population by examining a sample of the population; generalizations are valid only if the sample is representative of that population. Understand that random sampling tends to produce representative samples and support valid inferences.",
+              "annotation": "Before analyzing data, students must ask where it came from. Randomness is the mechanism that makes a sample trustworthy.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "3b3c207c-2fbb-594f-bc16-aef719637e52", "text": "Understand that generalizations about a population from a sample are valid only if the sample is representative of that population" },
+                { "id": "f26b664c-7aaf-5f47-bd64-6bd2d7574cca", "text": "Understand that random sampling tends to produce representative samples" }
+              ]
+            },
+            {
+              "code": "7.SP.A.2",
+              "graph_uuid": "662c08c7-d7cc-11e8-824f-0242ac160002",
+              "title": "Use random sample data to draw inferences about a population",
+              "description": "Use data from a random sample to draw inferences about a population with an unknown characteristic of interest. Generate multiple samples (or simulated samples) of the same size to gauge the variation in estimates or predictions.",
+              "annotation": "Different samples of the same size produce different estimates — so there is always uncertainty. Generating multiple samples to see that variability is the most underemphasized component of this standard.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "c5ae0dd5-c795-5993-995f-88b284782c0b", "text": "Use data from a random sample to draw inferences about a population with an unknown characteristic of interest" },
+                { "id": "78dd8689-5f5a-570e-b505-e6985f19bc16", "text": "Understand that sample statistics are estimates of population statistics but are not the same, and sample statistics will vary by sample" },
+                { "id": "67bdbbc4-3be3-522f-bbb6-83d2e5853a39", "text": "Generate multiple samples (or simulated samples) of the same size to gauge the variation in estimates or predictions" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.SP.B — Comparing populations",
+          "standards": [
+            {
+              "code": "7.SP.B.3",
+              "graph_uuid": "662cf332-d7cc-11e8-824f-0242ac160002",
+              "title": "Assess visual overlap of two distributions; measure difference relative to variability",
+              "description": "Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities, measuring the difference between the centers by expressing it as a multiple of a measure of variability.",
+              "annotation": "Students compare groups not just by which has a higher mean, but by how large the difference is relative to the spread. Expressing the center gap as a multiple of MAD normalizes the comparison.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "5f434177-9416-5a5a-920b-22459ad31d6d", "text": "Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities" },
+                { "id": "a6f3f96d-a2d8-5ba5-95e8-33991edcecbc", "text": "Interpret the mean absolute deviation (MAD) of a set of data" },
+                { "id": "5f41fba8-f5db-5d70-9df9-1da0545355d0", "text": "Measure the difference between the centers of two numerical data distributions by expressing it as a multiple of a measure of variability" }
+              ]
+            },
+            {
+              "code": "7.SP.B.4",
+              "graph_uuid": "662daad1-d7cc-11e8-824f-0242ac160002",
+              "title": "Draw comparative inferences about two populations",
+              "description": "Use measures of center and measures of variability for numerical data from random samples to draw informal comparative inferences about two populations.",
+              "annotation": "Compute statistics, compare them, form a claim, cite the statistics as evidence, and acknowledge the informal nature of the conclusion.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "60a6523a-1d2e-5d2f-88b2-de705676813c", "text": "Draw informal comparative inferences about numerical data from random samples of two populations, including by using measures of center and variability" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "7.SP.C — Probability",
+          "standards": [
+            {
+              "code": "7.SP.C.5",
+              "graph_uuid": "662e4a1d-d7cc-11e8-824f-0242ac160002",
+              "title": "Understand probability as a number between 0 and 1",
+              "description": "Understand that the probability of a chance event is a number between 0 and 1 that expresses the likelihood of the event occurring. Larger numbers indicate greater likelihood.",
+              "annotation": "The conceptual foundation of the cluster. Probability is a number encoding likelihood on a 0-to-1 scale.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "96be5b29-ad00-5063-b1ae-ea624857fc93", "text": "Understand that the probability of a chance event is a number between 0 and 1 that expresses the likelihood of the event occurring" },
+                { "id": "f9c7d91a-a6f0-5754-a100-3f0f7f60ad6a", "text": "Interpret smaller probabilities as less likely and larger probabilities as more likely, including probabilities near 0.5 as equally likely" }
+              ]
+            },
+            {
+              "code": "7.SP.C.6",
+              "graph_uuid": "662eb127-d7cc-11e8-824f-0242ac160002",
+              "title": "Approximate probability using long-run relative frequency",
+              "description": "Approximate the probability of a chance event by collecting data on the chance process that produces it and observing its long-run relative frequency, and predict the approximate relative frequency given the probability.",
+              "annotation": "Theoretical probability predicts what should happen; experimental data shows what did happen. Students must understand that frequencies approach theoretical probability as trials increase.",
+              "additional_goals": ["Collect or analyze data from a repeated chance process and use the long-run relative frequency to approximate a probability."],
+              "lcs": [
+                { "id": "0abcb12c-f1c1-505b-9268-dd5c43fa14ad", "text": "Predict the approximate relative frequency given the probability" },
+                { "id": "5069fa38-0a9f-5c54-9c00-69c2d65c0042", "text": "Understand that more trials of a chance experiment will increase the accuracy of the probability estimate generated" }
+              ]
+            },
+            {
+              "code": "7.SP.C.7.a",
+              "graph_uuid": "662fe5dd-d7cc-11e8-824f-0242ac160002",
+              "title": "Develop a uniform probability model and use it to find probabilities",
+              "description": "Develop a uniform probability model by assigning equal probability to all outcomes, and use the model to determine probabilities of events.",
+              "annotation": "A uniform model assumes all outcomes in the sample space are equally likely. Students must enumerate the sample space and compute event probabilities as fractions of that space.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "7752d0b0-468b-5e2b-b641-965fb048340f", "text": "Develop a uniform probability model" },
+                { "id": "f578a7d0-3872-555d-9e67-0ec54d6f90a6", "text": "Use a uniform probability model to find the probability of simple events" }
+              ]
+            },
+            {
+              "code": "7.SP.C.7.b",
+              "graph_uuid": "663053d4-d7cc-11e8-824f-0242ac160002",
+              "title": "Develop a non-uniform probability model from observed frequencies",
+              "description": "Develop a probability model (which may not be uniform) by observing frequencies in data generated from a chance process.",
+              "annotation": "When outcomes are not equally likely, observed frequencies become the basis for the model. Students collect data, compute relative frequencies, and use these as probability estimates.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "ea0959ab-0e0f-53eb-9eb9-aa7ec5f70750", "text": "Develop a probability model based on observed frequencies" },
+                { "id": "25cdf64d-beaf-5708-af8e-c16c1d1b4658", "text": "Find the probability of simple events where all outcomes are not equal" }
+              ]
+            },
+            {
+              "code": "7.SP.C.8.a",
+              "graph_uuid": "662fe895-d7cc-11e8-824f-0242ac160002",
+              "title": "Understand probability of a compound event as a fraction of the sample space",
+              "description": "Understand that, just as with simple events, the probability of a compound event is the fraction of outcomes in the sample space for which the compound event occurs.",
+              "annotation": "The conceptual bridge from simple to compound events. The same definition applies — probability is still favorable outcomes over total outcomes.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "d4d78b01-6b8c-5356-a85c-e8815501ab03", "text": "Understand that the probability of a compound event is the fraction of outcomes in the sample space for which the compound event occurs" }
+              ]
+            },
+            {
+              "code": "7.SP.C.8.b",
+              "graph_uuid": "66305744-d7cc-11e8-824f-0242ac160002",
+              "title": "Represent sample spaces for compound events using lists, tables, and tree diagrams",
+              "description": "Represent sample spaces for compound events using methods such as organized lists, tables and tree diagrams. For an event described in everyday language, identify the outcomes in the sample space which compose the event.",
+              "annotation": "Systematic enumeration is the foundation of compound probability. Each method has strengths: tables work well for two independent stages, tree diagrams scale to more stages.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "2ee8400d-3411-58e8-a98b-bcba2552bd88", "text": "Represent sample spaces for compound events" },
+                { "id": "e7cdb75c-feda-56cb-aaa8-36eb7c2186db", "text": "Identify the outcomes in the sample space which compose the event" }
+              ]
+            },
+            {
+              "code": "7.SP.C.8.c",
+              "graph_uuid": "6630b297-d7cc-11e8-824f-0242ac160002",
+              "title": "Design and use a simulation to generate frequencies for compound events",
+              "description": "Design and use a simulation to generate frequencies for compound events.",
+              "annotation": "When theoretical computation is complex, simulation provides an empirical alternative. Students must design the simulation, run it, collect frequencies, and use them to estimate compound probabilities.",
+              "additional_goals": [],
+              "lcs": [
+                { "id": "eefa37d0-e3d7-53cd-9e91-f877889b7db0", "text": "Design a simulation to generate frequencies for compound events" },
+                { "id": "88b14085-880b-52a9-8914-e6b8c8a8e077", "text": "Use a simulation to generate frequencies for compound events" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
