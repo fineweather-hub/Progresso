@@ -81,6 +81,7 @@ td.comp-cell.any-done{background:#f0faf5}
 .skill-check-btn{padding:3px 9px;border:none;border-left:1px solid #e0e0e0;background:transparent;cursor:pointer;font-size:14px;color:#ccc;font-family:inherit;transition:background .1s;flex-shrink:0;line-height:1;display:flex;align-items:center}
 .skill-btn.studied .skill-check-btn{color:#2d6a4f;border-left-color:#74c69d}
 .skill-check-btn:hover{background:rgba(0,0,0,.08)}
+[data-readonly="true"] .skill-check-btn{cursor:default;pointer-events:none;opacity:0.6}
 .skill-code{font-size:9.5px;font-weight:700;color:#bbb;background:#efefef;border-radius:3px;padding:1px 5px;flex-shrink:0;letter-spacing:.04em}
 .skill-btn.studied .skill-code{color:#1b4332;background:#b7e4c7}
 .skill-name{flex:1;min-width:0}
@@ -295,8 +296,11 @@ async function loadStudied() {
 
   if (urlGistId) {
     // Viewer mode — read gist anonymously, don't allow saving
+    // Hide config banner and share button immediately — viewers never need these
+    document.getElementById('config-banner').classList.add('hidden');
+    document.getElementById('sharebtn').style.display = 'none';
     try {
-      setStatus('Loading shared progress…', 'saving');
+      setStatus('Loading shared progress\u2026', 'saving');
       const saved = await readGistRaw(urlGistId);
       if (saved) { Object.assign(base, saved); setStatus('Viewing shared progress (read-only)', ''); }
       else setStatus('Could not load shared gist', 'error');
@@ -304,9 +308,8 @@ async function loadStudied() {
       setStatus('Could not load shared gist', 'error');
     }
     studied = base;
-    // Hide share/save UI, disable toggles
-    document.getElementById('sharebtn').style.display = 'none';
-    document.querySelectorAll('.skill-btn').forEach(b => b.disabled = true);
+    // Mark body as read-only so toggle() is a no-op for viewers
+    document.body.dataset.readonly = 'true';
     return;
   }
 
@@ -338,6 +341,7 @@ async function loadStudied() {
 // ── Toggle ────────────────────────────────────────────────────────────────────
 
 function toggle(code) {
+  if (document.body.dataset.readonly === 'true') return;
   studied[code] = !studied[code];
   updateAll();
   scheduleSave();
