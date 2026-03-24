@@ -1,5 +1,5 @@
 {
-  "synced": "2026-03-24T18:04:25.435Z",
+  "synced": "2026-03-24T18:25:09.226Z",
   "standards": [
     {
       "id": "32a7d181-fab4-8187-a8b2-c84de8f498c3",
@@ -55,6 +55,48 @@
               "id": "32b7d181-fab4-8131-a4ca-c77dd449c454",
               "name": "Match the quotations with their themes",
               "permacode": "XJK",
+              "status": "Assigned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32a7d181-fab4-819b-8751-ef0aa7d52111",
+      "code": "RL.7.10",
+      "domain": "RL",
+      "status": "In progress",
+      "shortTitle": "Read Literary Texts Independently",
+      "plainLanguage": "read\n  grade-level literature proficiently and independently",
+      "lcs": [
+        {
+          "id": "32b7d181-fab4-80f0-bfb6-faf42a0e70b3",
+          "text": "By the end of the year, read and\n  comprehend literary nonfiction in the grades 6â€“8 text complexity band\n  proficiently, with scaffolding as needed at the high end of the range.",
+          "code": "RL.7.10",
+          "status": "In progress",
+          "skills": [
+            {
+              "id": "32b7d181-fab4-81ae-8030-e8686a3d45ec",
+              "name": "Analyze short stories",
+              "permacode": "AVK",
+              "status": "Practiced"
+            },
+            {
+              "id": "32b7d181-fab4-818c-8980-e75ca3e22311",
+              "name": "Determine multiple themes of short stories",
+              "permacode": "LKN",
+              "status": "Assigned"
+            },
+            {
+              "id": "32b7d181-fab4-81f3-9633-cfdab3bdfbb6",
+              "name": "Determine the themes of short stories",
+              "permacode": "QQS",
+              "status": "Assigned"
+            },
+            {
+              "id": "32b7d181-fab4-811e-b911-d821515501b1",
+              "name": "Analyze passages from The Hobbit: Part 1",
+              "permacode": "TTP",
               "status": "Assigned"
             }
           ]
