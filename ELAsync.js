@@ -78,6 +78,7 @@ async function main() {
     lcById[row.id] = {
       id:          row.id,
       text:        title(p["LC Text"]),
+      shortTitle:  text(p["Component Short Title"]),
       code:        text(p["Component Code (text)"]),
       status:      select(p["Status"]) || "Not started",
       skillIds:    rel(p["IXL Skills ELA"]),
