@@ -1,5 +1,5 @@
 {
-  "synced": "2026-03-24T18:25:09.226Z",
+  "synced": "2026-03-24T19:59:17.533Z",
   "standards": [
     {
       "id": "32a7d181-fab4-8187-a8b2-c84de8f498c3",
@@ -12,6 +12,7 @@
         {
           "id": "32b7d181-fab4-8046-8035-cc82e28515a0",
           "text": "Cite several pieces\n  of textual evidence to support analysis of what the text says explicitly as\n  well as inferences drawn from the text.",
+          "shortTitle": "Cite evidence from literary text",
           "code": "RL.7.1",
           "status": "In progress",
           "skills": [
@@ -72,6 +73,7 @@
         {
           "id": "32b7d181-fab4-80f0-bfb6-faf42a0e70b3",
           "text": "By the end of the year, read and\n  comprehend literary nonfiction in the grades 6â€“8 text complexity band\n  proficiently, with scaffolding as needed at the high end of the range.",
+          "shortTitle": "Read grade-level literature",
           "code": "RL.7.10",
           "status": "In progress",
           "skills": [
@@ -114,6 +116,7 @@
         {
           "id": "32b7d181-fab4-8054-8d3b-fb321d18962c",
           "text": "Determine a theme or central idea of a\n  text and analyze its development over the course of the text; provide an\n  objective summary of the text.",
+          "shortTitle": "Theme and central idea",
           "code": "RL.7.2",
           "status": "Not started",
           "skills": [
@@ -150,6 +153,7 @@
         {
           "id": "32b7d181-fab4-8027-86fe-c41731fe0a43",
           "text": "Analyze how particular elements of a\n  story or drama interact (e.g., how setting shapes the characters or plot).",
+          "shortTitle": "Story elements interact",
           "code": "RL.7.3",
           "status": "Done",
           "skills": [
@@ -167,13 +171,14 @@
       "id": "32a7d181-fab4-819a-b967-c241bd4e02d2",
       "code": "RL.7.4",
       "domain": "RL",
-      "status": "Not started",
+      "status": "In progress",
       "shortTitle": "Word Meaning & Sound Devices",
       "plainLanguage": "interpret\n  figurative language and analyze the effect of sound devices on meaning",
       "lcs": [
         {
           "id": "32b7d181-fab4-80d3-92d9-c9d0f592e142",
           "text": "Determine the meaning of words and\n  phrases as they are used in a text, including figurative and connotative\n  meanings; analyze the impact of rhymes and other repetitions of sounds (e.g.,\n  alliteration) on a specific verse or stanza of a poem or section of a story\n  or drama.",
+          "shortTitle": "Word meaning in literary text",
           "code": "RL.7.4",
           "status": "In progress",
           "skills": [
@@ -264,6 +269,7 @@
         {
           "id": "32b7d181-fab4-80e0-b187-e7213c6a0ab0",
           "text": "Analyze how an author develops and\n  contrasts the points of view of different characters or narrators in a text.",
+          "shortTitle": "Analyze contrasting points of view",
           "code": "RL.7.6",
           "status": "Done",
           "skills": [
@@ -288,6 +294,7 @@
         {
           "id": "32b7d181-fab4-80e5-b43c-d391c80f6427",
           "text": "Compare and contrast a fictional\n  portrayal of a time, place, or character and a historical account of the same\n  period as a means of understanding how authors of fiction use or alter\n  history.",
+          "shortTitle": "Fiction vs. historical account",
           "code": "RL.7.9",
           "status": "Not started",
           "skills": [
@@ -312,6 +319,7 @@
         {
           "id": "32b7d181-fab4-8001-be24-e3cfeb69dc44",
           "text": "Cite several pieces of textual evidence\n  to support analysis of what the text says explicitly as well as inferences\n  drawn from the text.",
+          "shortTitle": "Cite evidence from informational text",
           "code": "RI.7.1",
           "status": "In progress",
           "skills": [
@@ -372,6 +380,7 @@
         {
           "id": "32b7d181-fab4-80a7-889f-d27a8936e01d",
           "text": "By the end of the year, read and\n  comprehend literary nonfiction in the grades 6â€“8 text complexity band\n  proficiently, with scaffolding as needed at the high end of the range.",
+          "shortTitle": "Read grade-level literary nonfiction",
           "code": "RI.7.10",
           "status": "In progress",
           "skills": [
@@ -402,6 +411,7 @@
         {
           "id": "32b7d181-fab4-806d-9d35-fbeaf16515f9",
           "text": "Determine two or more central ideas in a\n  text and analyze their development over the course of the text; provide an\n  objective summary of the text.",
+          "shortTitle": "Two or more central ideas",
           "code": "RI.7.2",
           "status": "In progress",
           "skills": [
@@ -480,6 +490,7 @@
         {
           "id": "32b7d181-fab4-8092-9702-e012f2d6dc45",
           "text": "Analyze the interactions between\n  individuals, events, and ideas in a text (e.g., how ideas influence\n  individuals or events, or how individuals influence ideas or events).",
+          "shortTitle": "Analyze individual-event-idea interactions",
           "code": "RI.7.3",
           "status": "In progress",
           "skills": [
@@ -534,6 +545,7 @@
         {
           "id": "32b7d181-fab4-8036-a19c-ee2f71f55fe5",
           "text": "Determine the meaning of words and\n  phrases as they are used in a text, including figurative, connotative, and\n  technical meanings; analyze the impact of a specific word choice on meaning\n  and tone.",
+          "shortTitle": "Word meaning in informational text",
           "code": "RI.7.4",
           "status": "In progress",
           "skills": [
@@ -630,6 +642,7 @@
         {
           "id": "32b7d181-fab4-80cb-90f8-fc14d3954038",
           "text": "Analyze the structure an author uses to\n  organize a text, including how the major sections contribute to the whole and\n  to the development of the ideas.",
+          "shortTitle": "Analyze text organization structure",
           "code": "RI.7.5",
           "status": "In progress",
           "skills": [
@@ -684,6 +697,7 @@
         {
           "id": "32b7d181-fab4-80eb-988a-d4b6bfc36803",
           "text": "Determine an author's point of view or\n  purpose in a text and analyze how the author distinguishes his or her\n  position from that of others.",
+          "shortTitle": "Author's point of view and purpose",
           "code": "RI.7.6",
           "status": "In progress",
           "skills": [
@@ -726,6 +740,7 @@
         {
           "id": "32b7d181-fab4-805a-9aa2-dd2ca7751eb9",
           "text": "Trace and evaluate the argument and\n  specific claims in a text, assessing whether the reasoning is sound and the\n  evidence is relevant and sufficient to support the claims.",
+          "shortTitle": "Trace and evaluate an argument",
           "code": "RI.7.8",
           "status": "In progress",
           "skills": [
@@ -762,6 +777,7 @@
         {
           "id": "32b7d181-fab4-80c7-a9da-d81f0486816e",
           "text": "Analyze how two or more authors writing\n  about the same topic shape their presentations of key information by\n  emphasizing different evidence or advancing different interpretations of\n  facts.",
+          "shortTitle": "Compare two authors on same topic",
           "code": "RI.7.9",
           "status": "Not started",
           "skills": [
@@ -792,6 +808,7 @@
         {
           "id": "32b7d181-fab4-80cf-8fc2-cfc6e4b76379",
           "text": "Introduce claim(s), acknowledge alternate\n  or opposing claims, and organize the reasons and evidence logically.",
+          "shortTitle": "Introduce claims and counter-claims",
           "code": "W.7.1.a",
           "status": "In progress",
           "skills": [
@@ -824,6 +841,7 @@
         {
           "id": "32b7d181-fab4-802c-b0ff-eef336bb9a86",
           "text": "Support claim(s) with logical reasoning\n  and relevant evidence, using accurate, credible sources and demonstrating an\n  understanding of the topic or text.",
+          "shortTitle": "Support claims with evidence",
           "code": "W.7.1.b",
           "status": "In progress",
           "skills": [
@@ -862,6 +880,7 @@
         {
           "id": "32b7d181-fab4-80a1-abc0-f25bee63f052",
           "text": "Use words, phrases, and clauses to create\n  cohesion and clarify the relationships among claim(s), reasons, and evidence.",
+          "shortTitle": "Cohesion in argumentative writing",
           "code": "W.7.1.c",
           "status": "In progress",
           "skills": [
@@ -888,6 +907,7 @@
         {
           "id": "32b7d181-fab4-8002-8692-f5557262057d",
           "text": "Establish and maintain a formal style.",
+          "shortTitle": "",
           "code": "W.7.1.d",
           "status": "Done",
           "skills": [
@@ -912,6 +932,7 @@
         {
           "id": "32b7d181-fab4-801c-8070-ea0048a87198",
           "text": "Introduce a topic clearly, previewing\n  what is to follow; organize ideas, concepts, and information, using\n  strategies such as definition, classification, comparison/contrast, and\n  cause/effect; include formatting (e.g., headings), graphics (e.g., charts, tables),\n  and multimedia when useful to aiding comprehension.",
+          "shortTitle": "Introduce and organize informative topic",
           "code": "W.7.2.a",
           "status": "Done",
           "skills": [
@@ -968,6 +989,7 @@
         {
           "id": "32b7d181-fab4-8022-bcd2-cdbbee56cd08",
           "text": "Develop the topic with relevant facts,\n  definitions, concrete details, quotations, or other information and examples.",
+          "shortTitle": "Develop topic with facts and details",
           "code": "W.7.2.b",
           "status": "In progress",
           "skills": [
@@ -1018,6 +1040,7 @@
         {
           "id": "32b7d181-fab4-803a-b7f9-d813475a82f9",
           "text": "Use appropriate transitions to create\n  cohesion and clarify the relationships among ideas and concepts.",
+          "shortTitle": "Transitions for informative cohesion",
           "code": "W.7.2.c",
           "status": "In progress",
           "skills": [
@@ -1044,6 +1067,7 @@
         {
           "id": "32b7d181-fab4-801e-b51e-ee5903890481",
           "text": "Use precise language and domain-specific\n  vocabulary to inform about or explain the topic.",
+          "shortTitle": "Precise vocabulary in informative writing",
           "code": "W.7.2.d",
           "status": "Done",
           "skills": [
@@ -1082,6 +1106,7 @@
         {
           "id": "32b7d181-fab4-807d-98cb-c9cc9d406029",
           "text": "Establish and maintain a formal style.",
+          "shortTitle": "",
           "code": "W.7.2.e",
           "status": "Done",
           "skills": [
@@ -1106,6 +1131,7 @@
         {
           "id": "32b7d181-fab4-80ea-bd62-c016c42737e8",
           "text": "Engage and orient the reader by\n  establishing a context and point of view and introducing a narrator and/or\n  characters; organize an event sequence that unfolds naturally and logically.",
+          "shortTitle": "Establish narrative context and POV",
           "code": "W.7.3.a",
           "status": "Done",
           "skills": [
@@ -1120,6 +1146,7 @@
         {
           "id": "32b7d181-fab4-80a1-a0e7-da51cf47e197",
           "text": "Use narrative techniques, such as\n  dialogue, pacing, and description, to develop experiences, events, and/or\n  characters.",
+          "shortTitle": "Narrative techniques and description",
           "code": "W.7.3.b",
           "status": "Done",
           "skills": [
@@ -1134,6 +1161,7 @@
         {
           "id": "32b7d181-fab4-803f-9556-ee0deed24c50",
           "text": "Use a variety of transition words,\n  phrases, and clauses to convey sequence and signal shifts from one time frame\n  or setting to another.",
+          "shortTitle": "Transitions for narrative sequence",
           "code": "W.7.3.c",
           "status": "Not started",
           "skills": [
@@ -1148,6 +1176,7 @@
         {
           "id": "32b7d181-fab4-80a4-b431-dbfdc7ae9d27",
           "text": "Use precise words and phrases, relevant\n  descriptive details, and sensory language to capture the action and convey\n  experiences and events.",
+          "shortTitle": "Sensory language and precise details",
           "code": "W.7.3.d",
           "status": "In progress",
           "skills": [
@@ -1196,6 +1225,7 @@
         {
           "id": "32b7d181-fab4-80a8-9799-d61685ef397a",
           "text": "Produce clear and coherent writing in\n  which the development, organization, and style are appropriate to task,\n  purpose, and audience.",
+          "shortTitle": "Clear, coherent, purposeful writing",
           "code": "W.7.4",
           "status": "In progress",
           "skills": [
@@ -1274,6 +1304,7 @@
         {
           "id": "32b7d181-fab4-8072-8677-eef5a9359fa6",
           "text": "With some guidance and support from peers\n  and adults, develop and strengthen writing as needed by planning, revising,\n  editing, rewriting, or trying a new approach, focusing on how well purpose\n  and audience have been addressed.",
+          "shortTitle": "Revise and strengthen writing",
           "code": "W.7.5",
           "status": "In progress",
           "skills": [
@@ -1442,6 +1473,7 @@
         {
           "id": "32b7d181-fab4-8074-a15d-e933e3326d1f",
           "text": "Gather relevant information from multiple\n  print and digital sources, using search terms effectively; assess the\n  credibility and accuracy of each source; and quote or paraphrase the data and\n  conclusions of others while avoiding plagiarism and following a standard\n  format for citation.",
+          "shortTitle": "Gather from multiple sources",
           "code": "W.7.8",
           "status": "In progress",
           "skills": [
@@ -1502,6 +1534,7 @@
         {
           "id": "32b7d181-fab4-8087-9152-ceb037767315",
           "text": "Apply grade 7 Reading standards to\n  literature (e.g., \"Compare and contrast a fictional portrayal of a time,\n  place, or character and a historical account of the same period as a means of\n  understanding how authors of fiction use or alter history\").",
+          "shortTitle": "Apply reading standards to literature",
           "code": "W.7.9.a",
           "status": "In progress",
           "skills": [
@@ -1540,6 +1573,7 @@
         {
           "id": "32b7d181-fab4-8041-8a18-ef2f9335ff9c",
           "text": "Apply grade 7 Reading standards to\n  literary nonfiction (e.g., \"Trace and evaluate the argument and specific\n  claims in a text, assessing whether the reasoning is sound and the evidence\n  is relevant and sufficient to support the claims\").",
+          "shortTitle": "Apply reading standards to nonfiction",
           "code": "W.7.9.b",
           "status": "In progress",
           "skills": [
@@ -1576,6 +1610,7 @@
         {
           "id": "32b7d181-fab4-807f-9b87-e4fc6da4f8f2",
           "text": "Explain the function of phrases and\n  clauses in general and their function in specific sentences.",
+          "shortTitle": "Function of phrases and clauses",
           "code": "L.7.1.a",
           "status": "Done",
           "skills": [
@@ -1626,6 +1661,7 @@
         {
           "id": "32b7d181-fab4-805d-8778-fc54537b3e34",
           "text": "Choose among simple, compound, complex,\n  and compound-complex sentences to signal differing relationships among ideas.",
+          "shortTitle": "Choose sentence type for effect",
           "code": "L.7.1.b",
           "status": "Done",
           "skills": [
@@ -1640,6 +1676,7 @@
         {
           "id": "32b7d181-fab4-8022-8eba-ef17cfbf216a",
           "text": "Place phrases and clauses within a\n  sentence, recognizing and correcting misplaced and dangling modifiers.",
+          "shortTitle": "Fix misplaced and dangling modifiers",
           "code": "L.7.1.c",
           "status": "In progress",
           "skills": [
@@ -1682,6 +1719,7 @@
         {
           "id": "32b7d181-fab4-8060-9e76-e976011994d9",
           "text": "Use a comma to separate coordinate\n  adjectives (e.g., It was a fascinating, enjoyable movie but not He wore an\n  old green shirt).",
+          "shortTitle": "Comma between coordinate adjectives",
           "code": "L.7.2.a",
           "status": "Not started",
           "skills": [
@@ -1696,6 +1734,7 @@
         {
           "id": "32b7d181-fab4-8010-9356-d6df40cc0d68",
           "text": "Spell correctly.",
+          "shortTitle": "Spell correctly",
           "code": "L.7.2.b",
           "status": "In progress",
           "skills": [
@@ -1852,6 +1891,7 @@
         {
           "id": "32b7d181-fab4-80c4-9d75-e11840dc6bd5",
           "text": "Choose language that expresses ideas\n  precisely and concisely, recognizing and eliminating wordiness and\n  redundancy.",
+          "shortTitle": "Choose precise, concise language",
           "code": "L.7.3.a",
           "status": "Done",
           "skills": [
@@ -1894,6 +1934,7 @@
         {
           "id": "32b7d181-fab4-80f6-b668-c51280c5879a",
           "text": "Use context (e.g., the overall meaning of\n  a sentence or paragraph; a word's position or function in a sentence) as a\n  clue to the meaning of a word or phrase.",
+          "shortTitle": "Use context clues for meaning",
           "code": "L.7.4.a",
           "status": "In progress",
           "skills": [
@@ -1968,6 +2009,7 @@
         {
           "id": "32b7d181-fab4-80b1-9a1c-e0037d541a7c",
           "text": "Use common, grade-appropriate Greek or\n  Latin affixes and roots as clues to the meaning of a word (e.g., belligerent,\n  bellicose, rebel).",
+          "shortTitle": "Greek and Latin roots as clues",
           "code": "L.7.4.b",
           "status": "In progress",
           "skills": [
@@ -2066,6 +2108,7 @@
         {
           "id": "32b7d181-fab4-8065-845b-f4bf8cb33e32",
           "text": "Consult general and specialized reference\n  materials (e.g., dictionaries, glossaries, thesauruses), both print and\n  digital, to find the pronunciation of a word or determine or clarify its\n  precise meaning or its part of speech.",
+          "shortTitle": "Use reference materials for words",
           "code": "L.7.4.c",
           "status": "In progress",
           "skills": [
@@ -2104,6 +2147,7 @@
         {
           "id": "32b7d181-fab4-80f1-bfde-c332dce0f1fd",
           "text": "Verify the preliminary determination of\n  the meaning of a word or phrase (e.g., by checking the inferred meaning in\n  context or in a dictionary).",
+          "shortTitle": "Verify inferred word meaning",
           "code": "L.7.4.d",
           "status": "Done",
           "skills": [
@@ -2128,6 +2172,7 @@
         {
           "id": "32b7d181-fab4-8028-87c1-d24fd22e43c9",
           "text": "Interpret figures of speech (e.g.,\n  literary, biblical, and mythological allusions) in context.",
+          "shortTitle": "Interpret figures of speech",
           "code": "L.7.5.a",
           "status": "In progress",
           "skills": [
@@ -2154,6 +2199,7 @@
         {
           "id": "32b7d181-fab4-8085-b000-c0712c1360f3",
           "text": "Use the relationship between particular\n  words (e.g., synonym/antonym, analogy) to better understand each of the\n  words.",
+          "shortTitle": "Word relationships deepen understanding",
           "code": "L.7.5.b",
           "status": "Done",
           "skills": [
@@ -2216,6 +2262,7 @@
         {
           "id": "32b7d181-fab4-8019-94f3-e1160762e2ae",
           "text": "Distinguish among the connotations\n  (associations) of words with similar denotations (definitions) (e.g.,\n  refined, respectful, polite, diplomatic, condescending).",
+          "shortTitle": "Distinguish connotations of similar words",
           "code": "L.7.5.c",
           "status": "Done",
           "skills": [
@@ -2252,6 +2299,7 @@
         {
           "id": "32b7d181-fab4-8051-b24a-cb556f2b531c",
           "text": "Acquire and use accurately\n  grade-appropriate general academic and domain-specific words and phrases;\n  gather vocabulary knowledge when considering a word or phrase important to\n  comprehension or expression.",
+          "shortTitle": "Acquire academic and domain vocabulary",
           "code": "L.7.6",
           "status": "In progress",
           "skills": [
