@@ -1,0 +1,35 @@
+name: Sync Notion Data
+
+on:
+  workflow_dispatch:       # Manual trigger — one click from the Actions tab
+  schedule:
+    - cron: "0 6 * * *"   # Optional: auto-sync every morning at 6am UTC
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # needed to commit data.json back to the repo
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run sync script
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: node sync.js
+
+      - name: Commit data.json if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data.json
+          # Only commit if there's actually a change
+          git diff --cached --quiet || git commit -m "chore: sync Notion data [skip ci]"
+          git push
