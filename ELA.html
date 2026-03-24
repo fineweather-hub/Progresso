@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7th Grade ELA — IXL Skills Map</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #1a1a2e;
+  background: #faf9f7;
+  padding: 28px 16px 80px;
+}
+
+.page { max-width: 900px; margin: 0 auto; }
+
+/* ── Header ── */
+h1 {
+  font-family: Georgia, serif;
+  font-size: 1.8rem;
+  line-height: 1.15;
+  margin-bottom: 4px;
+}
+h1 span {
+  font-weight: 300;
+  font-size: 0.62em;
+  font-style: italic;
+  display: block;
+  font-family: system-ui;
+  color: #666;
+}
+.subtitle { font-size: 12px; color: #999; margin-bottom: 16px; }
+
+/* ── Progress bar ── */
+.progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
+.progress-bar { flex: 1; height: 7px; background: #e2e0da; border-radius: 99px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, #95d5b2, #2d6a4f); border-radius: 99px; transition: width .4s; }
+.progress-label { font-size: 12px; color: #666; white-space: nowrap; }
+
+/* ── Metrics ── */
+.metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; }
+.metric-card { background: #fff; border: 1px solid #e2e0da; border-radius: 8px; padding: 12px 14px; }
+.metric-card .label { font-size: 11px; color: #999; margin-bottom: 3px; }
+.metric-card .value { font-size: 24px; font-weight: 600; line-height: 1; }
+.metric-card .sub   { font-size: 11px; color: #aaa; margin-top: 3px; }
+
+/* ── Filters ── */
+.filter-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; align-items: center; }
+.filter-pill {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 2px 10px; border-radius: 99px;
+  border: 1px solid #ccc; background: #fff; color: #666;
+  font-size: 11px; cursor: pointer; font-family: inherit;
+  transition: all .12s;
+}
+.filter-pill.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+.filter-pill:hover:not(.active) { background: #f0efeb; }
+
+.domain-pill { font-weight: 600; }
+
+.header-divider { border: none; border-bottom: 2px solid #1a1a2e; margin: 16px 0 28px; }
+
+/* ── Domain sections ── */
+.domain-section { margin-bottom: 36px; }
+.domain-header {
+  display: flex; align-items: center; gap: 8px;
+  padding-bottom: 8px; margin-bottom: 12px;
+  cursor: pointer; user-select: none;
+}
+.domain-label {
+  font-size: 11px; font-weight: 700; letter-spacing: .05em;
+  padding: 2px 9px; border-radius: 99px; border: 1px solid;
+}
+.domain-title { font-size: 15px; font-weight: 500; }
+.domain-meta  { margin-left: auto; font-size: 11px; color: #aaa; }
+.domain-toggle { font-size: 10px; color: #bbb; }
+
+/* ── Standard cards ── */
+.std-card {
+  background: #fff;
+  border: 1px solid #e2e0da;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  overflow: hidden;
+}
+.std-header {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 11px 14px; cursor: pointer; user-select: none;
+}
+.std-header:hover { background: #fafafa; }
+
+.std-code {
+  font-size: 10px; font-weight: 700; color: #fff;
+  padding: 2px 7px; border-radius: 4px; white-space: nowrap;
+  margin-top: 2px; flex-shrink: 0; letter-spacing: .04em;
+}
+.std-info { flex: 1; min-width: 0; }
+.std-title-row {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 5px;
+}
+.std-title { font-size: 14px; font-weight: 500; }
+.std-toggle { font-size: 10px; color: #bbb; flex-shrink: 0; margin-top: 2px; }
+
+/* dual progress bars */
+.std-bars { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; }
+.bar-group {}
+.bar-label { font-size: 10px; color: #aaa; margin-bottom: 2px; }
+.mini-bar { display: flex; align-items: center; gap: 6px; }
+.mini-bar-track { flex: 1; height: 5px; background: #e2e0da; border-radius: 99px; overflow: hidden; }
+.mini-bar-fill  { height: 100%; border-radius: 99px; }
+.mini-bar-count { font-size: 11px; color: #aaa; min-width: 28px; text-align: right; }
+
+/* ── Standard body ── */
+.std-body { display: none; border-top: 1px solid #f0efeb; }
+.std-body.open { display: block; }
+.std-plain {
+  padding: 10px 14px 8px;
+  font-size: 13px; color: #555; font-style: italic;
+  border-bottom: 1px solid #f0efeb;
+}
+
+/* ── LC rows ── */
+.lc-row { border-bottom: 1px solid #f5f4f1; }
+.lc-row:last-child { border-bottom: none; }
+.lc-header {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 9px 14px;
+}
+.lc-header.has-skills { cursor: pointer; }
+.lc-header.has-skills:hover { background: #fafaf8; }
+.lc-code { font-size: 9px; font-weight: 700; color: #bbb; font-family: monospace; flex-shrink: 0; margin-top: 3px; }
+.lc-text { flex: 1; font-size: 13px; color: #1a1a2e; min-width: 0; }
+.lc-meta { display: flex; align-items: center; gap: 6px; flex-shrink: 0; margin-top: 1px; }
+.lc-toggle { font-size: 10px; color: #ccc; }
+.lc-bar-wrap { margin-top: 3px; }
+
+.lc-skills {
+  display: none;
+  flex-wrap: wrap; gap: 5px;
+  padding: 6px 14px 11px 36px;
+}
+.lc-skills.open { display: flex; }
+
+/* ── Status badges ── */
+.badge {
+  display: inline-block; border-radius: 99px;
+  padding: 1px 8px; font-size: 11px; font-weight: 500;
+  white-space: nowrap; border: 1px solid transparent;
+}
+
+/* ── Skill pills ── */
+.skill-pill {
+  display: inline-flex; align-items: center; gap: 5px;
+  border-radius: 6px; border: 1px solid #e0e0e0;
+  padding: 3px 8px 3px 5px; font-size: 12px; line-height: 1.4;
+  text-decoration: none; color: #333;
+}
+.skill-pill:hover { text-decoration: underline; }
+.skill-code {
+  font-size: 9px; font-weight: 700;
+  background: #efefef; border-radius: 3px;
+  padding: 1px 4px; color: #888;
+}
+
+/* ── Legend ── */
+.legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: 11px; color: #888; margin-bottom: 6px; }
+.legend-item { display: flex; align-items: center; gap: 5px; }
+.legend-swatch { width: 11px; height: 11px; border-radius: 3px; flex-shrink: 0; }
+
+/* ── Sync info ── */
+.sync-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; font-size: 11px; color: #aaa; }
+.sync-bar a { color: #aaa; }
+
+/* ── Loading / error ── */
+#loading { padding: 40px 0; font-size: 14px; color: #888; }
+#error   { padding: 16px; background: #fff3cd; border: 1px solid #ffc107; border-radius: 6px; font-size: 13px; }
+
+/* ── Responsive ── */
+@media (max-width: 520px) {
+  .metrics { grid-template-columns: 1fr 1fr; }
+  .std-bars { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>7th Grade ELA <span>IXL Skills → Common Core Standards</span></h1>
+  <div id="subtitle" class="subtitle">Loading…</div>
+
+  <div id="loading">Loading data…</div>
+  <div id="error" style="display:none"></div>
+  <div id="app" style="display:none">
+
+    <div class="metrics">
+      <div class="metric-card">
+        <div class="label">Standards mastered</div>
+        <div class="value" id="m-std" style="color:#2d6a4f">0</div>
+        <div class="sub" id="m-std-sub"></div>
+      </div>
+      <div class="metric-card">
+        <div class="label">LCs completed</div>
+        <div class="value" id="m-lc" style="color:#1d9e75">0</div>
+        <div class="sub" id="m-lc-sub"></div>
+      </div>
+      <div class="metric-card">
+        <div class="label">IXL skills practiced</div>
+        <div class="value" id="m-sk" style="color:#185fa5">0</div>
+        <div class="sub" id="m-sk-sub"></div>
+      </div>
+    </div>
+
+    <div class="progress-row">
+      <div class="progress-bar"><div class="progress-fill" id="pbar" style="width:0%"></div></div>
+      <div class="progress-label" id="plabel"></div>
+    </div>
+
+    <div class="sync-bar">
+      <span id="sync-time"></span>
+      <span>·</span>
+      <a href="../../actions/workflows/sync.yml" target="_blank" rel="noopener">↻ Trigger sync</a>
+    </div>
+
+    <div class="filter-bar" id="domain-filters">
+      <button class="filter-pill active" data-domain="all">All domains</button>
+    </div>
+    <div class="filter-bar" id="status-filters">
+      <button class="filter-pill active" data-status="all">All statuses</button>
+      <button class="filter-pill" data-status="Mastered">Mastered</button>
+      <button class="filter-pill" data-status="In progress">In progress</button>
+      <button class="filter-pill" data-status="Not started">Not started</button>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><span class="legend-swatch" style="background:#d8f3dc;border:1.5px solid #52b788"></span>Practiced</div>
+      <div class="legend-item"><span class="legend-swatch" style="background:#e6f1fb;border:1.5px solid #74aee0"></span>Assigned</div>
+      <div class="legend-item"><span class="legend-swatch" style="background:#f5f5f5;border:1.5px solid #ccc"></span>Not started</div>
+    </div>
+
+    <hr class="header-divider">
+    <div id="content"></div>
+
+  </div>
+</div>
+
+<script>
+const DOMAIN_CFG = {
+  RL: { label: "Reading: Literature",     color: "#D85A30", bg: "#FAECE7", text: "#4A1B0C" },
+  RI: { label: "Reading: Informational",  color: "#185FA5", bg: "#E6F1FB", text: "#042C53" },
+  W:  { label: "Writing",                 color: "#BA7517", bg: "#FAEEDA", text: "#412402" },
+  SL: { label: "Speaking & Listening",    color: "#D4537E", bg: "#FBEAF0", text: "#4B1528" },
+  L:  { label: "Language",                color: "#534AB7", bg: "#EEEDFE", text: "#26215C" },
+};
+
+const STATUS_CFG = {
+  std: {
+    "Mastered":    { bg: "#d8f3dc", border: "#52b788", text: "#1b4332" },
+    "In progress": { bg: "#fff3cd", border: "#ffc107", text: "#5a4000" },
+    "Not started": { bg: "#f1efe8", border: "#ccc",    text: "#555"    },
+    "Deferred":    { bg: "#fcebeb", border: "#e24b4a", text: "#501313" },
+  },
+  lc: {
+    "Done":        { bg: "#d8f3dc", border: "#52b788", text: "#1b4332" },
+    "In progress": { bg: "#fff3cd", border: "#ffc107", text: "#5a4000" },
+    "Not started": { bg: "#f1efe8", border: "#ccc",    text: "#555"    },
+    "Deferred":    { bg: "#fcebeb", border: "#e24b4a", text: "#501313" },
+  },
+  skill: {
+    "Practiced":   { bg: "#d8f3dc", border: "#52b788", text: "#1b4332", codeBg: "#b7e4c7" },
+    "Assigned":    { bg: "#e6f1fb", border: "#74aee0", text: "#042c53", codeBg: "#b5d4f4" },
+    "Not started": { bg: "#fafafa", border: "#ddd",    text: "#333",    codeBg: "#efefef" },
+  },
+};
+
+function badge(label, type) {
+  const c = STATUS_CFG[type]?.[label] || STATUS_CFG[type]?.["Not started"] || {};
+  return `<span class="badge" style="background:${c.bg||'#eee'};border-color:${c.border||'#ccc'};color:${c.text||'#333'}">${label}</span>`;
+}
+
+function miniBar(value, max, color) {
+  const pct = max > 0 ? Math.round(value/max*100) : 0;
+  return `<div class="mini-bar">
+    <div class="mini-bar-track"><div class="mini-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+    <span class="mini-bar-count">${value}/${max}</span>
+  </div>`;
+}
+
+let ALL_STANDARDS = [];
+let activeDomain = "all";
+let activeStatus = "all";
+
+function buildDomainFilters(standards) {
+  const bar = document.getElementById("domain-filters");
+  const domains = [...new Set(standards.map(s => s.domain))];
+  for (const d of domains) {
+    const dc = DOMAIN_CFG[d];
+    if (!dc) continue;
+    const btn = document.createElement("button");
+    btn.className = "filter-pill domain-pill";
+    btn.dataset.domain = d;
+    btn.style.cssText = `background:${dc.bg};border-color:${dc.color};color:${dc.text}`;
+    btn.innerHTML = `<strong>${d}</strong> ${dc.label}`;
+    bar.appendChild(btn);
+  }
+}
+
+function applyFilters() {
+  const filtered = ALL_STANDARDS.filter(s => {
+    if (activeDomain !== "all" && s.domain !== activeDomain) return false;
+    if (activeStatus !== "all" && s.status !== activeStatus) return false;
+    return true;
+  });
+  renderContent(filtered);
+}
+
+function renderContent(standards) {
+  const content = document.getElementById("content");
+  content.innerHTML = "";
+
+  // Group by domain (preserve order)
+  const byDomain = {};
+  for (const std of standards) {
+    if (!byDomain[std.domain]) byDomain[std.domain] = [];
+    byDomain[std.domain].push(std);
+  }
+
+  for (const [domain, stds] of Object.entries(byDomain)) {
+    const dc = DOMAIN_CFG[domain] || DOMAIN_CFG.RL;
+    const allSkills = stds.flatMap(s => s.lcs.flatMap(lc => lc.skills));
+    const practiced = allSkills.filter(s => s.status === "Practiced").length;
+
+    const sec = document.createElement("div");
+    sec.className = "domain-section";
+
+    const hdr = document.createElement("div");
+    hdr.className = "domain-header";
+    hdr.style.borderBottom = `2px solid ${dc.color}`;
+    hdr.innerHTML = `
+      <span class="domain-label" style="background:${dc.bg};border-color:${dc.color};color:${dc.text}">${domain}</span>
+      <span class="domain-title">${dc.label}</span>
+      <span class="domain-meta">${practiced}/${allSkills.length} skills · ${stds.length} standards</span>
+      <span class="domain-toggle">▲</span>`;
+    let collapsed = false;
+    hdr.onclick = () => {
+      collapsed = !collapsed;
+      body.style.display = collapsed ? "none" : "";
+      hdr.querySelector(".domain-toggle").textContent = collapsed ? "▼" : "▲";
+    };
+    sec.appendChild(hdr);
+
+    const body = document.createElement("div");
+    for (const std of stds) {
+      body.appendChild(renderStdCard(std, dc));
+    }
+    sec.appendChild(body);
+    content.appendChild(sec);
+  }
+
+  if (standards.length === 0) {
+    content.innerHTML = `<p style="color:#aaa;text-align:center;padding:40px 0">No standards match the current filters.</p>`;
+  }
+}
+
+function renderStdCard(std, dc) {
+  const allSkills = std.lcs.flatMap(lc => lc.skills);
+  const practiced = allSkills.filter(s => s.status === "Practiced").length;
+  const lcDone    = std.lcs.filter(lc => lc.status === "Done").length;
+
+  const card = document.createElement("div");
+  card.className = "std-card";
+
+  const hdr = document.createElement("div");
+  hdr.className = "std-header";
+  hdr.innerHTML = `
+    <span class="std-code" style="background:${dc.color}">${std.code}</span>
+    <div class="std-info">
+      <div class="std-title-row">
+        <span class="std-title">${std.shortTitle || std.code}</span>
+        ${badge(std.status || "Not started", "std")}
+      </div>
+      <div class="std-bars">
+        <div class="bar-group">
+          <div class="bar-label">IXL skills practiced</div>
+          ${miniBar(practiced, allSkills.length, dc.color)}
+        </div>
+        <div class="bar-group">
+          <div class="bar-label">Learning components done</div>
+          ${miniBar(lcDone, std.lcs.length, dc.color)}
+        </div>
+      </div>
+    </div>
+    <span class="std-toggle">▼</span>`;
+
+  const bodyEl = document.createElement("div");
+  bodyEl.className = "std-body";
+
+  if (std.plainLanguage) {
+    const pl = document.createElement("div");
+    pl.className = "std-plain";
+    pl.textContent = std.plainLanguage;
+    bodyEl.appendChild(pl);
+  }
+
+  if (std.lcs.length === 0) {
+    const empty = document.createElement("div");
+    empty.style.cssText = "padding:12px 14px;font-size:13px;color:#aaa;font-style:italic";
+    empty.textContent = "No learning components linked.";
+    bodyEl.appendChild(empty);
+  } else {
+    for (const lc of std.lcs) {
+      bodyEl.appendChild(renderLCRow(lc, dc.color));
+    }
+  }
+
+  hdr.onclick = () => {
+    const open = bodyEl.classList.toggle("open");
+    hdr.querySelector(".std-toggle").textContent = open ? "▲" : "▼";
+  };
+
+  card.appendChild(hdr);
+  card.appendChild(bodyEl);
+  return card;
+}
+
+function renderLCRow(lc, accentColor) {
+  const hasSkills = lc.skills?.length > 0;
+  const practiced = lc.skills?.filter(s => s.status === "Practiced").length || 0;
+
+  const row = document.createElement("div");
+  row.className = "lc-row";
+
+  const hdr = document.createElement("div");
+  hdr.className = "lc-header" + (hasSkills ? " has-skills" : "");
+  hdr.innerHTML = `
+    ${lc.code ? `<span class="lc-code">${lc.code}</span>` : ""}
+    <div style="flex:1;min-width:0">
+      <div class="lc-text">${lc.text}</div>
+      ${hasSkills ? `<div class="lc-bar-wrap">${miniBar(practiced, lc.skills.length, accentColor)}</div>` : ""}
+    </div>
+    <div class="lc-meta">
+      ${badge(lc.status || "Not started", "lc")}
+      ${hasSkills ? `<span class="lc-toggle">▼</span>` : ""}
+    </div>`;
+
+  const skillsEl = document.createElement("div");
+  skillsEl.className = "lc-skills";
+
+  if (hasSkills) {
+    for (const sk of lc.skills) {
+      const sc = STATUS_CFG.skill[sk.status] || STATUS_CFG.skill["Not started"];
+      const url = `https://www.ixl.com/ela/grade-7/${(sk.permacode||"").toLowerCase()}`;
+      const pill = document.createElement("a");
+      pill.className = "skill-pill";
+      pill.href = url;
+      pill.target = "_blank";
+      pill.rel = "noopener";
+      pill.style.cssText = `background:${sc.bg};border-color:${sc.border};color:${sc.text}`;
+      pill.innerHTML = sk.permacode
+        ? `<span class="skill-code" style="background:${sc.codeBg};color:${sc.text}">${sk.permacode}</span>${sk.name}`
+        : sk.name;
+      skillsEl.appendChild(pill);
+    }
+
+    hdr.onclick = () => {
+      const open = skillsEl.classList.toggle("open");
+      hdr.querySelector(".lc-toggle").textContent = open ? "▲" : "▼";
+    };
+  }
+
+  row.appendChild(hdr);
+  row.appendChild(skillsEl);
+  return row;
+}
+
+// ── Filter wiring ──────────────────────────────────────────────────────────────
+document.getElementById("domain-filters").addEventListener("click", e => {
+  const btn = e.target.closest(".filter-pill");
+  if (!btn) return;
+  activeDomain = btn.dataset.domain;
+  document.querySelectorAll("#domain-filters .filter-pill").forEach(b => {
+    b.classList.toggle("active", b.dataset.domain === activeDomain);
+    // restore domain pill style when not active
+    const d = DOMAIN_CFG[b.dataset.domain];
+    if (d && b.dataset.domain !== "all") {
+      if (b.classList.contains("active")) {
+        b.style.cssText = `background:${d.bg};border-color:${d.color};color:${d.text};outline:2px solid ${d.color}`;
+      } else {
+        b.style.cssText = `background:${d.bg};border-color:${d.color};color:${d.text};opacity:${activeDomain === "all" ? 1 : 0.4}`;
+      }
+    }
+  });
+  applyFilters();
+});
+
+document.getElementById("status-filters").addEventListener("click", e => {
+  const btn = e.target.closest(".filter-pill");
+  if (!btn) return;
+  activeStatus = btn.dataset.status;
+  document.querySelectorAll("#status-filters .filter-pill").forEach(b => {
+    b.classList.toggle("active", b.dataset.status === activeStatus);
+  });
+  applyFilters();
+});
+
+// ── Load data ──────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const res = await fetch("public/data.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status} — run the sync workflow first`);
+    const data = await res.json();
+
+    ALL_STANDARDS = data.standards || [];
+
+    // Summary stats
+    const allSkills  = ALL_STANDARDS.flatMap(s => s.lcs.flatMap(lc => lc.skills));
+    const practiced  = allSkills.filter(s => s.status === "Practiced").length;
+    const allLCs     = ALL_STANDARDS.flatMap(s => s.lcs);
+    const lcDone     = allLCs.filter(lc => lc.status === "Done").length;
+    const stdMastered = ALL_STANDARDS.filter(s => s.status === "Mastered").length;
+
+    document.getElementById("m-std").textContent = stdMastered;
+    document.getElementById("m-std-sub").textContent = `of ${ALL_STANDARDS.length}`;
+    document.getElementById("m-lc").textContent  = lcDone;
+    document.getElementById("m-lc-sub").textContent  = `of ${allLCs.length}`;
+    document.getElementById("m-sk").textContent  = practiced;
+    document.getElementById("m-sk-sub").textContent  = `of ${allSkills.length}`;
+
+    const pct = allSkills.length > 0 ? Math.round(practiced/allSkills.length*100) : 0;
+    document.getElementById("pbar").style.width = pct + "%";
+    document.getElementById("plabel").innerHTML = `<strong>${practiced}</strong>/${allSkills.length} skills · <strong>${lcDone}</strong>/${allLCs.length} components`;
+
+    const syncDate = data.synced ? new Date(data.synced).toLocaleString() : "unknown";
+    document.getElementById("sync-time").textContent = `Last synced: ${syncDate}`;
+    document.getElementById("subtitle").textContent = `7th Grade ELA · Common Core Standards · synced ${syncDate}`;
+
+    buildDomainFilters(ALL_STANDARDS);
+
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("app").style.display = "";
+
+    renderContent(ALL_STANDARDS);
+
+  } catch (err) {
+    document.getElementById("loading").style.display = "none";
+    const errEl = document.getElementById("error");
+    errEl.style.display = "";
+    errEl.innerHTML = `<strong>Could not load data.json:</strong> ${err.message}<br>
+      <small>Run the GitHub Actions sync workflow, or run <code>node sync.js</code> locally first.</small>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>
