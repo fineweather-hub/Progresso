@@ -63,10 +63,12 @@ async function main() {
   const skillById = {};
   for (const row of skillRows) {
     const p = row.properties;
+    const permacode = text(p["Permacode"]);
     skillById[row.id] = {
       id:        row.id,
       name:      title(p["Skill Name"]),
-      permacode: text(p["Permacode"]),
+      permacode,
+      url:       permacode ? `https://www.ixl.com/search?q=${permacode}` : "",
       status:    select(p["Status"]) || "Not started",
     };
   }
