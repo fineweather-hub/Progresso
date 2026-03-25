@@ -267,13 +267,14 @@ const PIP_COLORS = {
 };
 
 // Tier stops: 1–25% iron, 26–50% bronze, 51–75% silver, 76–99% gold, 100% rainbow
+// Boundaries are EXCLUSIVE upper bounds checked with strict <
 const TIER = [
-  { max: 0,    grad: null },
-  { max: 0.25, grad: "linear-gradient(90deg,#4a4458,#7c6f8e)" },           // iron: dark purple-grey
-  { max: 0.50, grad: "linear-gradient(90deg,#7c4f2a,#c8894a)" },           // bronze
-  { max: 0.75, grad: "linear-gradient(90deg,#8a9bab,#d0dce6)" },           // silver
-  { max: 0.999,grad: "linear-gradient(90deg,#b8860b,#ffd700)" },           // gold
-  { max: 1.01, grad: null, rainbow: true },                                  // rainbow / 100%
+  { max: 0.001, grad: null },                                                // 0% — empty grey
+  { max: 0.26,  grad: "linear-gradient(90deg,#4a4458,#7c6f8e)" },           // iron: dark purple-grey
+  { max: 0.51,  grad: "linear-gradient(90deg,#7c4f2a,#c8894a)" },           // bronze
+  { max: 0.76,  grad: "linear-gradient(90deg,#8a9bab,#d0dce6)" },           // silver
+  { max: 1.0,   grad: "linear-gradient(90deg,#b8860b,#ffd700)" },           // gold
+  { max: 2.0,   grad: null, rainbow: true },                                  // rainbow / 100%
 ];
 
 const SKILL_ORDER = ["Practiced", "Assigned", "Not started"];
@@ -315,11 +316,18 @@ function chip(label, n, bg, border, text) {
   return `<span class="m-chip" style="background:${bg};border-color:${border};color:${text}">${n} ${label}</span>`;
 }
 
-// Unique skills: count only skills where isDupe is false
+// Unique skills globally: deduplicate by id across all standards
 function uniqueSkills(standards) {
-  return standards.flatMap(s => s.lcs.flatMap(lc => lc.skills)).filter(sk => !sk.isDupe);
+  const seen = new Set();
+  const out = [];
+  for (const std of standards)
+    for (const lc of std.lcs)
+      for (const sk of lc.skills)
+        if (!seen.has(sk.id)) { seen.add(sk.id); out.push(sk); }
+  return out;
 }
 
+// Per-standard: isDupe marks skills already counted in an earlier LC of the same standard
 function stdSkillPct(std) {
   const all = std.lcs.flatMap(lc => lc.skills).filter(sk => !sk.isDupe);
   if (!all.length) return -1;
