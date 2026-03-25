@@ -1,5 +1,5 @@
 {
-  "synced": "2026-03-25T03:18:46.065Z",
+  "synced": "2026-03-25T03:22:24.630Z",
   "standards": [
     {
       "id": "32a7d181-fab4-8187-a8b2-c84de8f498c3",
@@ -106,7 +106,7 @@
       "id": "32a7d181-fab4-81fe-b9a9-e2244cbef67f",
       "code": "RL.7.2",
       "domain": "RL",
-      "status": "Not started",
+      "status": "In progress",
       "shortTitle": "Theme & Summary",
       "plainLanguage": "identify\n  theme, trace its development, and summarize objectively",
       "lcs": [
@@ -388,7 +388,7 @@
       "id": "32a7d181-fab4-81d5-947c-d6980e52fb41",
       "code": "RI.7.10",
       "domain": "RI",
-      "status": "In progress",
+      "status": "Mastered",
       "shortTitle": "Read Informational Texts Independently",
       "plainLanguage": "read\n  grade-level informational texts proficiently and independently",
       "lcs": [
