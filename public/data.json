@@ -1,11 +1,13 @@
 {
-  "synced": "2026-03-25T03:22:24.630Z",
+  "synced": "2026-03-25T04:01:59.176Z",
+  "subject": "ELA",
   "standards": [
     {
       "id": "32a7d181-fab4-8187-a8b2-c84de8f498c3",
       "code": "RL.7.1",
       "domain": "RL",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Cite Textual Evidence",
       "plainLanguage": "support\n  analysis of literary text with explicit and inferred evidence",
       "lcs": [
@@ -15,48 +17,61 @@
           "shortTitle": "Cite evidence from literary text",
           "code": "RL.7.1",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81ae-8030-e8686a3d45ec",
               "name": "Analyze short stories",
               "permacode": "AVK",
               "url": "https://www.ixl.com/search?q=AVK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-818c-8980-e75ca3e22311",
               "name": "Determine multiple themes of short stories",
               "permacode": "LKN",
               "url": "https://www.ixl.com/search?q=LKN",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f3-9633-cfdab3bdfbb6",
               "name": "Determine the themes of short stories",
               "permacode": "QQS",
               "url": "https://www.ixl.com/search?q=QQS",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ee-9365-c41147ad658e",
               "name": "Draw inferences from literary texts",
               "permacode": "UVZ",
               "url": "https://www.ixl.com/search?q=UVZ",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-818f-9897-d3d566936ee8",
               "name": "Identify supporting details in literary texts",
               "permacode": "W8V",
               "url": "https://www.ixl.com/search?q=W8V",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8131-a4ca-c77dd449c454",
               "name": "Match the quotations with their themes",
               "permacode": "XJK",
               "url": "https://www.ixl.com/search?q=XJK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -67,6 +82,7 @@
       "code": "RL.7.10",
       "domain": "RL",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Read Literary Texts Independently",
       "plainLanguage": "read\n  grade-level literature proficiently and independently",
       "lcs": [
@@ -76,27 +92,34 @@
           "shortTitle": "Read grade-level literature",
           "code": "RL.7.10",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81ae-8030-e8686a3d45ec",
               "name": "Analyze short stories",
               "permacode": "AVK",
               "url": "https://www.ixl.com/search?q=AVK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-818c-8980-e75ca3e22311",
               "name": "Determine multiple themes of short stories",
               "permacode": "LKN",
               "url": "https://www.ixl.com/search?q=LKN",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f3-9633-cfdab3bdfbb6",
               "name": "Determine the themes of short stories",
               "permacode": "QQS",
               "url": "https://www.ixl.com/search?q=QQS",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -107,6 +130,7 @@
       "code": "RL.7.2",
       "domain": "RL",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Theme & Summary",
       "plainLanguage": "identify\n  theme, trace its development, and summarize objectively",
       "lcs": [
@@ -116,27 +140,34 @@
           "shortTitle": "Theme and central idea",
           "code": "RL.7.2",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-818c-8980-e75ca3e22311",
               "name": "Determine multiple themes of short stories",
               "permacode": "LKN",
               "url": "https://www.ixl.com/search?q=LKN",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f3-9633-cfdab3bdfbb6",
               "name": "Determine the themes of short stories",
               "permacode": "QQS",
               "url": "https://www.ixl.com/search?q=QQS",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8131-a4ca-c77dd449c454",
               "name": "Match the quotations with their themes",
               "permacode": "XJK",
               "url": "https://www.ixl.com/search?q=XJK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -147,6 +178,7 @@
       "code": "RL.7.3",
       "domain": "RL",
       "status": "Mastered",
+      "subject": "ELA",
       "shortTitle": "Story Elements Interact",
       "plainLanguage": "analyze\n  how setting, character, and plot shape one another",
       "lcs": [
@@ -156,13 +188,16 @@
           "shortTitle": "Story elements interact",
           "code": "RL.7.3",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81ae-8030-e8686a3d45ec",
               "name": "Analyze short stories",
               "permacode": "AVK",
               "url": "https://www.ixl.com/search?q=AVK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -173,6 +208,7 @@
       "code": "RL.7.4",
       "domain": "RL",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Word Meaning & Sound Devices",
       "plainLanguage": "interpret\n  figurative language and analyze the effect of sound devices on meaning",
       "lcs": [
@@ -182,90 +218,115 @@
           "shortTitle": "Word meaning in literary text",
           "code": "RL.7.4",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c8-91b4-fb4e74b77135",
               "name": "Which sentence matches the definition?",
               "permacode": "5PR",
               "url": "https://www.ixl.com/search?q=5PR",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8130-be7f-dd8f37c703b9",
               "name": "Use academic vocabulary in context: literary",
               "permacode": "AYL",
               "url": "https://www.ixl.com/search?q=AYL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8145-a8cd-e77e9eb882a0",
               "name": "Which definition matches the sentence?",
               "permacode": "CPA",
               "url": "https://www.ixl.com/search?q=CPA",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8151-83ca-d2c370782adc",
               "name": "Interpret figures of speech",
               "permacode": "D9X",
               "url": "https://www.ixl.com/search?q=D9X",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81bb-a30e-d579c49ea1cf",
               "name": "Find words using context",
               "permacode": "QAU",
               "url": "https://www.ixl.com/search?q=QAU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ce-b287-d46b06f538f0",
               "name": "Determine the meaning of words using synonyms in context",
               "permacode": "R5L",
               "url": "https://www.ixl.com/search?q=R5L",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81b4-84af-d0fc718eb032",
               "name": "Analyze the effects of figures of speech on meaning and tone",
               "permacode": "R8B",
               "url": "https://www.ixl.com/search?q=R8B",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8142-8028-c102d69e0c9a",
               "name": "Interpret the meaning of an allusion from its source",
               "permacode": "VNX",
               "url": "https://www.ixl.com/search?q=VNX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81de-992a-f30d8a05ea29",
               "name": "Determine the meaning of words using antonyms in context",
               "permacode": "WZC",
               "url": "https://www.ixl.com/search?q=WZC",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c5-ba9c-cc8b090fdce3",
               "name": "Use context to identify the meaning of a word",
               "permacode": "YEQ",
               "url": "https://www.ixl.com/search?q=YEQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -276,6 +337,7 @@
       "code": "RL.7.6",
       "domain": "RL",
       "status": "Mastered",
+      "subject": "ELA",
       "shortTitle": "Point of View & Narrator",
       "plainLanguage": "analyze\n  how an author develops contrasting character or narrator perspectives",
       "lcs": [
@@ -285,13 +347,16 @@
           "shortTitle": "Analyze contrasting points of view",
           "code": "RL.7.6",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-819e-8ace-ccd7a319546d",
               "name": "Identify the narrative point of view",
               "permacode": "5HK",
               "url": "https://www.ixl.com/search?q=5HK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -302,6 +367,7 @@
       "code": "RL.7.9",
       "domain": "RL",
       "status": "Not started",
+      "subject": "ELA",
       "shortTitle": "Fiction vs. History",
       "plainLanguage": "compare\n  fictional and historical accounts of the same period",
       "lcs": [
@@ -311,13 +377,16 @@
           "shortTitle": "Fiction vs. historical account",
           "code": "RL.7.9",
           "status": "Not started",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81ae-9e11-d6adcb2aa675",
               "name": "Compare two texts with different genres",
               "permacode": "W7Z",
               "url": "https://www.ixl.com/search?q=W7Z",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -328,6 +397,7 @@
       "code": "RI.7.1",
       "domain": "RI",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Cite Textual Evidence",
       "plainLanguage": "support\n  analysis of informational text with explicit and inferred evidence",
       "lcs": [
@@ -337,48 +407,61 @@
           "shortTitle": "Cite evidence from informational text",
           "code": "RI.7.1",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
               "url": "https://www.ixl.com/search?q=5LX",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f4-8e07-e93d4abaab3d",
               "name": "Match problems with their solutions",
               "permacode": "BHK",
               "url": "https://www.ixl.com/search?q=BHK",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-814b-a063-e87825586d02",
               "name": "Compare and contrast in informational texts",
               "permacode": "G7X",
               "url": "https://www.ixl.com/search?q=G7X",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ed-8995-c29ccb78a86f",
               "name": "Match causes and effects in informational texts",
               "permacode": "MKL",
               "url": "https://www.ixl.com/search?q=MKL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-816e-8447-cc21ed895ddb",
               "name": "Compare information from two texts",
               "permacode": "UYD",
               "url": "https://www.ixl.com/search?q=UYD",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -389,6 +472,7 @@
       "code": "RI.7.10",
       "domain": "RI",
       "status": "Mastered",
+      "subject": "ELA",
       "shortTitle": "Read Informational Texts Independently",
       "plainLanguage": "read\n  grade-level informational texts proficiently and independently",
       "lcs": [
@@ -398,13 +482,16 @@
           "shortTitle": "Read grade-level literary nonfiction",
           "code": "RI.7.10",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8107-b28d-fabe3fc3c944",
               "name": "Determine the main idea of a passage",
               "permacode": "DB7",
               "url": "https://www.ixl.com/search?q=DB7",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -415,6 +502,7 @@
       "code": "RI.7.2",
       "domain": "RI",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Central Ideas & Summary",
       "plainLanguage": "identify\n  and trace multiple central ideas and summarize without bias",
       "lcs": [
@@ -424,69 +512,88 @@
           "shortTitle": "Two or more central ideas",
           "code": "RI.7.2",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
               "url": "https://www.ixl.com/search?q=5LX",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81be-b3c2-fe6d9a366b85",
               "name": "Combine main ideas from two texts",
               "permacode": "7Y4",
               "url": "https://www.ixl.com/search?q=7Y4",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8107-b28d-fabe3fc3c944",
               "name": "Determine the main idea of a passage",
               "permacode": "DB7",
               "url": "https://www.ixl.com/search?q=DB7",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8146-9dff-e0366e5fb4d5",
               "name": "Read about history",
               "permacode": "GLA",
               "url": "https://www.ixl.com/search?q=GLA",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8142-baa9-fc7197a3d47a",
               "name": "Read about science and nature",
               "permacode": "H5Q",
               "url": "https://www.ixl.com/search?q=H5Q",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81af-9127-f262be2b4145",
               "name": "Read about animals",
               "permacode": "TZP",
               "url": "https://www.ixl.com/search?q=TZP",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81b6-afd0-f72b8959f0c3",
               "name": "Distinguish facts from opinions",
               "permacode": "UVJ",
               "url": "https://www.ixl.com/search?q=UVJ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-816e-8447-cc21ed895ddb",
               "name": "Compare information from two texts",
               "permacode": "UYD",
               "url": "https://www.ixl.com/search?q=UYD",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -497,6 +604,7 @@
       "code": "RI.7.3",
       "domain": "RI",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Analyze Interactions",
       "plainLanguage": "explain\n  how people, events, and ideas influence one another in a text",
       "lcs": [
@@ -506,41 +614,52 @@
           "shortTitle": "Analyze individual-event-idea interactions",
           "code": "RI.7.3",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
               "url": "https://www.ixl.com/search?q=5LX",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f4-8e07-e93d4abaab3d",
               "name": "Match problems with their solutions",
               "permacode": "BHK",
               "url": "https://www.ixl.com/search?q=BHK",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-814b-a063-e87825586d02",
               "name": "Compare and contrast in informational texts",
               "permacode": "G7X",
               "url": "https://www.ixl.com/search?q=G7X",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ed-8995-c29ccb78a86f",
               "name": "Match causes and effects in informational texts",
               "permacode": "MKL",
               "url": "https://www.ixl.com/search?q=MKL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -551,6 +670,7 @@
       "code": "RI.7.4",
       "domain": "RI",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Word Meaning & Tone",
       "plainLanguage": "determine\n  word meanings and analyze how word choices shape tone",
       "lcs": [
@@ -560,97 +680,124 @@
           "shortTitle": "Word meaning in informational text",
           "code": "RI.7.4",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c8-91b4-fb4e74b77135",
               "name": "Which sentence matches the definition?",
               "permacode": "5PR",
               "url": "https://www.ixl.com/search?q=5PR",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8145-a8cd-e77e9eb882a0",
               "name": "Which definition matches the sentence?",
               "permacode": "CPA",
               "url": "https://www.ixl.com/search?q=CPA",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8151-83ca-d2c370782adc",
               "name": "Interpret figures of speech",
               "permacode": "D9X",
               "url": "https://www.ixl.com/search?q=D9X",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8180-8799-db222de74ece",
               "name": "Use academic vocabulary in context: informational",
               "permacode": "M6A",
               "url": "https://www.ixl.com/search?q=M6A",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81bb-a30e-d579c49ea1cf",
               "name": "Find words using context",
               "permacode": "QAU",
               "url": "https://www.ixl.com/search?q=QAU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ce-b287-d46b06f538f0",
               "name": "Determine the meaning of words using synonyms in context",
               "permacode": "R5L",
               "url": "https://www.ixl.com/search?q=R5L",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81b4-84af-d0fc718eb032",
               "name": "Analyze the effects of figures of speech on meaning and tone",
               "permacode": "R8B",
               "url": "https://www.ixl.com/search?q=R8B",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8142-8028-c102d69e0c9a",
               "name": "Interpret the meaning of an allusion from its source",
               "permacode": "VNX",
               "url": "https://www.ixl.com/search?q=VNX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81dd-b96d-ff358cae0ea4",
               "name": "Determine the meaning of domain-specific words with pictures",
               "permacode": "VPB",
               "url": "https://www.ixl.com/search?q=VPB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81de-992a-f30d8a05ea29",
               "name": "Determine the meaning of words using antonyms in context",
               "permacode": "WZC",
               "url": "https://www.ixl.com/search?q=WZC",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c5-ba9c-cc8b090fdce3",
               "name": "Use context to identify the meaning of a word",
               "permacode": "YEQ",
               "url": "https://www.ixl.com/search?q=YEQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -661,6 +808,7 @@
       "code": "RI.7.5",
       "domain": "RI",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Text Structure",
       "plainLanguage": "identify\n  how an author organizes a text and how sections develop the whole",
       "lcs": [
@@ -670,41 +818,52 @@
           "shortTitle": "Analyze text organization structure",
           "code": "RI.7.5",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
               "url": "https://www.ixl.com/search?q=5LX",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f4-8e07-e93d4abaab3d",
               "name": "Match problems with their solutions",
               "permacode": "BHK",
               "url": "https://www.ixl.com/search?q=BHK",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-814b-a063-e87825586d02",
               "name": "Compare and contrast in informational texts",
               "permacode": "G7X",
               "url": "https://www.ixl.com/search?q=G7X",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f6-ade2-f931a1b71192",
               "name": "Identify text structures",
               "permacode": "JP2",
               "url": "https://www.ixl.com/search?q=JP2",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ed-8995-c29ccb78a86f",
               "name": "Match causes and effects in informational texts",
               "permacode": "MKL",
               "url": "https://www.ixl.com/search?q=MKL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -715,6 +874,7 @@
       "code": "RI.7.6",
       "domain": "RI",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Author's Point of View",
       "plainLanguage": "identify\n  an author's purpose and how they distinguish their view from others",
       "lcs": [
@@ -724,34 +884,43 @@
           "shortTitle": "Author's point of view and purpose",
           "code": "RI.7.6",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
               "url": "https://www.ixl.com/search?q=5LX",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ad-88c3-c2cc085a64d3",
               "name": "Determine the author's point of view",
               "permacode": "BDR",
               "url": "https://www.ixl.com/search?q=BDR",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81a2-81d1-e2207856be17",
               "name": "Identify the author's purpose",
               "permacode": "H9H",
               "url": "https://www.ixl.com/search?q=H9H",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-816e-8447-cc21ed895ddb",
               "name": "Compare information from two texts",
               "permacode": "UYD",
               "url": "https://www.ixl.com/search?q=UYD",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -762,6 +931,7 @@
       "code": "RI.7.8",
       "domain": "RI",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Evaluate Arguments",
       "plainLanguage": "assess\n  whether a text's reasoning is sound and its evidence is sufficient",
       "lcs": [
@@ -771,27 +941,34 @@
           "shortTitle": "Trace and evaluate an argument",
           "code": "RI.7.8",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
               "url": "https://www.ixl.com/search?q=5LX",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-817b-b8f7-edbb4e720a40",
               "name": "Classify logical fallacies",
               "permacode": "GFC",
               "url": "https://www.ixl.com/search?q=GFC",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -802,6 +979,7 @@
       "code": "RI.7.9",
       "domain": "RI",
       "status": "Not started",
+      "subject": "ELA",
       "shortTitle": "Compare Multiple Authors",
       "plainLanguage": "compare\n  how different authors on the same topic use evidence and interpretation",
       "lcs": [
@@ -811,20 +989,25 @@
           "shortTitle": "Compare two authors on same topic",
           "code": "RI.7.9",
           "status": "Not started",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816e-8447-cc21ed895ddb",
               "name": "Compare information from two texts",
               "permacode": "UYD",
               "url": "https://www.ixl.com/search?q=UYD",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ae-9e11-d6adcb2aa675",
               "name": "Compare two texts with different genres",
               "permacode": "W7Z",
               "url": "https://www.ixl.com/search?q=W7Z",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -835,6 +1018,7 @@
       "code": "W.7.1",
       "domain": "W",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Argumentative Writing",
       "plainLanguage": "write a\n  well-supported argument that addresses counterclaims and maintains a formal\n  style",
       "lcs": [
@@ -844,34 +1028,43 @@
           "shortTitle": "Introduce claims and counter-claims",
           "code": "W.7.1.a",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81cd-8e38-ffe0168532ff",
               "name": "Identify thesis statements",
               "permacode": "ERK",
               "url": "https://www.ixl.com/search?q=ERK",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-813b-931f-e610694143b3",
               "name": "Organize information by topic",
               "permacode": "LTH",
               "url": "https://www.ixl.com/search?q=LTH",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8136-bd7d-e90ba0d4d334",
               "name": "Identify counterclaims",
               "permacode": "PXT",
               "url": "https://www.ixl.com/search?q=PXT",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8146-b1d7-ea0e3451bc0d",
               "name": "Choose the topic sentence that best captures the main idea",
               "permacode": "X9F",
               "url": "https://www.ixl.com/search?q=X9F",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -881,41 +1074,52 @@
           "shortTitle": "Support claims with evidence",
           "code": "W.7.1.b",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8156-be47-fc25f2f6c504",
               "name": "Choose evidence to support a claim",
               "permacode": "5GN",
               "url": "https://www.ixl.com/search?q=5GN",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-817b-b8f7-edbb4e720a40",
               "name": "Classify logical fallacies",
               "permacode": "GFC",
               "url": "https://www.ixl.com/search?q=GFC",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81b6-afd0-f72b8959f0c3",
               "name": "Distinguish facts from opinions",
               "permacode": "UVJ",
               "url": "https://www.ixl.com/search?q=UVJ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-818f-9897-d3d566936ee8",
               "name": "Identify supporting details in literary texts",
               "permacode": "W8V",
               "url": "https://www.ixl.com/search?q=W8V",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -925,27 +1129,34 @@
           "shortTitle": "Cohesion in argumentative writing",
           "code": "W.7.1.c",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-813f-9823-c45193880795",
               "name": "Transitions with conjunctive adverbs",
               "permacode": "8BF",
               "url": "https://www.ixl.com/search?q=8BF",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8118-b9cf-e3445cd5a038",
               "name": "Use the correct pair of correlative conjunctions",
               "permacode": "9LC",
               "url": "https://www.ixl.com/search?q=9LC",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f3-b0ee-fa1e1df994b2",
               "name": "Use coordinating conjunctions",
               "permacode": "U49",
               "url": "https://www.ixl.com/search?q=U49",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -955,13 +1166,16 @@
           "shortTitle": "Argue in formal style",
           "code": "W.7.1.d",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8142-ac9b-e2baa49cf404",
               "name": "Which sentence is more formal?",
               "permacode": "ZXT",
               "url": "https://www.ixl.com/search?q=ZXT",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -972,6 +1186,7 @@
       "code": "W.7.2",
       "domain": "W",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Informative/Explanatory Writing",
       "plainLanguage": "write a\n  clearly organized informative text developed with relevant evidence",
       "lcs": [
@@ -981,62 +1196,79 @@
           "shortTitle": "Introduce and organize informative topic",
           "code": "W.7.2.a",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81f4-8e07-e93d4abaab3d",
               "name": "Match problems with their solutions",
               "permacode": "BHK",
               "url": "https://www.ixl.com/search?q=BHK",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-814b-a063-e87825586d02",
               "name": "Compare and contrast in informational texts",
               "permacode": "G7X",
               "url": "https://www.ixl.com/search?q=G7X",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f6-ade2-f931a1b71192",
               "name": "Identify text structures",
               "permacode": "JP2",
               "url": "https://www.ixl.com/search?q=JP2",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-813b-931f-e610694143b3",
               "name": "Organize information by topic",
               "permacode": "LTH",
               "url": "https://www.ixl.com/search?q=LTH",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ed-8995-c29ccb78a86f",
               "name": "Match causes and effects in informational texts",
               "permacode": "MKL",
               "url": "https://www.ixl.com/search?q=MKL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8146-b1d7-ea0e3451bc0d",
               "name": "Choose the topic sentence that best captures the main idea",
               "permacode": "X9F",
               "url": "https://www.ixl.com/search?q=X9F",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8182-b376-f673b3a26930",
               "name": "Order topics from broadest to narrowest",
               "permacode": "XQ2",
               "url": "https://www.ixl.com/search?q=XQ2",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8173-a02d-cf3b8b78007d",
               "name": "Remove the sentence that does not belong",
               "permacode": "XXW",
               "url": "https://www.ixl.com/search?q=XXW",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1046,55 +1278,70 @@
           "shortTitle": "Develop topic with facts and details",
           "code": "W.7.2.b",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-aeb3-c155d4ee6916",
               "name": "Identify plagiarism",
               "permacode": "5B7",
               "url": "https://www.ixl.com/search?q=5B7",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8156-be47-fc25f2f6c504",
               "name": "Choose evidence to support a claim",
               "permacode": "5GN",
               "url": "https://www.ixl.com/search?q=5GN",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81b6-afd0-f72b8959f0c3",
               "name": "Distinguish facts from opinions",
               "permacode": "UVJ",
               "url": "https://www.ixl.com/search?q=UVJ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-818f-9897-d3d566936ee8",
               "name": "Identify supporting details in literary texts",
               "permacode": "W8V",
               "url": "https://www.ixl.com/search?q=W8V",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81a5-90ab-edc714a89c68",
               "name": "Formatting quotations and dialogue",
               "permacode": "WX9",
               "url": "https://www.ixl.com/search?q=WX9",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8146-b1d7-ea0e3451bc0d",
               "name": "Choose the topic sentence that best captures the main idea",
               "permacode": "X9F",
               "url": "https://www.ixl.com/search?q=X9F",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1104,27 +1351,34 @@
           "shortTitle": "Transitions for informative cohesion",
           "code": "W.7.2.c",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-813f-9823-c45193880795",
               "name": "Transitions with conjunctive adverbs",
               "permacode": "8BF",
               "url": "https://www.ixl.com/search?q=8BF",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8118-b9cf-e3445cd5a038",
               "name": "Use the correct pair of correlative conjunctions",
               "permacode": "9LC",
               "url": "https://www.ixl.com/search?q=9LC",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f3-b0ee-fa1e1df994b2",
               "name": "Use coordinating conjunctions",
               "permacode": "U49",
               "url": "https://www.ixl.com/search?q=U49",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1134,41 +1388,52 @@
           "shortTitle": "Precise vocabulary in informative writing",
           "code": "W.7.2.d",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8180-8799-db222de74ece",
               "name": "Use academic vocabulary in context: informational",
               "permacode": "M6A",
               "url": "https://www.ixl.com/search?q=M6A",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8123-9f1b-d20820ea53db",
               "name": "Revise the sentence using a stronger verb",
               "permacode": "PHB",
               "url": "https://www.ixl.com/search?q=PHB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81dd-b96d-ff358cae0ea4",
               "name": "Determine the meaning of domain-specific words with pictures",
               "permacode": "VPB",
               "url": "https://www.ixl.com/search?q=VPB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1178,13 +1443,16 @@
           "shortTitle": "Explain in formal style",
           "code": "W.7.2.e",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8142-ac9b-e2baa49cf404",
               "name": "Which sentence is more formal?",
               "permacode": "ZXT",
               "url": "https://www.ixl.com/search?q=ZXT",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -1195,6 +1463,7 @@
       "code": "W.7.3",
       "domain": "W",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Narrative Writing",
       "plainLanguage": "write a\n  narrative with an established point of view, effective techniques, and a\n  reflective conclusion",
       "lcs": [
@@ -1204,13 +1473,16 @@
           "shortTitle": "Establish narrative context and POV",
           "code": "W.7.3.a",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-819e-8ace-ccd7a319546d",
               "name": "Identify the narrative point of view",
               "permacode": "5HK",
               "url": "https://www.ixl.com/search?q=5HK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1220,13 +1492,16 @@
           "shortTitle": "Narrative techniques and description",
           "code": "W.7.3.b",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81a5-90ab-edc714a89c68",
               "name": "Formatting quotations and dialogue",
               "permacode": "WX9",
               "url": "https://www.ixl.com/search?q=WX9",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1236,13 +1511,16 @@
           "shortTitle": "Transitions for narrative sequence",
           "code": "W.7.3.c",
           "status": "Not started",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-813f-9823-c45193880795",
               "name": "Transitions with conjunctive adverbs",
               "permacode": "8BF",
               "url": "https://www.ixl.com/search?q=8BF",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1252,41 +1530,52 @@
           "shortTitle": "Sensory language and precise details",
           "code": "W.7.3.d",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8123-9f1b-d20820ea53db",
               "name": "Revise the sentence using a stronger verb",
               "permacode": "PHB",
               "url": "https://www.ixl.com/search?q=PHB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-816f-85c1-f8e10d1166c7",
               "name": "Identify sensory details",
               "permacode": "PMB",
               "url": "https://www.ixl.com/search?q=PMB",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8122-8f96-f24437a502a8",
               "name": "Use personification",
               "permacode": "UBQ",
               "url": "https://www.ixl.com/search?q=UBQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             }
           ]
         }
@@ -1297,6 +1586,7 @@
       "code": "W.7.4",
       "domain": "W",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Clear & Coherent Writing",
       "plainLanguage": "produce\n  writing suited in development, organization, and style to the task and\n  audience",
       "lcs": [
@@ -1306,76 +1596,97 @@
           "shortTitle": "Clear, coherent, purposeful writing",
           "code": "W.7.4",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8156-be47-fc25f2f6c504",
               "name": "Choose evidence to support a claim",
               "permacode": "5GN",
               "url": "https://www.ixl.com/search?q=5GN",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81a2-81d1-e2207856be17",
               "name": "Identify the author's purpose",
               "permacode": "H9H",
               "url": "https://www.ixl.com/search?q=H9H",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f6-ade2-f931a1b71192",
               "name": "Identify text structures",
               "permacode": "JP2",
               "url": "https://www.ixl.com/search?q=JP2",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-813b-931f-e610694143b3",
               "name": "Organize information by topic",
               "permacode": "LTH",
               "url": "https://www.ixl.com/search?q=LTH",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81b6-afd0-f72b8959f0c3",
               "name": "Distinguish facts from opinions",
               "permacode": "UVJ",
               "url": "https://www.ixl.com/search?q=UVJ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-818f-9897-d3d566936ee8",
               "name": "Identify supporting details in literary texts",
               "permacode": "W8V",
               "url": "https://www.ixl.com/search?q=W8V",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8146-b1d7-ea0e3451bc0d",
               "name": "Choose the topic sentence that best captures the main idea",
               "permacode": "X9F",
               "url": "https://www.ixl.com/search?q=X9F",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8182-b376-f673b3a26930",
               "name": "Order topics from broadest to narrowest",
               "permacode": "XQ2",
               "url": "https://www.ixl.com/search?q=XQ2",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8173-a02d-cf3b8b78007d",
               "name": "Remove the sentence that does not belong",
               "permacode": "XXW",
               "url": "https://www.ixl.com/search?q=XXW",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -1386,6 +1697,7 @@
       "code": "W.7.5",
       "domain": "W",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Writing Process",
       "plainLanguage": "plan,\n  draft, revise, and edit with feedback to strengthen writing",
       "lcs": [
@@ -1395,181 +1707,232 @@
           "shortTitle": "Revise and strengthen writing",
           "code": "W.7.5",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8161-87d4-c4b24ca2827a",
               "name": "Identify vague pronoun references",
               "permacode": "26T",
               "url": "https://www.ixl.com/search?q=26T",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8107-8a10-f46af6be3375",
               "name": "Correct errors with frequently confused words",
               "permacode": "2BR",
               "url": "https://www.ixl.com/search?q=2BR",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8172-88c8-fcc1a5e50a1e",
               "name": "Capitalizing titles",
               "permacode": "2G2",
               "url": "https://www.ixl.com/search?q=2G2",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8136-aeb3-c155d4ee6916",
               "name": "Identify plagiarism",
               "permacode": "5B7",
               "url": "https://www.ixl.com/search?q=5B7",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81a3-b949-fe1fe1bcd9fb",
               "name": "Commas with coordinate adjectives",
               "permacode": "5L5",
               "url": "https://www.ixl.com/search?q=5L5",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81e5-b57d-ffba93f491e2",
               "name": "Decide whether ellipses are used appropriately",
               "permacode": "5SL",
               "url": "https://www.ixl.com/search?q=5SL",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8174-929f-c46a0a069e4c",
               "name": "Identify and correct inappropriate shifts in verb tense",
               "permacode": "74U",
               "url": "https://www.ixl.com/search?q=74U",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81a5-89b6-d8cafa2b0a94",
               "name": "Is it a complete sentence or a run-on?",
               "permacode": "7F7",
               "url": "https://www.ixl.com/search?q=7F7",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81cc-b958-cd30b1f821f0",
               "name": "Use the correct verb – with compound subjects",
               "permacode": "7S6",
               "url": "https://www.ixl.com/search?q=7S6",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81ff-a420-de33f6b11a47",
               "name": "Use relative pronouns: who, whom, whose, which, and that",
               "permacode": "8KS",
               "url": "https://www.ixl.com/search?q=8KS",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81c1-a48b-c2a2cb078dd4",
               "name": "Correct errors with subject-verb agreement",
               "permacode": "94Y",
               "url": "https://www.ixl.com/search?q=94Y",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81f1-bcb9-e6992974a3f6",
               "name": "Good, better, best, bad, worse, and worst",
               "permacode": "9ML",
               "url": "https://www.ixl.com/search?q=9ML",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81b3-84cc-c7b58f067dc7",
               "name": "Use parallel structure",
               "permacode": "ACY",
               "url": "https://www.ixl.com/search?q=ACY",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8196-a47f-db46972bc24c",
               "name": "Is it a complete sentence or a fragment?",
               "permacode": "GD9",
               "url": "https://www.ixl.com/search?q=GD9",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81b2-b6f1-eb4ce8fd259c",
               "name": "Use semicolons, colons, and commas with lists",
               "permacode": "H9K",
               "url": "https://www.ixl.com/search?q=H9K",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-815c-a2b1-d42890987e5f",
               "name": "Use dashes",
               "permacode": "HHA",
               "url": "https://www.ixl.com/search?q=HHA",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8178-94c1-c72c8f0b95e6",
               "name": "Use hyphens in compound adjectives",
               "permacode": "JMH",
               "url": "https://www.ixl.com/search?q=JMH",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8130-a0f4-c6cd6d9d8a88",
               "name": "Correct errors in everyday use",
               "permacode": "JZA",
               "url": "https://www.ixl.com/search?q=JZA",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81b7-a258-d847ea53f2b7",
               "name": "Choose between adjectives and adverbs",
               "permacode": "KMT",
               "url": "https://www.ixl.com/search?q=KMT",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81ba-9fbe-dd6000218219",
               "name": "Correct capitalization errors",
               "permacode": "KRF",
               "url": "https://www.ixl.com/search?q=KRF",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-815b-a938-f7fe328ed1dc",
               "name": "Commas with direct addresses, introductory words, interjections, and interrupters",
               "permacode": "KUB",
               "url": "https://www.ixl.com/search?q=KUB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81a9-b9ec-dc464f49e85a",
               "name": "Correct errors with signs",
               "permacode": "LW8",
               "url": "https://www.ixl.com/search?q=LW8",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81c6-ab12-c86260beeaef",
               "name": "Correct inappropriate shifts in pronoun number and person",
               "permacode": "MSZ",
               "url": "https://www.ixl.com/search?q=MSZ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-813b-931f-e610694143b3",
               "name": "Organize information by topic",
               "permacode": "LTH",
               "url": "https://www.ixl.com/search?q=LTH",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8134-8680-e5f3a2701ceb",
               "name": "Commas with series, dates, and places",
               "permacode": "PJ5",
               "url": "https://www.ixl.com/search?q=PJ5",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             }
           ]
         }
@@ -1580,6 +1943,7 @@
       "code": "W.7.8",
       "domain": "W",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Gather & Cite Sources",
       "plainLanguage": "find,\n  evaluate, and properly cite credible sources while avoiding plagiarism",
       "lcs": [
@@ -1589,55 +1953,70 @@
           "shortTitle": "Gather from multiple sources",
           "code": "W.7.8",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-aeb3-c155d4ee6916",
               "name": "Identify plagiarism",
               "permacode": "5B7",
               "url": "https://www.ixl.com/search?q=5B7",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8156-be47-fc25f2f6c504",
               "name": "Choose evidence to support a claim",
               "permacode": "5GN",
               "url": "https://www.ixl.com/search?q=5GN",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8107-b28d-fabe3fc3c944",
               "name": "Determine the main idea of a passage",
               "permacode": "DB7",
               "url": "https://www.ixl.com/search?q=DB7",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8123-9784-d1cf513bc2a4",
               "name": "Evaluate newspaper headlines for bias",
               "permacode": "ELH",
               "url": "https://www.ixl.com/search?q=ELH",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8107-9301-d179e8cc176a",
               "name": "Identify relevant sources",
               "permacode": "U93",
               "url": "https://www.ixl.com/search?q=U93",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-818f-9897-d3d566936ee8",
               "name": "Identify supporting details in literary texts",
               "permacode": "W8V",
               "url": "https://www.ixl.com/search?q=W8V",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -1648,6 +2027,7 @@
       "code": "W.7.9",
       "domain": "W",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Draw Evidence from Texts",
       "plainLanguage": "use\n  textual evidence from literary or informational sources to support written\n  analysis",
       "lcs": [
@@ -1657,41 +2037,52 @@
           "shortTitle": "Apply reading standards to literature",
           "code": "W.7.9.a",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81ae-8030-e8686a3d45ec",
               "name": "Analyze short stories",
               "permacode": "AVK",
               "url": "https://www.ixl.com/search?q=AVK",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f3-9633-cfdab3bdfbb6",
               "name": "Determine the themes of short stories",
               "permacode": "QQS",
               "url": "https://www.ixl.com/search?q=QQS",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81b4-84af-d0fc718eb032",
               "name": "Analyze the effects of figures of speech on meaning and tone",
               "permacode": "R8B",
               "url": "https://www.ixl.com/search?q=R8B",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ae-9e11-d6adcb2aa675",
               "name": "Compare two texts with different genres",
               "permacode": "W7Z",
               "url": "https://www.ixl.com/search?q=W7Z",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-818f-9897-d3d566936ee8",
               "name": "Identify supporting details in literary texts",
               "permacode": "W8V",
               "url": "https://www.ixl.com/search?q=W8V",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1701,27 +2092,34 @@
           "shortTitle": "Apply reading standards to nonfiction",
           "code": "W.7.9.b",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
               "url": "https://www.ixl.com/search?q=5LX",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-98b1-c80646d31d26",
               "name": "Identify supporting details in informational texts",
               "permacode": "LZS",
               "url": "https://www.ixl.com/search?q=LZS",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-816e-8447-cc21ed895ddb",
               "name": "Compare information from two texts",
               "permacode": "UYD",
               "url": "https://www.ixl.com/search?q=UYD",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -1732,6 +2130,7 @@
       "code": "L.7.1",
       "domain": "L",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Grammar & Usage",
       "plainLanguage": "use\n  phrases, clauses, and varied sentence structures correctly",
       "lcs": [
@@ -1741,55 +2140,70 @@
           "shortTitle": "Function of phrases and clauses",
           "code": "L.7.1.a",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81e5-984a-cfba9e52a6a3",
               "name": "Is it a phrase or a clause?",
               "permacode": "LMH",
               "url": "https://www.ixl.com/search?q=LMH",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-813e-a2af-cc061008e768",
               "name": "Identify prepositional phrases",
               "permacode": "NXJ",
               "url": "https://www.ixl.com/search?q=NXJ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8112-b1e0-ff3186eb4d87",
               "name": "Identify dependent and independent clauses",
               "permacode": "R9X",
               "url": "https://www.ixl.com/search?q=R9X",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8144-993a-c7879bf15002",
               "name": "Identify infinitives and infinitive phrases",
               "permacode": "S9W",
               "url": "https://www.ixl.com/search?q=S9W",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81d4-b574-d536f0a98a1e",
               "name": "Identify gerunds and their functions",
               "permacode": "UTQ",
               "url": "https://www.ixl.com/search?q=UTQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8164-bd49-fad78493a563",
               "name": "Is the sentence simple, compound, complex, or compound-complex?",
               "permacode": "CCW",
               "url": "https://www.ixl.com/search?q=CCW",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8134-b506-ce7c1d863c03",
               "name": "Is it a complete sentence, a fragment, or a run-on?",
               "permacode": "M63",
               "url": "https://www.ixl.com/search?q=M63",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             }
           ]
         },
@@ -1799,13 +2213,16 @@
           "shortTitle": "Choose sentence type for effect",
           "code": "L.7.1.b",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8164-bd49-fad78493a563",
               "name": "Is the sentence simple, compound, complex, or compound-complex?",
               "permacode": "CCW",
               "url": "https://www.ixl.com/search?q=CCW",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1815,34 +2232,43 @@
           "shortTitle": "Fix misplaced and dangling modifiers",
           "code": "L.7.1.c",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8116-b9b3-cf0687e0bee8",
               "name": "Combine sentences using relative clauses",
               "permacode": "55A",
               "url": "https://www.ixl.com/search?q=55A",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8192-92c3-d5b93cbac07f",
               "name": "Misplaced modifiers with pictures",
               "permacode": "J89",
               "url": "https://www.ixl.com/search?q=J89",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8115-b0ff-ce203cc8adda",
               "name": "Select the misplaced or dangling modifier",
               "permacode": "KSR",
               "url": "https://www.ixl.com/search?q=KSR",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-818b-a05e-e6709df55b2c",
               "name": "Are the modifiers used correctly?",
               "permacode": "Z9U",
               "url": "https://www.ixl.com/search?q=Z9U",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             }
           ]
         }
@@ -1853,6 +2279,7 @@
       "code": "L.7.2",
       "domain": "L",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Capitalization, Punctuation & Spelling",
       "plainLanguage": "apply\n  correct capitalization, punctuation, and spelling conventions",
       "lcs": [
@@ -1862,13 +2289,16 @@
           "shortTitle": "Comma between coordinate adjectives",
           "code": "L.7.2.a",
           "status": "Not started",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81a3-b949-fe1fe1bcd9fb",
               "name": "Commas with coordinate adjectives",
               "permacode": "5L5",
               "url": "https://www.ixl.com/search?q=5L5",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -1878,167 +2308,214 @@
           "shortTitle": "Spell correctly",
           "code": "L.7.2.b",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8107-8a10-f46af6be3375",
               "name": "Correct errors with frequently confused words",
               "permacode": "2BR",
               "url": "https://www.ixl.com/search?q=2BR",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-815c-abd1-d6bbac9e8dd8",
               "name": "Spell common words: sets 3 and 4",
               "permacode": "58D",
               "url": "https://www.ixl.com/search?q=58D",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-813f-936f-d7c23f922d01",
               "name": "Learn to spell words with suffixes: -ive, -ous",
               "permacode": "5MK",
               "url": "https://www.ixl.com/search?q=5MK",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81d4-a7df-c14cdba2e473",
               "name": "Spell words with base elements: review",
               "permacode": "7BX",
               "url": "https://www.ixl.com/search?q=7BX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8124-9d94-f5aaafcc35ce",
               "name": "Use the correct homophone",
               "permacode": "7TE",
               "url": "https://www.ixl.com/search?q=7TE",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8142-ac35-d0d138e20b6a",
               "name": "Learn to spell common words: set 3",
               "permacode": "82Z",
               "url": "https://www.ixl.com/search?q=82Z",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-816b-ae22-cfe67e3f3364",
               "name": "Use the correct frequently confused word",
               "permacode": "9CZ",
               "url": "https://www.ixl.com/search?q=9CZ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81c3-9ea9-dcb6b4b51c0b",
               "name": "Learn to spell common words: set 4",
               "permacode": "9J8",
               "url": "https://www.ixl.com/search?q=9J8",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8114-9c3d-d342562f4f98",
               "name": "Form and use comparative and superlative adverbs",
               "permacode": "9X4",
               "url": "https://www.ixl.com/search?q=9X4",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8195-b410-c3be790ed764",
               "name": "Spell words with base elements: form, rupt",
               "permacode": "AXM",
               "url": "https://www.ixl.com/search?q=AXM",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-815f-b493-d67dc53fa344",
               "name": "Learn to spell common words: set 1",
               "permacode": "E2B",
               "url": "https://www.ixl.com/search?q=E2B",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81ad-8520-c842c7d25fca",
               "name": "Identify and correct errors with plural and possessive nouns",
               "permacode": "FWH",
               "url": "https://www.ixl.com/search?q=FWH",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81d9-92ca-c45de02faa0e",
               "name": "Form and use plurals of compound nouns",
               "permacode": "GMJ",
               "url": "https://www.ixl.com/search?q=GMJ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-815b-a0a7-f0a5d6dbda29",
               "name": "Form the singular or plural possessive",
               "permacode": "GWU",
               "url": "https://www.ixl.com/search?q=GWU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8165-9e91-cecf9b7db74f",
               "name": "Spell words with affixes: review",
               "permacode": "JRP",
               "url": "https://www.ixl.com/search?q=JRP",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81dd-8042-dec03a05ab18",
               "name": "Spell words with base elements: spect, vis, vise",
               "permacode": "MKX",
               "url": "https://www.ixl.com/search?q=MKX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8135-8b9c-f86a62f0855a",
               "name": "Irregular past tense: review",
               "permacode": "MRT",
               "url": "https://www.ixl.com/search?q=MRT",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81a1-8da5-c874078d7b21",
               "name": "Spell common words: review sets 1–4",
               "permacode": "MXH",
               "url": "https://www.ixl.com/search?q=MXH",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81c7-be03-d0944bfa382f",
               "name": "Learn to spell words with prefixes: ad-, de-",
               "permacode": "QAL",
               "url": "https://www.ixl.com/search?q=QAL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8149-b084-ed7d8f6401b4",
               "name": "Form and use plurals: review",
               "permacode": "QSP",
               "url": "https://www.ixl.com/search?q=QSP",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81b4-9d26-d4ca1ef8a3b1",
               "name": "Spell common words: sets 1 and 2",
               "permacode": "R6X",
               "url": "https://www.ixl.com/search?q=R6X",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-811f-a961-c197e80bba0f",
               "name": "Form and use comparative and superlative adjectives",
               "permacode": "RCL",
               "url": "https://www.ixl.com/search?q=RCL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-812c-93d2-ff3b891e3df9",
               "name": "Learn to spell common words: set 2",
               "permacode": "UJN",
               "url": "https://www.ixl.com/search?q=UJN",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": false
             }
           ]
         }
@@ -2049,6 +2526,7 @@
       "code": "L.7.3",
       "domain": "L",
       "status": "Mastered",
+      "subject": "ELA",
       "shortTitle": "Knowledge of Language",
       "plainLanguage": "choose\n  words precisely and eliminate wordiness to suit the task",
       "lcs": [
@@ -2058,34 +2536,43 @@
           "shortTitle": "Choose precise, concise language",
           "code": "L.7.3.a",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8173-aa71-e2f281aa3bb5",
               "name": "Remove redundant words or phrases",
               "permacode": "BGN",
               "url": "https://www.ixl.com/search?q=BGN",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8123-9f1b-d20820ea53db",
               "name": "Revise the sentence using a stronger verb",
               "permacode": "PHB",
               "url": "https://www.ixl.com/search?q=PHB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -2096,6 +2583,7 @@
       "code": "L.7.4",
       "domain": "L",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Vocabulary Strategies",
       "plainLanguage": "figure\n  out the meaning of unfamiliar words using context, roots, and reference tools",
       "lcs": [
@@ -2105,83 +2593,106 @@
           "shortTitle": "Use context clues for meaning",
           "code": "L.7.4.a",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81c8-91b4-fb4e74b77135",
               "name": "Which sentence matches the definition?",
               "permacode": "5PR",
               "url": "https://www.ixl.com/search?q=5PR",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8130-be7f-dd8f37c703b9",
               "name": "Use academic vocabulary in context: literary",
               "permacode": "AYL",
               "url": "https://www.ixl.com/search?q=AYL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8145-a8cd-e77e9eb882a0",
               "name": "Which definition matches the sentence?",
               "permacode": "CPA",
               "url": "https://www.ixl.com/search?q=CPA",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8151-83ca-d2c370782adc",
               "name": "Interpret figures of speech",
               "permacode": "D9X",
               "url": "https://www.ixl.com/search?q=D9X",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8180-8799-db222de74ece",
               "name": "Use academic vocabulary in context: informational",
               "permacode": "M6A",
               "url": "https://www.ixl.com/search?q=M6A",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81bb-a30e-d579c49ea1cf",
               "name": "Find words using context",
               "permacode": "QAU",
               "url": "https://www.ixl.com/search?q=QAU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81ce-b287-d46b06f538f0",
               "name": "Determine the meaning of words using synonyms in context",
               "permacode": "R5L",
               "url": "https://www.ixl.com/search?q=R5L",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8142-8028-c102d69e0c9a",
               "name": "Interpret the meaning of an allusion from its source",
               "permacode": "VNX",
               "url": "https://www.ixl.com/search?q=VNX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81dd-b96d-ff358cae0ea4",
               "name": "Determine the meaning of domain-specific words with pictures",
               "permacode": "VPB",
               "url": "https://www.ixl.com/search?q=VPB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81de-992a-f30d8a05ea29",
               "name": "Determine the meaning of words using antonyms in context",
               "permacode": "WZC",
               "url": "https://www.ixl.com/search?q=WZC",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c5-ba9c-cc8b090fdce3",
               "name": "Use context to identify the meaning of a word",
               "permacode": "YEQ",
               "url": "https://www.ixl.com/search?q=YEQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -2191,111 +2702,142 @@
           "shortTitle": "Greek and Latin roots as clues",
           "code": "L.7.4.b",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-81d4-a7df-c14cdba2e473",
               "name": "Spell words with base elements: review",
               "permacode": "7BX",
               "url": "https://www.ixl.com/search?q=7BX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8195-b410-c3be790ed764",
               "name": "Spell words with base elements: form, rupt",
               "permacode": "AXM",
               "url": "https://www.ixl.com/search?q=AXM",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8142-910d-ecbb267dc68c",
               "name": "Words with pre-",
               "permacode": "BDB",
               "url": "https://www.ixl.com/search?q=BDB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8103-8a5a-f6441b41528b",
               "name": "Words with un-, dis-, in-, im-, and non-",
               "permacode": "F8G",
               "url": "https://www.ixl.com/search?q=F8G",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f6-98e4-f63ce08ce740",
               "name": "Words with -less",
               "permacode": "J2Y",
               "url": "https://www.ixl.com/search?q=J2Y",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-b8a8-d4713b84ebb3",
               "name": "Words with re-",
               "permacode": "KL8",
               "url": "https://www.ixl.com/search?q=KL8",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8102-b845-c649939af26b",
               "name": "Use Greek and Latin roots as clues to the meanings of words",
               "permacode": "MBU",
               "url": "https://www.ixl.com/search?q=MBU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c4-b9fd-c72d466ca7a4",
               "name": "Use words as clues to the meanings of Greek and Latin roots",
               "permacode": "MCB",
               "url": "https://www.ixl.com/search?q=MCB",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81dd-8042-dec03a05ab18",
               "name": "Spell words with base elements: spect, vis, vise",
               "permacode": "MKX",
               "url": "https://www.ixl.com/search?q=MKX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8194-9f34-f5dbcedb847a",
               "name": "Words with mis-",
               "permacode": "SGN",
               "url": "https://www.ixl.com/search?q=SGN",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81cf-961f-c38a2c709e57",
               "name": "Determine the meanings of words with Greek and Latin roots",
               "permacode": "TSE",
               "url": "https://www.ixl.com/search?q=TSE",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8110-8e4a-c1259134caa4",
               "name": "Determine the meanings of Greek and Latin roots",
               "permacode": "VKQ",
               "url": "https://www.ixl.com/search?q=VKQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81df-aa30-ea78640a2c1a",
               "name": "Words with -able and -ible",
               "permacode": "WHU",
               "url": "https://www.ixl.com/search?q=WHU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8156-8a08-d194b39e9269",
               "name": "Words with sub-",
               "permacode": "ZA5",
               "url": "https://www.ixl.com/search?q=ZA5",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8135-a5ef-efd2d152005d",
               "name": "Words with -ful",
               "permacode": "VYF",
               "url": "https://www.ixl.com/search?q=VYF",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -2305,34 +2847,43 @@
           "shortTitle": "Use reference materials for words",
           "code": "L.7.4.c",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8170-97bd-d385f1e6297f",
               "name": "Use thesaurus entries",
               "permacode": "A6W",
               "url": "https://www.ixl.com/search?q=A6W",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8190-bffb-f8ea5dd37972",
               "name": "Use dictionary definitions",
               "permacode": "AYU",
               "url": "https://www.ixl.com/search?q=AYU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8158-a21a-c3c797a5d459",
               "name": "Alphabetical order",
               "permacode": "FXJ",
               "url": "https://www.ixl.com/search?q=FXJ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81f9-b37e-f56ea7ef40c2",
               "name": "Use guide words",
               "permacode": "HSM",
               "url": "https://www.ixl.com/search?q=HSM",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             }
           ]
         },
@@ -2342,13 +2893,16 @@
           "shortTitle": "Verify inferred word meaning",
           "code": "L.7.4.d",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8190-bffb-f8ea5dd37972",
               "name": "Use dictionary definitions",
               "permacode": "AYU",
               "url": "https://www.ixl.com/search?q=AYU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -2359,6 +2913,7 @@
       "code": "L.7.5",
       "domain": "L",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Figurative Language & Word Nuance",
       "plainLanguage": "interpret\n  figurative language and distinguish words with similar meanings",
       "lcs": [
@@ -2368,27 +2923,34 @@
           "shortTitle": "Interpret figures of speech",
           "code": "L.7.5.a",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-8151-83ca-d2c370782adc",
               "name": "Interpret figures of speech",
               "permacode": "D9X",
               "url": "https://www.ixl.com/search?q=D9X",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81b4-84af-d0fc718eb032",
               "name": "Analyze the effects of figures of speech on meaning and tone",
               "permacode": "R8B",
               "url": "https://www.ixl.com/search?q=R8B",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8142-8028-c102d69e0c9a",
               "name": "Interpret the meaning of an allusion from its source",
               "permacode": "VNX",
               "url": "https://www.ixl.com/search?q=VNX",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -2398,69 +2960,88 @@
           "shortTitle": "Word relationships deepen understanding",
           "code": "L.7.5.b",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8198-8b68-d7690d555637",
               "name": "Analogies",
               "permacode": "HJQ",
               "url": "https://www.ixl.com/search?q=HJQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81ce-b287-d46b06f538f0",
               "name": "Determine the meaning of words using synonyms in context",
               "permacode": "R5L",
               "url": "https://www.ixl.com/search?q=R5L",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-819c-a5ef-e80f11e5a518",
               "name": "Choose the antonym",
               "permacode": "RJM",
               "url": "https://www.ixl.com/search?q=RJM",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-8131-8730-e0197c54d8cc",
               "name": "Analogies: challenge",
               "permacode": "RZB",
               "url": "https://www.ixl.com/search?q=RZB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81d3-b2b2-d342c1e04bc9",
               "name": "Choose the synonym",
               "permacode": "SXV",
               "url": "https://www.ixl.com/search?q=SXV",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": false
             },
             {
               "id": "32b7d181-fab4-81de-992a-f30d8a05ea29",
               "name": "Determine the meaning of words using antonyms in context",
               "permacode": "WZC",
               "url": "https://www.ixl.com/search?q=WZC",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8182-b376-f673b3a26930",
               "name": "Order topics from broadest to narrowest",
               "permacode": "XQ2",
               "url": "https://www.ixl.com/search?q=XQ2",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         },
@@ -2470,27 +3051,34 @@
           "shortTitle": "Distinguish connotations of similar words",
           "code": "L.7.5.c",
           "status": "Done",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8123-9f1b-d20820ea53db",
               "name": "Revise the sentence using a stronger verb",
               "permacode": "PHB",
               "url": "https://www.ixl.com/search?q=PHB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
@@ -2501,6 +3089,7 @@
       "code": "L.7.6",
       "domain": "L",
       "status": "In progress",
+      "subject": "ELA",
       "shortTitle": "Academic & Domain Vocabulary",
       "plainLanguage": "use and\n  acquire grade-appropriate academic and subject-specific vocabulary",
       "lcs": [
@@ -2510,146 +3099,187 @@
           "shortTitle": "Acquire academic and domain vocabulary",
           "code": "L.7.6",
           "status": "In progress",
+          "subject": "ELA",
           "skills": [
             {
               "id": "32b7d181-fab4-816c-a5e1-c32d6692e36e",
               "name": "Positive and negative connotation",
               "permacode": "45Q",
               "url": "https://www.ixl.com/search?q=45Q",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8130-be7f-dd8f37c703b9",
               "name": "Use academic vocabulary in context: literary",
               "permacode": "AYL",
               "url": "https://www.ixl.com/search?q=AYL",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8142-910d-ecbb267dc68c",
               "name": "Words with pre-",
               "permacode": "BDB",
               "url": "https://www.ixl.com/search?q=BDB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8103-8a5a-f6441b41528b",
               "name": "Words with un-, dis-, in-, im-, and non-",
               "permacode": "F8G",
               "url": "https://www.ixl.com/search?q=F8G",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8164-8c5a-f80a210a4376",
               "name": "Describe the difference between related words",
               "permacode": "G57",
               "url": "https://www.ixl.com/search?q=G57",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81f6-98e4-f63ce08ce740",
               "name": "Words with -less",
               "permacode": "J2Y",
               "url": "https://www.ixl.com/search?q=J2Y",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8126-b8a8-d4713b84ebb3",
               "name": "Words with re-",
               "permacode": "KL8",
               "url": "https://www.ixl.com/search?q=KL8",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8180-8799-db222de74ece",
               "name": "Use academic vocabulary in context: informational",
               "permacode": "M6A",
               "url": "https://www.ixl.com/search?q=M6A",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8102-b845-c649939af26b",
               "name": "Use Greek and Latin roots as clues to the meanings of words",
               "permacode": "MBU",
               "url": "https://www.ixl.com/search?q=MBU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c4-b9fd-c72d466ca7a4",
               "name": "Use words as clues to the meanings of Greek and Latin roots",
               "permacode": "MCB",
               "url": "https://www.ixl.com/search?q=MCB",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8123-9f1b-d20820ea53db",
               "name": "Revise the sentence using a stronger verb",
               "permacode": "PHB",
               "url": "https://www.ixl.com/search?q=PHB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81bb-a30e-d579c49ea1cf",
               "name": "Find words using context",
               "permacode": "QAU",
               "url": "https://www.ixl.com/search?q=QAU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8194-9f34-f5dbcedb847a",
               "name": "Words with mis-",
               "permacode": "SGN",
               "url": "https://www.ixl.com/search?q=SGN",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81cf-961f-c38a2c709e57",
               "name": "Determine the meanings of words with Greek and Latin roots",
               "permacode": "TSE",
               "url": "https://www.ixl.com/search?q=TSE",
-              "status": "Assigned"
+              "status": "Assigned",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8110-8e4a-c1259134caa4",
               "name": "Determine the meanings of Greek and Latin roots",
               "permacode": "VKQ",
               "url": "https://www.ixl.com/search?q=VKQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81dd-b96d-ff358cae0ea4",
               "name": "Determine the meaning of domain-specific words with pictures",
               "permacode": "VPB",
               "url": "https://www.ixl.com/search?q=VPB",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81df-aa30-ea78640a2c1a",
               "name": "Words with -able and -ible",
               "permacode": "WHU",
               "url": "https://www.ixl.com/search?q=WHU",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-81c5-ba9c-cc8b090fdce3",
               "name": "Use context to identify the meaning of a word",
               "permacode": "YEQ",
               "url": "https://www.ixl.com/search?q=YEQ",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8156-8a08-d194b39e9269",
               "name": "Words with sub-",
               "permacode": "ZA5",
               "url": "https://www.ixl.com/search?q=ZA5",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             },
             {
               "id": "32b7d181-fab4-8135-a5ef-efd2d152005d",
               "name": "Words with -ful",
               "permacode": "VYF",
               "url": "https://www.ixl.com/search?q=VYF",
-              "status": "Practiced"
+              "status": "Practiced",
+              "subject": "ELA",
+              "isDupe": true
             }
           ]
         }
