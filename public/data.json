@@ -1,5 +1,5 @@
 {
-  "synced": "2026-03-25T02:54:11.855Z",
+  "synced": "2026-03-25T03:11:09.520Z",
   "standards": [
     {
       "id": "32a7d181-fab4-8187-a8b2-c84de8f498c3",
@@ -2306,13 +2306,6 @@
           "code": "L.7.4.c",
           "status": "In progress",
           "skills": [
-            {
-              "id": "32b7d181-fab4-8107-9447-f4073c40664f",
-              "name": "Use dictionary entries",
-              "permacode": "9UB",
-              "url": "https://www.ixl.com/search?q=9UB",
-              "status": "Assigned"
-            },
             {
               "id": "32b7d181-fab4-8170-97bd-d385f1e6297f",
               "name": "Use thesaurus entries",
