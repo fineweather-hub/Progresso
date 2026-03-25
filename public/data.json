@@ -1,5 +1,5 @@
 {
-  "synced": "2026-03-24T20:32:58.821Z",
+  "synced": "2026-03-25T02:54:11.855Z",
   "standards": [
     {
       "id": "32a7d181-fab4-8187-a8b2-c84de8f498c3",
@@ -36,13 +36,6 @@
               "permacode": "QQS",
               "url": "https://www.ixl.com/search?q=QQS",
               "status": "Practiced"
-            },
-            {
-              "id": "32b7d181-fab4-811e-b911-d821515501b1",
-              "name": "Analyze passages from The Hobbit: Part 1",
-              "permacode": "TTP",
-              "url": "https://www.ixl.com/search?q=TTP",
-              "status": "Assigned"
             },
             {
               "id": "32b7d181-fab4-81ee-9365-c41147ad658e",
@@ -104,13 +97,6 @@
               "permacode": "QQS",
               "url": "https://www.ixl.com/search?q=QQS",
               "status": "Practiced"
-            },
-            {
-              "id": "32b7d181-fab4-811e-b911-d821515501b1",
-              "name": "Analyze passages from The Hobbit: Part 1",
-              "permacode": "TTP",
-              "url": "https://www.ixl.com/search?q=TTP",
-              "status": "Assigned"
             }
           ]
         }
@@ -353,13 +339,6 @@
           "status": "In progress",
           "skills": [
             {
-              "id": "32b7d181-fab4-812a-9dca-ec660774b399",
-              "name": "Analyze passages from Anne Frank: The Diary of a Young Girl: Part 1",
-              "permacode": "38P",
-              "url": "https://www.ixl.com/search?q=38P",
-              "status": "Assigned"
-            },
-            {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
               "permacode": "5LX",
@@ -421,13 +400,6 @@
           "status": "In progress",
           "skills": [
             {
-              "id": "32b7d181-fab4-812a-9dca-ec660774b399",
-              "name": "Analyze passages from Anne Frank: The Diary of a Young Girl: Part 1",
-              "permacode": "38P",
-              "url": "https://www.ixl.com/search?q=38P",
-              "status": "Assigned"
-            },
-            {
               "id": "32b7d181-fab4-8107-b28d-fabe3fc3c944",
               "name": "Determine the main idea of a passage",
               "permacode": "DB7",
@@ -453,13 +425,6 @@
           "code": "RI.7.2",
           "status": "In progress",
           "skills": [
-            {
-              "id": "32b7d181-fab4-812a-9dca-ec660774b399",
-              "name": "Analyze passages from Anne Frank: The Diary of a Young Girl: Part 1",
-              "permacode": "38P",
-              "url": "https://www.ixl.com/search?q=38P",
-              "status": "Assigned"
-            },
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
@@ -542,13 +507,6 @@
           "code": "RI.7.3",
           "status": "In progress",
           "skills": [
-            {
-              "id": "32b7d181-fab4-812a-9dca-ec660774b399",
-              "name": "Analyze passages from Anne Frank: The Diary of a Young Girl: Part 1",
-              "permacode": "38P",
-              "url": "https://www.ixl.com/search?q=38P",
-              "status": "Assigned"
-            },
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
@@ -713,13 +671,6 @@
           "code": "RI.7.5",
           "status": "In progress",
           "skills": [
-            {
-              "id": "32b7d181-fab4-812a-9dca-ec660774b399",
-              "name": "Analyze passages from Anne Frank: The Diary of a Young Girl: Part 1",
-              "permacode": "38P",
-              "url": "https://www.ixl.com/search?q=38P",
-              "status": "Assigned"
-            },
             {
               "id": "32b7d181-fab4-8136-abf2-d578038ec373",
               "name": "Trace an argument",
