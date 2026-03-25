@@ -18,17 +18,24 @@ h1 { font-family: Georgia, serif; font-size: 1.8rem; line-height: 1.15; margin-b
 h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: block; font-family: system-ui; color: #666; }
 .subtitle { font-size: 12px; color: #999; margin-bottom: 16px; }
 
+/* Header progress bar */
 .progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
 .progress-bar { flex: 1; height: 7px; background: #e2e0da; border-radius: 99px; overflow: hidden; }
-.progress-fill { height: 100%; border-radius: 99px; transition: width .4s; }
+.progress-fill { height: 100%; border-radius: 99px; transition: width .5s ease; }
 .progress-label { font-size: 12px; color: #666; white-space: nowrap; }
 
+/* Metric cards */
 .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; }
 .metric-card { background: #fff; border: 1px solid #e2e0da; border-radius: 8px; padding: 12px 14px; }
-.metric-card .label { font-size: 11px; color: #999; margin-bottom: 3px; }
-.metric-card .value { font-size: 24px; font-weight: 600; line-height: 1; }
-.metric-card .sub   { font-size: 11px; color: #aaa; margin-top: 3px; }
+.metric-card .m-label { font-size: 11px; color: #999; margin-bottom: 3px; }
+.metric-card .m-value { font-size: 24px; font-weight: 600; line-height: 1; margin-bottom: 5px; }
+.metric-card .m-breakdown { display: flex; gap: 6px; flex-wrap: wrap; }
+.m-chip {
+  font-size: 10px; font-weight: 500; padding: 1px 7px;
+  border-radius: 99px; border: 1px solid transparent; white-space: nowrap;
+}
 
+/* Filters */
 .filter-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; align-items: center; }
 .filter-pill {
   display: inline-flex; align-items: center; gap: 4px;
@@ -52,24 +59,18 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 .domain-meta  { margin-left: auto; font-size: 11px; color: #aaa; }
 .domain-toggle { font-size: 10px; color: #bbb; }
 
-/* Standard cards — base */
+/* Standard cards */
 .std-card {
-  border: 1px solid #e2e0da; border-radius: 8px;
-  margin-bottom: 10px; overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,.04);
-  background: #fff;
+  background: #fff; border: 1px solid #e2e0da; border-radius: 8px;
+  margin-bottom: 10px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.04);
 }
-/* Mastered card: full green underlay */
 .std-card.mastered {
-  background: #f0faf4;
-  border-color: #74c69d;
+  background: #f0faf4; border-color: #74c69d;
   box-shadow: 0 1px 6px rgba(45,106,79,.12);
 }
-
 .std-header { display: flex; align-items: flex-start; gap: 10px; padding: 11px 14px; cursor: pointer; user-select: none; }
 .std-header:hover { background: rgba(0,0,0,.02); }
 .std-card.mastered .std-header:hover { background: rgba(45,106,79,.04); }
-
 .std-code {
   font-size: 10px; font-weight: 700; color: #fff;
   padding: 2px 7px; border-radius: 4px; white-space: nowrap;
@@ -79,13 +80,7 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 .std-title-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 3px; }
 .std-title { font-size: 14px; font-weight: 500; }
 .std-toggle { font-size: 10px; color: #bbb; flex-shrink: 0; margin-top: 2px; }
-
-/* Mastered checkmark flourish */
-.mastered-mark {
-  font-size: 14px; color: #2d6a4f; flex-shrink: 0; margin-top: 1px;
-}
-
-/* "I can" summary */
+.mastered-mark { font-size: 14px; color: #2d6a4f; flex-shrink: 0; margin-top: 1px; }
 .std-ican { font-size: 12px; color: #777; font-style: italic; margin-bottom: 5px; line-height: 1.4; }
 .std-card.mastered .std-ican { color: #2d6a4f; }
 
@@ -100,29 +95,23 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 .lc-pip:hover::after {
   content: attr(data-tip);
   position: absolute; bottom: calc(100% + 5px); left: 50%; transform: translateX(-50%);
-  background: #1a1a2e; color: #fff;
-  font-size: 11px; font-style: normal; white-space: nowrap;
-  padding: 3px 7px; border-radius: 4px;
+  background: #1a1a2e; color: #fff; font-size: 11px; font-style: normal;
+  white-space: nowrap; padding: 3px 7px; border-radius: 4px;
   pointer-events: none; z-index: 10;
 }
 
-/* Skill progress bars — progressive coloring */
+/* Progress bars */
 .skill-bar-row { display: flex; align-items: center; gap: 8px; }
 .skill-bar-label { font-size: 10px; color: #aaa; white-space: nowrap; }
 .mini-bar { display: flex; align-items: center; gap: 6px; flex: 1; }
-.mini-bar-track {
-  flex: 1; height: 5px; background: #e2e0da; border-radius: 99px;
-  overflow: hidden; position: relative;
-}
-/* The fill uses a CSS custom property for the pct, set inline */
-.mini-bar-fill { height: 100%; border-radius: 99px; transition: width .4s; }
+.mini-bar-track { flex: 1; height: 5px; background: #e2e0da; border-radius: 99px; overflow: hidden; }
+.mini-bar-fill  { height: 100%; border-radius: 99px; transition: width .4s ease; }
 .mini-bar-count { font-size: 11px; color: #aaa; min-width: 32px; text-align: right; }
 
 /* Standard body */
-.std-body { display: none; border-top: 1px solid #e8f5ee; }
-.std-card:not(.mastered) .std-body { border-top-color: #f0efeb; }
+.std-body { display: none; border-top: 1px solid #f0efeb; }
+.std-card.mastered .std-body { border-top-color: #c3e6cb; }
 .std-body.open { display: block; }
-.std-plain { padding: 10px 14px 8px; font-size: 13px; color: #555; font-style: italic; border-bottom: 1px solid #f0efeb; }
 
 /* LC rows */
 .lc-row { border-bottom: 1px solid #f5f4f1; }
@@ -133,15 +122,11 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 .lc-pip-inline { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; margin-top: 4px; }
 .lc-body { flex: 1; min-width: 0; }
 .lc-title-row { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; margin-bottom: 2px; }
-.lc-subcode {
-  font-size: 9px; font-weight: 700; letter-spacing: .05em;
-  padding: 1px 5px; border-radius: 3px; white-space: nowrap; flex-shrink: 0;
-}
+.lc-subcode { font-size: 9px; font-weight: 700; letter-spacing: .05em; padding: 1px 5px; border-radius: 3px; white-space: nowrap; flex-shrink: 0; }
 .lc-label { font-size: 13px; color: #1a1a2e; }
 .lc-bar-wrap { margin-top: 3px; }
 .lc-meta { display: flex; align-items: center; gap: 6px; flex-shrink: 0; margin-top: 1px; }
 .lc-toggle { font-size: 10px; color: #ccc; }
-
 .lc-skills { display: none; flex-wrap: wrap; gap: 5px; padding: 6px 14px 11px 34px; }
 .lc-skills.open { display: flex; }
 
@@ -168,10 +153,24 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 .legend-pip  { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
 .legend-swatch { width: 11px; height: 11px; border-radius: 3px; flex-shrink: 0; }
 
+/* Sync bar */
 .sync-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; font-size: 11px; color: #aaa; }
 .sync-bar a { color: #aaa; }
 
-@media (max-width: 520px) { .metrics { grid-template-columns: 1fr 1fr; } }
+/* Rainbow animation for 100% */
+@keyframes rainbow-shift {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+.bar-rainbow {
+  background: linear-gradient(90deg, #f72585, #f4a261, #ffd166, #06d6a0, #4361ee, #7209b7, #f72585);
+  background-size: 200% 100%;
+  animation: rainbow-shift 2.5s linear infinite;
+}
+
+@media (max-width: 520px) {
+  .metrics { grid-template-columns: 1fr 1fr; }
+}
 </style>
 </head>
 <body>
@@ -181,19 +180,19 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 
   <div class="metrics">
     <div class="metric-card">
-      <div class="label">Standards mastered</div>
-      <div class="value" id="m-std" style="color:#2d6a4f">0</div>
-      <div class="sub" id="m-std-sub"></div>
+      <div class="m-label">Standards</div>
+      <div class="m-value" id="m-std" style="color:#2d6a4f">–</div>
+      <div class="m-breakdown" id="m-std-chips"></div>
     </div>
     <div class="metric-card">
-      <div class="label">LCs completed</div>
-      <div class="value" id="m-lc" style="color:#1d9e75">0</div>
-      <div class="sub" id="m-lc-sub"></div>
+      <div class="m-label">Learning components</div>
+      <div class="m-value" id="m-lc" style="color:#1d9e75">–</div>
+      <div class="m-breakdown" id="m-lc-chips"></div>
     </div>
     <div class="metric-card">
-      <div class="label">IXL skills practiced</div>
-      <div class="value" id="m-sk" style="color:#185fa5">0</div>
-      <div class="sub" id="m-sk-sub"></div>
+      <div class="m-label">IXL skills (unique)</div>
+      <div class="m-value" id="m-sk" style="color:#185fa5">–</div>
+      <div class="m-breakdown" id="m-sk-chips"></div>
     </div>
   </div>
 
@@ -267,24 +266,38 @@ const PIP_COLORS = {
   "Not started": "#d5d3cc",
 };
 
+// Tier stops: 1–25% iron, 26–50% bronze, 51–75% silver, 76–99% gold, 100% rainbow
+const TIER = [
+  { max: 0,    grad: null },
+  { max: 0.25, grad: "linear-gradient(90deg,#4a4458,#7c6f8e)" },           // iron: dark purple-grey
+  { max: 0.50, grad: "linear-gradient(90deg,#7c4f2a,#c8894a)" },           // bronze
+  { max: 0.75, grad: "linear-gradient(90deg,#8a9bab,#d0dce6)" },           // silver
+  { max: 0.999,grad: "linear-gradient(90deg,#b8860b,#ffd700)" },           // gold
+  { max: 1.01, grad: null, rainbow: true },                                  // rainbow / 100%
+];
+
 const SKILL_ORDER = ["Practiced", "Assigned", "Not started"];
 
-// Progressive bar color: grey → yellow → green based on pct
-function barColor(pct, domainColor) {
-  if (pct === 0)   return "#e2e0da";
-  if (pct < 0.33)  return "#f4a261"; // warm start
-  if (pct < 0.66)  return "#f9c74f"; // mid yellow
-  if (pct < 1.0)   return domainColor; // domain color for near-complete
-  return "#2d6a4f"; // full green for 100%
+function barStyle(pct) {
+  if (pct <= 0) return "background:#e2e0da";
+  for (const t of TIER) {
+    if (pct <= t.max) {
+      return t.rainbow ? "" : `background:${t.grad}`;  // rainbow handled via class
+    }
+  }
+  return `background:${TIER[4].grad}`;
 }
 
-// Overall progress bar gradient
-function overallBarStyle(pct) {
-  if (pct < 0.01) return "background:#e2e0da";
-  if (pct >= 1.0) return "background:linear-gradient(90deg,#52b788,#2d6a4f)";
-  if (pct > 0.66) return "background:linear-gradient(90deg,#f9c74f,#52b788)";
-  if (pct > 0.33) return "background:linear-gradient(90deg,#f4a261,#f9c74f)";
-  return "background:linear-gradient(90deg,#f4a261,#f9c74f)";
+function applyBar(el, pct) {
+  const pctRound = Math.round(pct * 100);
+  el.style.width = pctRound + "%";
+  el.classList.remove("bar-rainbow");
+  if (pct >= 1.0 && el.closest(".progress-bar,div")) {
+    el.classList.add("bar-rainbow");
+    el.style.background = "";
+  } else {
+    el.style.cssText = `width:${pctRound}%;${barStyle(pct)}`;
+  }
 }
 
 function badge(label, type) {
@@ -292,29 +305,38 @@ function badge(label, type) {
   return `<span class="badge" style="background:${c.bg};border-color:${c.border};color:${c.text}">${label}</span>`;
 }
 
-function iCan(plainLanguage) {
-  if (!plainLanguage) return "";
-  let s = plainLanguage.replace(/\s+/g, " ").trim().replace(/[.!?,;]+$/, "");
+function iCan(pl) {
+  if (!pl) return "";
+  let s = pl.replace(/\s+/g, " ").trim().replace(/[.!?,;]+$/, "");
   return "I can " + s + ".";
+}
+
+function chip(label, n, bg, border, text) {
+  return `<span class="m-chip" style="background:${bg};border-color:${border};color:${text}">${n} ${label}</span>`;
+}
+
+// Unique skills: count only skills where isDupe is false
+function uniqueSkills(standards) {
+  return standards.flatMap(s => s.lcs.flatMap(lc => lc.skills)).filter(sk => !sk.isDupe);
+}
+
+function stdSkillPct(std) {
+  const all = std.lcs.flatMap(lc => lc.skills).filter(sk => !sk.isDupe);
+  if (!all.length) return -1;
+  return all.filter(s => s.status === "Practiced").length / all.length;
 }
 
 function lcSkillPct(lc) {
   if (!lc.skills.length) return -1;
   return lc.skills.filter(s => s.status === "Practiced").length / lc.skills.length;
 }
-function stdSkillPct(std) {
-  const all = std.lcs.flatMap(lc => lc.skills);
-  if (!all.length) return -1;
-  return all.filter(s => s.status === "Practiced").length / all.length;
-}
+
 function isSubCode(stdCode, lcCode) {
   return lcCode && lcCode !== stdCode && lcCode.startsWith(stdCode);
 }
 
-// LC display label: shortTitle if available, else truncated text
 function lcLabel(lc) {
   if (lc.shortTitle && lc.shortTitle.trim()) return lc.shortTitle.trim();
-  // Fall back to the official text (cleaned up)
   return lc.text.replace(/\s+/g, " ").trim();
 }
 
@@ -356,13 +378,15 @@ function renderContent(standards) {
     const stds = byDomain[domain];
     if (!stds) return;
     const dc = DOMAIN_CFG[domain];
+
     stds.sort((a, b) => {
       const pa = stdSkillPct(a), pb = stdSkillPct(b);
       if (Math.abs(pb - pa) > 0.001) return pb - pa;
       return a.code.localeCompare(b.code);
     });
-    const allSkills = stds.flatMap(s => s.lcs.flatMap(lc => lc.skills));
-    const practiced = allSkills.filter(s => s.status === "Practiced").length;
+
+    const domainUniq = uniqueSkills(stds);
+    const practiced  = domainUniq.filter(s => s.status === "Practiced").length;
     const sec = document.createElement("div");
     sec.className = "domain-section";
     const hdr = document.createElement("div");
@@ -371,7 +395,7 @@ function renderContent(standards) {
     hdr.innerHTML = `
       <span class="domain-label" style="background:${dc.bg};border-color:${dc.color};color:${dc.text}">${domain}</span>
       <span class="domain-title">${dc.label}</span>
-      <span class="domain-meta">${practiced}/${allSkills.length} skills · ${stds.length} standards</span>
+      <span class="domain-meta">${practiced}/${domainUniq.length} skills · ${stds.length} standards</span>
       <span class="domain-toggle">▲</span>`;
     let collapsed = false;
     const body = document.createElement("div");
@@ -390,10 +414,9 @@ function renderContent(standards) {
 }
 
 function renderStdCard(std, dc) {
-  const allSkills = std.lcs.flatMap(lc => lc.skills);
-  const practiced = allSkills.filter(s => s.status === "Practiced").length;
-  const pct = allSkills.length > 0 ? practiced / allSkills.length : 0;
-  const pctRound = Math.round(pct * 100);
+  const uniq      = std.lcs.flatMap(lc => lc.skills).filter(sk => !sk.isDupe);
+  const practiced = uniq.filter(s => s.status === "Practiced").length;
+  const pct       = uniq.length > 0 ? practiced / uniq.length : 0;
   const isMastered = std.status === "Mastered";
 
   const card = document.createElement("div");
@@ -401,22 +424,21 @@ function renderStdCard(std, dc) {
 
   const pipsHtml = std.lcs.map(lc => {
     const color = PIP_COLORS[lc.status] || PIP_COLORS["Not started"];
-    const tip = isSubCode(std.code, lc.code) ? `${lc.code}: ${lc.status}` : lc.status;
+    const tip   = isSubCode(std.code, lc.code) ? `${lc.code}: ${lc.status}` : lc.status;
     return `<span class="lc-pip" style="background:${color}" data-tip="${tip}"></span>`;
   }).join("");
 
-  const fillColor = barColor(pct, dc.color);
-  const masteredMark = isMastered ? `<span class="mastered-mark">✓</span>` : "";
-
   const hdr = document.createElement("div");
   hdr.className = "std-header";
+
+  // Build bar fill inline then apply via applyBar after insertion
   hdr.innerHTML = `
-    <span class="std-code" style="background:${isMastered ? '#2d6a4f' : dc.color}">${std.code}</span>
+    <span class="std-code" style="background:${isMastered ? "#2d6a4f" : dc.color}">${std.code}</span>
     <div class="std-info">
       <div class="std-title-row">
         <span class="std-title">${std.shortTitle || std.code}</span>
         ${badge(std.status || "Not started", "std")}
-        ${masteredMark}
+        ${isMastered ? `<span class="mastered-mark">✓</span>` : ""}
       </div>
       <div class="std-ican">${iCan(std.plainLanguage)}</div>
       <div class="lc-pips-row">
@@ -426,10 +448,8 @@ function renderStdCard(std, dc) {
       <div class="skill-bar-row">
         <span class="skill-bar-label">IXL skills</span>
         <div class="mini-bar">
-          <div class="mini-bar-track">
-            <div class="mini-bar-fill" style="width:${pctRound}%;background:${fillColor}"></div>
-          </div>
-          <span class="mini-bar-count">${practiced}/${allSkills.length}</span>
+          <div class="mini-bar-track"><div class="mini-bar-fill" id="sf-${std.id}"></div></div>
+          <span class="mini-bar-count">${practiced}/${uniq.length}</span>
         </div>
       </div>
     </div>
@@ -439,18 +459,18 @@ function renderStdCard(std, dc) {
   bodyEl.className = "std-body";
 
   if (std.lcs.length === 0) {
-    const empty = document.createElement("div");
-    empty.style.cssText = "padding:12px 14px;font-size:13px;color:#aaa;font-style:italic";
-    empty.textContent = "No learning components linked.";
-    bodyEl.appendChild(empty);
+    const e = document.createElement("div");
+    e.style.cssText = "padding:12px 14px;font-size:13px;color:#aaa;font-style:italic";
+    e.textContent = "No learning components linked.";
+    bodyEl.appendChild(e);
   } else {
     const statusOrder = { "Done": 0, "In progress": 1, "Not started": 2 };
-    const sortedLCs = [...std.lcs].sort((a, b) => {
+    const sorted = [...std.lcs].sort((a, b) => {
       const pa = lcSkillPct(a), pb = lcSkillPct(b);
       if (Math.abs(pb - pa) > 0.001) return pb - pa;
       return (statusOrder[a.status] ?? 9) - (statusOrder[b.status] ?? 9);
     });
-    for (const lc of sortedLCs) bodyEl.appendChild(renderLCRow(lc, std.code, dc));
+    for (const lc of sorted) bodyEl.appendChild(renderLCRow(lc, std.code, dc));
   }
 
   hdr.onclick = () => {
@@ -460,38 +480,40 @@ function renderStdCard(std, dc) {
 
   card.appendChild(hdr);
   card.appendChild(bodyEl);
+
+  // Apply gradient bar after element exists in DOM tree
+  requestAnimationFrame(() => {
+    const fill = card.querySelector(`#sf-${std.id}`);
+    if (fill) applyBar(fill, pct);
+  });
+
   return card;
 }
 
 function renderLCRow(lc, stdCode, dc) {
   const hasSkills = lc.skills?.length > 0;
   const practiced = lc.skills?.filter(s => s.status === "Practiced").length || 0;
-  const pct = hasSkills ? practiced / lc.skills.length : 0;
-  const pctRound = Math.round(pct * 100);
-  const pipColor = PIP_COLORS[lc.status] || PIP_COLORS["Not started"];
-  const showSubCode = isSubCode(stdCode, lc.code);
-  const fillColor = barColor(pct, dc.color);
+  const pct       = hasSkills ? practiced / lc.skills.length : 0;
+  const pipColor  = PIP_COLORS[lc.status] || PIP_COLORS["Not started"];
+  const showSub   = isSubCode(stdCode, lc.code);
 
   const row = document.createElement("div");
   row.className = "lc-row";
 
-  const subCodeHtml = showSubCode
+  const subHtml = showSub
     ? `<span class="lc-subcode" style="background:${dc.bg};color:${dc.text};border:1px solid ${dc.color}">${lc.code}</span>`
     : "";
+
+  const barId = `lf-${lc.id.replace(/[^a-z0-9]/gi, "")}`;
 
   const hdr = document.createElement("div");
   hdr.className = "lc-header" + (hasSkills ? " has-skills" : "");
   hdr.innerHTML = `
     <span class="lc-pip-inline" style="background:${pipColor}"></span>
     <div class="lc-body">
-      <div class="lc-title-row">
-        ${subCodeHtml}
-        <span class="lc-label">${lcLabel(lc)}</span>
-      </div>
+      <div class="lc-title-row">${subHtml}<span class="lc-label">${lcLabel(lc)}</span></div>
       ${hasSkills ? `<div class="lc-bar-wrap"><div class="mini-bar">
-        <div class="mini-bar-track">
-          <div class="mini-bar-fill" style="width:${pctRound}%;background:${fillColor}"></div>
-        </div>
+        <div class="mini-bar-track"><div class="mini-bar-fill" id="${barId}"></div></div>
         <span class="mini-bar-count">${practiced}/${lc.skills.length}</span>
       </div></div>` : ""}
     </div>
@@ -507,7 +529,7 @@ function renderLCRow(lc, stdCode, dc) {
     const sorted = [...lc.skills].sort((a, b) =>
       SKILL_ORDER.indexOf(a.status) - SKILL_ORDER.indexOf(b.status));
     for (const sk of sorted) {
-      const sc = STATUS_CFG.skill[sk.status] || STATUS_CFG.skill["Not started"];
+      const sc  = STATUS_CFG.skill[sk.status] || STATUS_CFG.skill["Not started"];
       const url = sk.url || (sk.permacode ? `https://www.ixl.com/search?q=${sk.permacode}` : "#");
       const pill = document.createElement("a");
       pill.className = "skill-pill";
@@ -526,6 +548,12 @@ function renderLCRow(lc, stdCode, dc) {
 
   row.appendChild(hdr);
   row.appendChild(skillsEl);
+
+  requestAnimationFrame(() => {
+    const fill = row.querySelector(`#${barId}`);
+    if (fill) applyBar(fill, pct);
+  });
+
   return row;
 }
 
@@ -546,6 +574,7 @@ document.getElementById("domain-filters").addEventListener("click", e => {
   });
   applyFilters();
 });
+
 document.getElementById("status-filters").addEventListener("click", e => {
   const btn = e.target.closest(".filter-pill");
   if (!btn) return;
@@ -555,6 +584,7 @@ document.getElementById("status-filters").addEventListener("click", e => {
   applyFilters();
 });
 
+// Init
 async function init() {
   try {
     const res = await fetch("public/data.json");
@@ -562,27 +592,52 @@ async function init() {
     const data = await res.json();
     ALL_STANDARDS = data.standards || [];
 
-    const allSkills   = ALL_STANDARDS.flatMap(s => s.lcs.flatMap(lc => lc.skills));
-    const practiced   = allSkills.filter(s => s.status === "Practiced").length;
-    const allLCs      = ALL_STANDARDS.flatMap(s => s.lcs);
-    const lcDone      = allLCs.filter(lc => lc.status === "Done").length;
+    const uniq        = uniqueSkills(ALL_STANDARDS);
+    const skPracticed = uniq.filter(s => s.status === "Practiced").length;
+    const skAssigned  = uniq.filter(s => s.status === "Assigned").length;
+    const skNotStart  = uniq.filter(s => s.status === "Not started").length;
+
+    const allLCs  = ALL_STANDARDS.flatMap(s => s.lcs);
+    const lcDone  = allLCs.filter(lc => lc.status === "Done").length;
+    const lcInProg = allLCs.filter(lc => lc.status === "In progress").length;
+    const lcNotStart = allLCs.length - lcDone - lcInProg;
+
     const stdMastered = ALL_STANDARDS.filter(s => s.status === "Mastered").length;
+    const stdInProg   = ALL_STANDARDS.filter(s => s.status === "In progress").length;
+    const stdNotStart = ALL_STANDARDS.length - stdMastered - stdInProg;
 
-    document.getElementById("m-std").textContent    = stdMastered;
-    document.getElementById("m-std-sub").textContent = `of ${ALL_STANDARDS.length}`;
-    document.getElementById("m-lc").textContent     = lcDone;
-    document.getElementById("m-lc-sub").textContent  = `of ${allLCs.length}`;
-    document.getElementById("m-sk").textContent     = practiced;
-    document.getElementById("m-sk-sub").textContent  = `of ${allSkills.length}`;
+    // Main values
+    document.getElementById("m-std").textContent = stdMastered;
+    document.getElementById("m-lc").textContent  = lcDone;
+    document.getElementById("m-sk").textContent  = skPracticed;
 
-    const pct = allSkills.length > 0 ? practiced / allSkills.length : 0;
-    const pctRound = Math.round(pct * 100);
-    document.getElementById("pbar").style.cssText = overallBarStyle(pct) + `;width:${pctRound}%`;
-    document.getElementById("plabel").innerHTML = `<strong>${practiced}</strong>/${allSkills.length} skills · <strong>${lcDone}</strong>/${allLCs.length} LCs`;
+    // Breakdown chips
+    document.getElementById("m-std-chips").innerHTML =
+      chip("mastered",    stdMastered, "#c8f0d8", "#40a86a", "#1b4332") +
+      chip("in progress", stdInProg,   "#fff3cd", "#ffc107", "#5a4000") +
+      chip("not started", stdNotStart, "#f1efe8", "#ccc",    "#555");
+
+    document.getElementById("m-lc-chips").innerHTML =
+      chip("done",        lcDone,     "#d8f3dc", "#52b788", "#1b4332") +
+      chip("in progress", lcInProg,   "#fff3cd", "#ffc107", "#5a4000") +
+      chip("not started", lcNotStart, "#f1efe8", "#ccc",    "#555");
+
+    document.getElementById("m-sk-chips").innerHTML =
+      chip("practiced",   skPracticed, "#d8f3dc", "#52b788", "#1b4332") +
+      chip("assigned",    skAssigned,  "#e6f1fb", "#74aee0", "#042c53") +
+      chip("not started", skNotStart,  "#f1efe8", "#ccc",    "#555");
+
+    // Header bar
+    const pct = uniq.length > 0 ? skPracticed / uniq.length : 0;
+    const headerFill = document.getElementById("pbar");
+    applyBar(headerFill, pct);
+    document.getElementById("plabel").innerHTML =
+      `<strong>${skPracticed}</strong>/${uniq.length} skills · <strong>${lcDone}</strong>/${allLCs.length} LCs`;
 
     const syncDate = data.synced ? new Date(data.synced).toLocaleString() : "unknown";
     document.getElementById("sync-time").textContent = `Synced ${syncDate}`;
-    document.getElementById("subtitle").textContent = `7th Grade ELA · Common Core Standards · ${ALL_STANDARDS.length} standards`;
+    document.getElementById("subtitle").textContent =
+      `7th Grade ELA · Common Core Standards · ${ALL_STANDARDS.length} standards`;
 
     buildDomainFilters(ALL_STANDARDS);
     renderContent(ALL_STANDARDS);
@@ -590,11 +645,13 @@ async function init() {
     document.getElementById("subtitle").textContent = "Error loading data";
     const errDiv = document.createElement("div");
     errDiv.style.cssText = "margin:16px 0;padding:12px 16px;background:#fff3cd;border:1px solid #ffc107;border-radius:6px;font-size:13px";
-    errDiv.innerHTML = `<strong>Could not load data.json:</strong> ${err.message}<br><small>Run the GitHub Actions sync workflow, or run <code>node ELAsync.js</code> locally first.</small>`;
+    errDiv.innerHTML = `<strong>Could not load data.json:</strong> ${err.message}<br>
+      <small>Run the GitHub Actions sync workflow, or run <code>node ELAsync.js</code> locally first.</small>`;
     document.querySelector(".page").insertBefore(errDiv, document.getElementById("content"));
   }
 }
 
-init();</script>
+init();
+</script>
 </body>
 </html>
