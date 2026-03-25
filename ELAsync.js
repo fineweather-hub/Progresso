@@ -66,8 +66,7 @@ const rel    = p => (p?.relation ?? []).map(r => r.id);
 async function main() {
   console.log(`Querying Notion databases (subject: ${SUBJECT})…`);
 
-  // Standards uses "Select" as the subject property name
-  const stdFilter = makeFilter("Select", "Status");
+  const stdFilter = makeFilter("Subject", "Status");
   const lcFilter  = makeFilter("Subject", "Status");
   const skFilter  = makeSkillFilter();
 
@@ -123,7 +122,7 @@ async function main() {
       code:          title(p["Standard Code"]),
       domain:        select(p["Domain"]),
       status:        select(p["Status"]) || "Not started",
-      subject:       select(p["Select"]),
+      subject:       select(p["Subject"]),
       shortTitle:    text(p["Short Title"]),
       plainLanguage: text(p["Plain Language"]).replace(/<br\s*\/?>/gi, " ").trim(),
       lcs: rel(p["Learning Components"])
@@ -139,15 +138,16 @@ async function main() {
     return di !== 0 ? di : a.code.localeCompare(b.code);
   });
 
-  // Deduplicate skills globally — a skill used in multiple LCs should count once
-  // We keep per-LC skill arrays intact for display, but tag each skill with its
-  // canonical deduplication key so the dashboard can count unique skills.
-  const seenSkillIds = new Set();
+  // Mark duplicate skills within each standard (a skill linked to multiple LCs
+  // in the same standard should count once toward that standard's progress).
+  // isDupe=true means "already counted in an earlier LC of this same standard".
+  // The HTML uses a separate global set for the header totals.
   for (const std of standards) {
+    const seenInStd = new Set();
     for (const lc of std.lcs) {
       for (const sk of lc.skills) {
-        sk.isDupe = seenSkillIds.has(sk.id);
-        seenSkillIds.add(sk.id);
+        sk.isDupe = seenInStd.has(sk.id);
+        seenInStd.add(sk.id);
       }
     }
   }
