@@ -1,5 +1,5 @@
 {
-  "synced": "2026-03-26T08:37:55.068Z",
+  "synced": "2026-03-26T16:49:25.508Z",
   "subject": "ELA",
   "standards": [
     {
@@ -81,7 +81,7 @@
       "id": "32a7d181-fab4-819b-8751-ef0aa7d52111",
       "code": "RL.7.10",
       "domain": "RL",
-      "status": "In progress",
+      "status": "Mastered",
       "subject": "ELA",
       "shortTitle": "Read Literary Texts Independently",
       "plainLanguage": "read\n  grade-level literature proficiently and independently",
@@ -129,7 +129,7 @@
       "id": "32a7d181-fab4-81fe-b9a9-e2244cbef67f",
       "code": "RL.7.2",
       "domain": "RL",
-      "status": "In progress",
+      "status": "Mastered",
       "subject": "ELA",
       "shortTitle": "Theme & Summary",
       "plainLanguage": "identify\n  theme, trace its development, and summarize objectively",
