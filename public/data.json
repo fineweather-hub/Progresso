@@ -1,5 +1,5 @@
 {
-  "synced": "2026-03-27T08:10:04.673Z",
+  "synced": "2026-03-28T00:34:42.331Z",
   "subject": "ELA",
   "standards": [
     {
@@ -91,7 +91,7 @@
           "text": "By the end of the year, read and\n  comprehend literary nonfiction in the grades 6â€“8 text complexity band\n  proficiently, with scaffolding as needed at the high end of the range.",
           "shortTitle": "Read grade-level literature",
           "code": "RL.7.10",
-          "status": "In progress",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {
@@ -139,7 +139,7 @@
           "text": "Determine a theme or central idea of a\n  text and analyze its development over the course of the text; provide an\n  objective summary of the text.",
           "shortTitle": "Theme and central idea",
           "code": "RL.7.2",
-          "status": "In progress",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {
@@ -2799,7 +2799,7 @@
               "name": "Determine the meanings of words with Greek and Latin roots",
               "permacode": "TSE",
               "url": "https://www.ixl.com/search?q=TSE",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             },
@@ -3223,7 +3223,7 @@
               "name": "Determine the meanings of words with Greek and Latin roots",
               "permacode": "TSE",
               "url": "https://www.ixl.com/search?q=TSE",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             },
