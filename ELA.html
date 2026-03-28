@@ -20,7 +20,7 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 
 /* Header progress bar */
 .progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
-.progress-bar { flex: 1; height: 7px; background: #e2e0da; border-radius: 99px; overflow: hidden; }
+.progress-bar { flex: 1; height: 10px; background: #4a4038; border-radius: 99px; overflow: hidden; }
 .progress-fill { height: 100%; border-radius: 99px; transition: width .5s ease; }
 .progress-label { font-size: 12px; color: #666; white-space: nowrap; }
 
@@ -104,7 +104,7 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
 .skill-bar-row { display: flex; align-items: center; gap: 8px; }
 .skill-bar-label { font-size: 10px; color: #aaa; white-space: nowrap; }
 .mini-bar { display: flex; align-items: center; gap: 6px; flex: 1; }
-.mini-bar-track { flex: 1; height: 5px; background: #e2e0da; border-radius: 99px; overflow: hidden; }
+.mini-bar-track { flex: 1; height: 8px; background: #4a4038; border-radius: 99px; overflow: hidden; }
 .mini-bar-fill  { height: 100%; border-radius: 99px; transition: width .4s ease; }
 .mini-bar-count { font-size: 11px; color: #aaa; min-width: 32px; text-align: right; }
 
@@ -163,9 +163,9 @@ h1 span { font-weight: 300; font-size: 0.62em; font-style: italic; display: bloc
   100% { background-position: 200% 50%; }
 }
 .bar-rainbow {
-  background: linear-gradient(90deg, #f72585, #f4a261, #ffd166, #06d6a0, #4361ee, #7209b7, #f72585);
+  background: linear-gradient(90deg, #ff4ecd, #ff9a3c, #ffe01b, #3cf5c8, #4d9fff, #b44dff, #ff4ecd);
   background-size: 200% 100%;
-  animation: rainbow-shift 2.5s linear infinite;
+  animation: rainbow-shift 2s linear infinite;
 }
 
 @media (max-width: 520px) {
@@ -268,19 +268,20 @@ const PIP_COLORS = {
 
 // Tier stops: 1–25% iron, 26–50% bronze, 51–75% silver, 76–99% gold, 100% rainbow
 // Boundaries are EXCLUSIVE upper bounds checked with strict <
+// Style G: warm brown-grey track (#4a4038), bright saturated fills with shimmer gradient
 const TIER = [
-  { max: 0.001, grad: null },                                                // 0% — empty grey
-  { max: 0.26,  grad: "linear-gradient(90deg,#4a4458,#7c6f8e)" },           // iron: dark purple-grey
-  { max: 0.51,  grad: "linear-gradient(90deg,#7c4f2a,#c8894a)" },           // bronze
-  { max: 0.76,  grad: "linear-gradient(90deg,#8a9bab,#d0dce6)" },           // silver
-  { max: 1.0,   grad: "linear-gradient(90deg,#b8860b,#ffd700)" },           // gold
+  { max: 0.001, grad: null },                                                // 0% — empty track
+  { max: 0.26,  grad: "linear-gradient(90deg,#c8c0dc,#ece8f8)" },           // iron: lavender-white shimmer
+  { max: 0.51,  grad: "linear-gradient(90deg,#8a3800,#e8741a)" },           // bronze: deep burnt orange
+  { max: 0.76,  grad: "linear-gradient(90deg,#6ab0d8,#d4f0ff)" },           // silver: icy pale blue
+  { max: 1.0,   grad: "linear-gradient(90deg,#c89400,#ffe84d)" },           // gold: sunny yellow
   { max: 2.0,   grad: null, rainbow: true },                                  // rainbow / 100%
 ];
 
 const SKILL_ORDER = ["Practiced", "Assigned", "Not started"];
 
 function barStyle(pct) {
-  if (pct <= 0) return "background:#e2e0da";
+  if (pct <= 0) return "background:none";
   for (const t of TIER) {
     if (pct <= t.max) {
       return t.rainbow ? "" : `background:${t.grad}`;  // rainbow handled via class
