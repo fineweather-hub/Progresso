@@ -104,7 +104,7 @@ async function main() {
       code:       text(p["Component Code (text)"]),
       status:     select(p["Status"]) || "Not started",
       subject:    select(p["Subject"]),
-      skillIds:   rel(p["IXL Skills ELA"]),
+      skillIds:   rel(p["IXL Skills"]),
     };
   }
 
