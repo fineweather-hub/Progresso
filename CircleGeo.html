@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Circle Properties Explorer</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #fff; color: #1a1a1a; padding: 1.5rem; max-width: 720px; margin: 0 auto; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .sh { padding: 1.25rem 0; }
+  .top { display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: center; margin-bottom: 20px; }
+  .fields { display: flex; flex-direction: column; gap: 0; }
+  .field { padding: 10px 12px; border-radius: 8px; border: 1.5px solid transparent; transition: border-color .2s, background .2s; }
+  .field.active { border-color: var(--active-stroke); background: var(--active-fill); }
+  .field-label { font-size: 10px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: #888; margin-bottom: 3px; display: flex; align-items: center; gap: 6px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .field input[type=number] { font-size: 20px; font-weight: 500; border: none; background: transparent; width: 100%; outline: none; color: #1a1a1a; font-family: inherit; }
+  .field input[type=number]::-webkit-inner-spin-button { opacity: .4; }
+  .field.active input { color: var(--active-text); }
+  .fml { font-size: 11px; font-family: monospace; margin-top: 3px; line-height: 1.6; color: #999; }
+  .tok { font-weight: 500; padding: 1px 4px; border-radius: 3px; font-family: monospace; }
+  .hdiv { height: .5px; background: #e5e5e5; margin: 0 12px; }
+  .mini-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .mp { border: .5px solid #e0e0e0; border-radius: 8px; padding: 10px; }
+  .mt { font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: .04em; color: #aaa; margin-bottom: 6px; }
+  @keyframes flash { 0%{opacity:1} 40%{opacity:.15} 100%{opacity:1} }
+  .flash { animation: flash .35s ease; }
+  @media (max-width: 500px) {
+    .top { grid-template-columns: 1fr; }
+    .mini-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="sh">
+  <div class="top">
+    <div style="display:flex;justify-content:center;align-items:center">
+      <svg id="ms" width="210" height="210" viewBox="0 0 210 210" style="overflow:visible">
+        <defs><clipPath id="cc"><circle id="clip-r" cx="105" cy="105" r="72"/></clipPath></defs>
+        <circle id="mf" cx="105" cy="105" r="72" fill="#F1EFE8" stroke="none"/>
+        <g id="area-hi" style="display:none"><circle cx="105" cy="105" r="72" fill="#EEEDFE" stroke="none"/></g>
+        <circle id="mc" cx="105" cy="105" r="72" fill="none" stroke="#C8C6BE" stroke-width="2"/>
+        <g id="circ-hi" style="display:none"><circle id="circ-hi-c" cx="105" cy="105" r="72" fill="none" stroke="#D85A30" stroke-width="7" opacity=".75"/></g>
+        <line id="md" x1="33" y1="105" x2="177" y2="105" stroke="#C8C6BE" stroke-width="1.5" stroke-dasharray="4 3"/>
+        <g id="diam-hi" style="display:none">
+          <line id="dh-ln" x1="33" y1="105" x2="177" y2="105" stroke="#1D9E75" stroke-width="4" stroke-linecap="round"/>
+          <circle id="dh-l" cx="33" cy="105" r="4.5" fill="#1D9E75"/>
+          <circle id="dh-r" cx="177" cy="105" r="4.5" fill="#1D9E75"/>
+        </g>
+        <line id="mr" x1="105" y1="105" x2="177" y2="105" stroke="#C8C6BE" stroke-width="2"/>
+        <g id="rad-hi" style="display:none">
+          <line id="rh-ln" x1="105" y1="105" x2="177" y2="105" stroke="#378ADD" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="105" cy="105" r="5" fill="#378ADD"/>
+          <circle id="rh-end" cx="177" cy="105" r="4" fill="#378ADD"/>
+        </g>
+        <circle cx="105" cy="105" r="3" fill="#888" opacity=".5"/>
+      </svg>
+    </div>
+
+    <div class="fields">
+      <div class="field" id="f-r" style="--active-fill:#E6F1FB;--active-stroke:#378ADD;--active-text:#0C447C">
+        <div class="field-label"><span class="dot" style="background:#378ADD"></span>Radius</div>
+        <input type="number" id="inp-r" value="5" min=".001" step="any" oninput="solve('r')">
+        <div class="fml" id="fml-r"></div>
+      </div>
+      <div class="hdiv"></div>
+      <div class="field" id="f-d" style="--active-fill:#E1F5EE;--active-stroke:#1D9E75;--active-text:#085041">
+        <div class="field-label"><span class="dot" style="background:#1D9E75"></span>Diameter</div>
+        <input type="number" id="inp-d" min=".001" step="any" oninput="solve('d')">
+        <div class="fml" id="fml-d"></div>
+      </div>
+      <div class="hdiv"></div>
+      <div class="field" id="f-c" style="--active-fill:#FAECE7;--active-stroke:#D85A30;--active-text:#712B13">
+        <div class="field-label"><span class="dot" style="background:#D85A30"></span>Circumference</div>
+        <input type="number" id="inp-c" min=".001" step="any" oninput="solve('c')">
+        <div class="fml" id="fml-c"></div>
+      </div>
+      <div class="hdiv"></div>
+      <div class="field" id="f-a" style="--active-fill:#EEEDFE;--active-stroke:#7F77DD;--active-text:#3C3489">
+        <div class="field-label"><span class="dot" style="background:#7F77DD"></span>Area</div>
+        <input type="number" id="inp-a" min=".001" step="any" oninput="solve('a')">
+        <div class="fml" id="fml-a"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mini-grid">
+    <div class="mp"><div class="mt">Circumference unspooled</div>
+      <svg width="100%" viewBox="0 0 230 46" style="display:block">
+        <rect id="sp" x="0" y="8" width="170" height="20" rx="4" fill="#FAECE7" stroke="#D85A30" stroke-width="1"/>
+        <text id="sl" x="85" y="21" font-size="10" fill="#712B13" font-family="system-ui,sans-serif" text-anchor="middle" dominant-baseline="central">C = 31.42</text>
+        <text x="0" y="42" font-size="9" fill="#888" font-family="system-ui,sans-serif">one full lap around the edge</text>
+      </svg>
+    </div>
+    <div class="mp"><div class="mt">Radii tiling the diameter</div>
+      <svg width="100%" viewBox="0 0 230 46" style="display:block">
+        <rect id="t1" x="0" y="8" width="105" height="20" rx="4" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+        <rect id="t2" x="109" y="8" width="105" height="20" rx="4" fill="#B5D4F4" stroke="#185FA5" stroke-width="1"/>
+        <text id="tl1" x="52" y="21" font-size="10" fill="#185FA5" font-family="system-ui,sans-serif" text-anchor="middle" dominant-baseline="central">r = 5</text>
+        <text id="tl2" x="161" y="21" font-size="10" fill="#0C447C" font-family="system-ui,sans-serif" text-anchor="middle" dominant-baseline="central">r = 5</text>
+        <text x="0" y="42" font-size="9" fill="#888" font-family="system-ui,sans-serif">diameter = 2 radii end to end</text>
+      </svg>
+    </div>
+    <div class="mp"><div class="mt">Area (scaled)</div>
+      <svg width="100%" viewBox="0 0 230 46" style="display:block">
+        <rect id="ab" x="0" y="8" width="140" height="20" rx="4" fill="#EEEDFE" stroke="#7F77DD" stroke-width="1"/>
+        <text id="abl" x="70" y="21" font-size="10" fill="#3C3489" font-family="system-ui,sans-serif" text-anchor="middle" dominant-baseline="central">A = 78.54</text>
+        <text x="0" y="42" font-size="9" fill="#888" font-family="system-ui,sans-serif">A = π × r²</text>
+      </svg>
+    </div>
+    <div class="mp"><div class="mt">Diameters in circumference</div>
+      <svg width="100%" viewBox="0 0 230 46" style="display:block">
+        <rect id="p1" x="0"   y="8" width="58" height="20" rx="3" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
+        <rect id="p2" x="62"  y="8" width="58" height="20" rx="3" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
+        <rect id="p3" x="124" y="8" width="58" height="20" rx="3" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
+        <rect id="pf" x="186" y="8" width="9"  height="20" rx="3" fill="#9FE1CB" stroke="#0F6E56" stroke-width="1"/>
+        <text x="0" y="42" font-size="9" fill="#888" font-family="system-ui,sans-serif">C ÷ d = π, always</text>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<script>
+const PI = Math.PI;
+let src = 'r';
+const CL = {
+  r: {fill:'#E6F1FB', stroke:'#378ADD', text:'#0C447C'},
+  d: {fill:'#E1F5EE', stroke:'#1D9E75', text:'#085041'},
+  c: {fill:'#FAECE7', stroke:'#D85A30', text:'#712B13'},
+  a: {fill:'#EEEDFE', stroke:'#7F77DD', text:'#3C3489'}
+};
+function t(k, label) {
+  return `<span class="tok" style="background:${CL[k].fill};color:${CL[k].text}">${label}</span>`;
+}
+const FORMULAS = {
+  r: {
+    r: () => `${t('r','r')}`,
+    d: () => `${t('r','r')} = ${t('d','d')} ÷ 2`,
+    c: () => `${t('r','r')} = ${t('c','C')} ÷ (2π)`,
+    a: () => `${t('r','r')} = √(${t('a','A')} ÷ π)`
+  },
+  d: {
+    r: () => `${t('d','d')} = 2 × ${t('r','r')}`,
+    d: () => `${t('d','d')}`,
+    c: () => `${t('d','d')} = ${t('c','C')} ÷ π`,
+    a: () => `${t('d','d')} = 2 × √(${t('a','A')} ÷ π)`
+  },
+  c: {
+    r: () => `${t('c','C')} = 2π × ${t('r','r')}`,
+    d: () => `${t('c','C')} = π × ${t('d','d')}`,
+    c: () => `${t('c','C')}`,
+    a: () => `${t('c','C')} = 2π × √(${t('a','A')} ÷ π)`
+  },
+  a: {
+    r: () => `${t('a','A')} = π × ${t('r','r')}²`,
+    d: () => `${t('a','A')} = π × (${t('d','d')} ÷ 2)²`,
+    c: () => `${t('a','A')} = ${t('c','C')}² ÷ (4π)`,
+    a: () => `${t('a','A')}`
+  }
+};
+function fmt(n, d=2) { return (!isFinite(n)||n<=0)?'':parseFloat(n.toFixed(d)).toString(); }
+function fsh(id) { const e=document.getElementById(id); if(!e)return; e.classList.remove('flash'); void e.offsetWidth; e.classList.add('flash'); }
+function V(r) { return {r, d:r*2, c:2*PI*r, a:PI*r*r}; }
+function setCircleHighlight(k, vr) {
+  const cx=105, cy=105;
+  document.getElementById('clip-r').setAttribute('r', vr);
+  document.getElementById('mf').setAttribute('r', vr);
+  document.getElementById('mc').setAttribute('r', vr);
+  ['area-hi','circ-hi','diam-hi','rad-hi'].forEach(id => document.getElementById(id).style.display='none');
+  const rEnd=cx+vr, lEnd=cx-vr;
+  document.getElementById('mr').setAttribute('x2', rEnd);
+  document.getElementById('mr').setAttribute('stroke', k==='r'?'transparent':'#C8C6BE');
+  document.getElementById('md').setAttribute('x1', lEnd);
+  document.getElementById('md').setAttribute('x2', rEnd);
+  document.getElementById('md').setAttribute('stroke', k==='d'?'transparent':'#C8C6BE');
+  document.getElementById('mc').setAttribute('stroke', k==='c'?'transparent':'#C8C6BE');
+  if (k==='r') {
+    const g=document.getElementById('rad-hi'); g.style.display='';
+    g.querySelector('#rh-ln').setAttribute('x2', rEnd);
+    g.querySelector('#rh-end').setAttribute('cx', rEnd);
+  } else if (k==='d') {
+    const g=document.getElementById('diam-hi'); g.style.display='';
+    const ln=g.querySelector('#dh-ln'); ln.setAttribute('x1',lEnd); ln.setAttribute('x2',rEnd);
+    g.querySelector('#dh-l').setAttribute('cx', lEnd);
+    g.querySelector('#dh-r').setAttribute('cx', rEnd);
+  } else if (k==='c') {
+    document.getElementById('circ-hi').style.display='';
+    document.getElementById('circ-hi-c').setAttribute('r', vr);
+  } else if (k==='a') {
+    document.getElementById('area-hi').style.display='';
+    document.getElementById('area-hi').querySelector('circle').setAttribute('r', vr);
+  }
+}
+function updateAll(r, activeKey) {
+  const v=V(r), vr=Math.max(13,Math.min(76,r*7.8));
+  ['r','d','c','a'].forEach(k => {
+    const inp=document.getElementById('inp-'+k);
+    const fld=document.getElementById('f-'+k);
+    if (k!==activeKey) { const nx=fmt(v[k]); if(inp.value!==nx){inp.value=nx;fsh('inp-'+k);} }
+    fld.classList.toggle('active', k===activeKey);
+    document.getElementById('fml-'+k).innerHTML = FORMULAS[k][activeKey]();
+  });
+  setCircleHighlight(activeKey, vr);
+  const sw=Math.min(210,Math.max(16,(v.c/80)*210));
+  document.getElementById('sp').setAttribute('width',sw.toFixed(1));
+  document.getElementById('sl').setAttribute('x',(sw/2).toFixed(1));
+  document.getElementById('sl').textContent='C = '+fmt(v.c); fsh('sp');
+  const hw=Math.min(107,Math.max(7,(r/20)*107));
+  document.getElementById('t1').setAttribute('width',hw.toFixed(1));
+  document.getElementById('t2').setAttribute('x',(hw+4).toFixed(1));
+  document.getElementById('t2').setAttribute('width',hw.toFixed(1));
+  document.getElementById('tl1').setAttribute('x',(hw/2).toFixed(1));
+  document.getElementById('tl1').textContent='r = '+fmt(r);
+  document.getElementById('tl2').setAttribute('x',(hw+4+hw/2).toFixed(1));
+  document.getElementById('tl2').textContent='r = '+fmt(r);
+  fsh('t1'); fsh('t2');
+  const aw=Math.min(210,Math.max(7,(v.a/400)*210));
+  document.getElementById('ab').setAttribute('width',aw.toFixed(1));
+  document.getElementById('abl').setAttribute('x',(aw/2).toFixed(1));
+  document.getElementById('abl').textContent='A = '+fmt(v.a); fsh('ab');
+  const sg=Math.min(62,Math.max(6,(v.d/20)*62));
+  const fw=Math.max(3,sg*0.14159);
+  ['p1','p2','p3'].forEach((id,i)=>{
+    document.getElementById(id).setAttribute('x',(i*(sg+4)).toFixed(1));
+    document.getElementById(id).setAttribute('width',sg.toFixed(1));
+  });
+  document.getElementById('pf').setAttribute('x',(3*(sg+4)).toFixed(1));
+  document.getElementById('pf').setAttribute('width',fw.toFixed(1));
+  fsh('p1');
+}
+function solve(from) {
+  src=from;
+  const raw=parseFloat(document.getElementById('inp-'+from).value);
+  if(!raw||raw<=0||!isFinite(raw))return;
+  let r;
+  if(from==='r') r=raw;
+  else if(from==='d') r=raw/2;
+  else if(from==='c') r=raw/(2*PI);
+  else r=Math.sqrt(raw/PI);
+  if(r>0) updateAll(r, from);
+}
+updateAll(5, 'r');
+</script>
+</body>
+</html>
