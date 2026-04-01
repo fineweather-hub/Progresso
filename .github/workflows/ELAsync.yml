@@ -9,7 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # needed to commit data.json back to the repo
+      contents: write      # needed to commit data files back to the repo
 
     steps:
       - name: Checkout
@@ -20,16 +20,21 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Run sync script
+      - name: Run ELA sync
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: node ELAsync.js
 
-      - name: Commit data.json if changed
+      - name: Run Math sync
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: node Mathsync.js
+
+      - name: Commit data files if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data.json
+          git add public/data.json public/math-data.json
           # Only commit if there's actually a change
           git diff --cached --quiet || git commit -m "chore: sync Notion data [skip ci]"
           git push
