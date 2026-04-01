@@ -1,0 +1,31 @@
+name: Sync Math Notion Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'   # Daily at 6am UTC — remove this line if you don't want scheduled syncs
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Run MathSync
+        run: node MathSync.js
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+
+      - name: Commit math-data.json if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/math-data.json
+          git diff --cached --quiet || git commit -m "chore: sync math-data.json [skip ci]"
+          git push
