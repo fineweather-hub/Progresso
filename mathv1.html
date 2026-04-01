@@ -1,0 +1,588 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7th Grade Math — IXL Skills Map</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,sans-serif;font-size:14px;line-height:1.6;color:#1a1a2e;background:#faf9f7;padding:28px 16px 80px}
+.page{max-width:900px;margin:0 auto}
+h1{font-family:Georgia,serif;font-size:1.8rem;line-height:1.15;margin-bottom:4px}
+h1 span{font-weight:300;font-size:0.65em;font-style:italic;display:block;font-family:system-ui}
+.subtitle{font-size:12px;color:#888;margin-bottom:14px}
+
+/* Config banner */
+#config-banner{background:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:12px 16px;margin-bottom:20px;font-size:13px;line-height:1.6}
+#config-banner strong{display:block;margin-bottom:4px}
+#config-banner code{background:#f0efeb;padding:1px 5px;border-radius:3px;font-size:12px}
+#config-banner.hidden{display:none}
+#config-form{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;align-items:center}
+#config-form input{flex:1;min-width:200px;padding:5px 9px;border:1px solid #ccc;border-radius:5px;font-size:12px;font-family:inherit}
+#config-form button{padding:5px 14px;border-radius:5px;border:none;background:#1a1a2e;color:#fff;cursor:pointer;font-size:12px;font-family:inherit}
+
+.progress-row{display:flex;align-items:center;gap:10px;margin-bottom:5px}
+.progress-bar{flex:1;height:7px;background:#e2e0da;border-radius:99px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,#95d5b2,#2d6a4f);border-radius:99px;transition:width .3s}
+.progress-label{font-size:12px;color:#666;white-space:nowrap}
+.status-row{display:flex;align-items:center;gap:10px;min-height:18px;margin-bottom:10px}
+.save-status{font-size:11px;color:#bbb;flex:1}
+.save-status.saved{color:#2d6a4f}
+.save-status.saving{color:#888}
+.save-status.error{color:#c62828}
+.share-btn{padding:2px 10px;border-radius:99px;border:1px solid #ccc;cursor:pointer;font-size:11px;font-family:inherit;background:#fff;color:#555;transition:all .12s}
+.share-btn:hover{background:#f0f0f0}
+.share-btn.copied{background:#e9f7ef;border-color:#74c69d;color:#2d6a4f}
+
+.legend-row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:12px;color:#888;margin-bottom:0}
+.legend-item{display:flex;align-items:center;gap:5px}
+.legend-swatch{width:11px;height:11px;border-radius:3px;flex-shrink:0}
+.filter-btns{margin-left:auto;display:flex;gap:5px}
+.filter-btn{padding:2px 9px;border-radius:99px;border:1px solid #ccc;cursor:pointer;font-size:11px;font-family:inherit;background:#fff;color:#555;transition:all .12s}
+.filter-btn.active{background:#1a1a2e;color:#fff;border-color:#1a1a2e}
+.header-divider{border:none;border-bottom:2px solid #1a1a2e;margin:16px 0 32px}
+
+.cluster{margin-bottom:40px}
+.cluster-header{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;padding-bottom:6px;border-bottom:1.5px solid #e2e0da}
+.cluster-title{font-family:Georgia,serif;font-size:1.2rem}
+.cluster-type{font-size:10px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:#bbb}
+
+.std-card{background:#fff;border:1px solid #e2e0da;border-radius:8px;margin-bottom:11px;box-shadow:0 1px 3px rgba(0,0,0,.05);overflow:hidden}
+.std-header{padding:11px 15px;display:flex;align-items:flex-start;gap:10px;cursor:pointer;user-select:none}
+.std-header:hover{background:#fafafa}
+.std-code{font-size:10px;font-weight:700;color:#fff;padding:2px 7px;border-radius:4px;white-space:nowrap;margin-top:2px;flex-shrink:0;letter-spacing:.04em}
+.std-info{flex:1}
+.std-title{font-family:Georgia,serif;font-size:.95rem;line-height:1.3;color:#1a1a2e}
+.std-meta{font-size:11px;color:#aaa;margin-top:2px}
+.std-meta .comp-done{color:#2d6a4f;margin-left:6px}
+.std-toggle{font-size:11px;color:#ccc;margin-top:3px;flex-shrink:0}
+.std-body{display:none}
+.std-body.open{display:block}
+
+.summary{margin:10px 15px 2px;padding:9px 13px;background:#f7f6f3;border-radius:6px;font-size:13px;line-height:1.65;color:#4a4a6a}
+.crosscheck{margin-top:7px;padding:5px 9px;background:#fffbe6;border-left:3px solid #f4c430;border-radius:0 4px 4px 0;font-size:12px;color:#5a4a00}
+
+table{width:100%;border-collapse:collapse}
+th{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#bbb;text-align:left;padding:5px 14px;background:#f9f8f6;border-top:1px solid #e2e0da;border-bottom:1px solid #e2e0da}
+th em{font-weight:400;text-transform:none;letter-spacing:0}
+td{padding:8px 14px;vertical-align:top;border-bottom:1px solid #f0efeb}
+td.comp-cell{font-size:13px;background:#fff;color:#222;transition:background .2s}
+td.comp-cell.all-done{background:#d8f3dc;color:#1b4332;font-weight:600}
+td.comp-cell.any-done{background:#f0faf5}
+.addressed-badge{display:inline-block;margin-left:6px;font-size:10px;background:#2d6a4f;color:#fff;border-radius:99px;padding:1px 6px;font-weight:600;vertical-align:middle}
+.no-match{font-size:12px;color:#bbb;font-style:italic}
+.skills-cell{display:flex;flex-direction:column;gap:4px}
+
+.skill-btn{display:inline-flex;align-items:stretch;gap:0;border-radius:6px;border:1px solid #e0e0e0;background:#fafafa;color:#333;font-size:12.5px;line-height:1.3;font-family:inherit;transition:border-color .12s,background .12s;width:fit-content;max-width:100%;overflow:hidden}
+.skill-btn.studied{border-color:#74c69d;background:#e9f7ef;color:#1b4332}
+.skill-link-area{display:inline-flex;align-items:center;gap:6px;padding:4px 8px 4px 6px;text-decoration:none;color:inherit;flex:1;min-width:0;cursor:pointer}
+.skill-link-area:hover{background:rgba(0,0,0,.06);text-decoration:underline}
+.skill-check-btn{padding:3px 9px;border:none;border-left:1px solid #e0e0e0;background:transparent;cursor:pointer;font-size:14px;color:#ccc;font-family:inherit;transition:background .1s;flex-shrink:0;line-height:1;display:flex;align-items:center}
+.skill-btn.studied .skill-check-btn{color:#2d6a4f;border-left-color:#74c69d}
+.skill-check-btn:hover{background:rgba(0,0,0,.08)}
+[data-readonly="true"] .skill-check-btn{cursor:default;pointer-events:none;opacity:0.6}
+.skill-code{font-size:9.5px;font-weight:700;color:#bbb;background:#efefef;border-radius:3px;padding:1px 5px;flex-shrink:0;letter-spacing:.04em}
+.skill-btn.studied .skill-code{color:#1b4332;background:#b7e4c7}
+.skill-name{flex:1;min-width:0}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>7th Grade Math <span>IXL Skills → Washington State Standards</span></h1>
+  <div class="subtitle">Learning Commons Knowledge Graph · Washington State CCSS-Aligned</div>
+
+  <!-- Config banner (shown until PAT + gist are configured) -->
+  <div id="config-banner">
+    <strong>⚠️ GitHub Gist sync not configured</strong>
+    To enable shared progress tracking, paste your GitHub Personal Access Token (needs <code>gist</code> scope only).
+    Your progress is saved locally until then.
+    <div id="config-form">
+      <input type="password" id="pat-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" autocomplete="off">
+      <button onclick="savePAT()">Save token</button>
+      <button onclick="dismissBanner()" style="background:#888">Use local only</button>
+    </div>
+    <div style="margin-top:6px;font-size:11px;color:#888">
+      Create a token at github.com → Settings → Developer settings → Personal access tokens → Tokens (classic) → New token → select <code>gist</code> scope only.
+      The token is stored in your browser’s localStorage and never sent anywhere except api.github.com.
+    </div>
+  </div>
+
+  <div class="progress-row">
+    <div class="progress-bar"><div class="progress-fill" id="pbar" style="width:0%"></div></div>
+    <div class="progress-label" id="plabel"></div>
+  </div>
+  <div class="status-row">
+    <div class="save-status" id="savestatus"></div>
+    <button class="share-btn" id="sharebtn" onclick="copyShareLink()" title="Copy a link that shows your current progress to anyone">&#128279; Share</button>
+  </div>
+  <div class="legend-row">
+    <div class="legend-item"><span class="legend-swatch" style="background:#d8f3dc;border:1.5px solid #52b788"></span>All skills studied</div>
+    <div class="legend-item"><span class="legend-swatch" style="background:#e9f7ef;border:1.5px solid #74c69d"></span>Skill studied</div>
+    <div class="legend-item"><span class="legend-swatch" style="background:#fafafa;border:1.5px solid #ddd"></span>Not yet studied</div>
+    <div class="filter-btns">
+      <button class="filter-btn active" data-filter="all" onclick="setFilter('all',this)">All</button>
+      <button class="filter-btn" data-filter="studied" onclick="setFilter('studied',this)">Studied</button>
+      <button class="filter-btn" data-filter="unstudied" onclick="setFilter('unstudied',this)">Not yet studied</button>
+    </div>
+  </div>
+  <hr class="header-divider">
+  <div id="content"></div>
+</div>
+
+<script>
+const DOCUMENT = [{"title":"📐 Ratios & Proportional Relationships (7.RP)","type":"Major Cluster","standards":[{"code":"7.RP.A.1","title":"Compute unit rates associated with ratios of fractions","summary":"**What this standard is really asking:** Students should be able to take any rate relationship — including ones where both quantities are fractions — and express it as a single unit rate. The key upgrade from 6th grade is the fractional-ratio case (e.g., ½ mile per ¼ hour = 2 mph). Both purely computational and real-world contexts are expected. *Cross-check: Are students seeing ratios of fractions specifically, not just whole-number rates?* ","components":[{"text":"Calculate unit rate from a rate relationship (mathematical context)","skills":[{"code":"2NB","name":"Unit rates","url":"https://www.ixl.com/math/grade-7/unit-rates","studied":true},{"code":"57X","name":"Calculate unit rates with fractions","url":"https://www.ixl.com/math/grade-7/calculate-unit-rates-with-fractions","studied":true}],"no_match":false},{"text":"Compute unit rates associated with ratios of fractions specifically","skills":[{"code":"57X","name":"Calculate unit rates with fractions","url":"https://www.ixl.com/math/grade-7/calculate-unit-rates-with-fractions","studied":true}],"no_match":false},{"text":"Calculate unit rate from a rate relationship (real-world context)","skills":[{"code":"NWM","name":"Solve word problems using unit rates","url":"https://www.ixl.com/math/grade-7/solve-word-problems-using-unit-rates","studied":false},{"code":"VVS","name":"Compare rates: word problems","url":"https://www.ixl.com/math/grade-7/compare-rates-word-problems","studied":false}],"no_match":false}]},{"code":"7.RP.A.2","title":"Recognize and represent proportional relationships between quantities","summary":"**What this standard is really asking:** Students need to fluently move between four representations of proportionality — tables, graphs, equations, and verbal descriptions — and understand what each element of those representations means. Crucially, finding the constant of proportionality *k* and writing the equation *y = kx* are the algebraic heart of this standard. The hardest component — often undertested — is explaining what a specific point on the graph means in context, including why (0, 0) and (1, k) are meaningful. *Cross-check: Are students interpreting points and explaining proportionality, or just identifying and calculating?* ","components":[{"text":"Recognize proportional relationships between quantities","skills":[{"code":"6V7","name":"Identify proportional relationships from tables","url":"https://www.ixl.com/math/grade-7/identify-proportional-relationships-from-tables","studied":true},{"code":"AAN","name":"Identify proportional relationships by graphing","url":"https://www.ixl.com/math/grade-7/identify-proportional-relationships-by-graphing","studied":true},{"code":"NB5","name":"Identify proportional relationships from graphs and equations","url":"https://www.ixl.com/math/grade-7/identify-proportional-relationships-from-graphs-and-equations","studied":true}],"no_match":false},{"text":"Find and interpret the constant of proportionality *(full standard scope)*","skills":[{"code":"LKZ","name":"Find the constant of proportionality from a table","url":"https://www.ixl.com/math/grade-7/find-the-constant-of-proportionality-from-a-table","studied":true},{"code":"ZUT","name":"Find the constant of proportionality from a graph","url":"https://www.ixl.com/math/grade-7/find-the-constant-of-proportionality-from-a-graph","studied":true}],"no_match":false},{"text":"Represent proportional relationships with equations *(full standard scope)*","skills":[{"code":"6GU","name":"Write equations for proportional relationships from tables","url":"https://www.ixl.com/math/grade-7/write-equations-for-proportional-relationships-from-tables","studied":true},{"code":"VKK","name":"Write and solve equations for proportional relationships","url":"https://www.ixl.com/math/grade-7/write-and-solve-equations-for-proportional-relationships","studied":true}],"no_match":false},{"text":"Explain what a point (x, y) on the graph of a proportional relationship means in context *(full standard scope — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.RP.A.3","title":"Use proportional relationships to solve multistep ratio and percent problems","summary":"**What this standard is really asking:** This is the applied payoff of 7.RP.A.1–2. Students use proportional reasoning as a general problem-solving tool — not just to solve a proportion equation, but to work through multi-step situations involving tax, discount, markup, percent change, percent error, simple interest, and tips. \"Multi-step\" is the operative word: a single percent calculation is 6th grade territory; 7th grade requires chaining steps. *Cross-check: Are problems genuinely multi-step, or just applying a formula once?* ","components":[{"text":"Solve multi-step ratio problems using proportional relationships","skills":[{"code":"WB7","name":"Solve proportions: word problems","url":"https://www.ixl.com/math/grade-7/solve-proportions-word-problems","studied":false},{"code":"DJ8","name":"Equivalent ratios: word problems","url":"https://www.ixl.com/math/grade-7/equivalent-ratios-word-problems","studied":true}],"no_match":false},{"text":"Solve multi-step percent problems using proportional relationships","skills":[{"code":"ZHX","name":"Multi-step problems with percents","url":"https://www.ixl.com/math/grade-7/multi-step-problems-with-percents","studied":true},{"code":"54S","name":"Percent of change: word problems","url":"https://www.ixl.com/math/grade-7/percent-of-change-word-problems","studied":true},{"code":"CNF","name":"Checkpoint: Unit rates, ratios, and percents","url":"https://www.ixl.com/math/grade-7/checkpoint-unit-rates-ratios-and-percents","studied":true}],"no_match":false}]}]},{"title":"🔢 The Number System (7.NS)","type":"Major Cluster","standards":[{"code":"7.NS.A.1","title":"Add and subtract rational numbers; represent on a number line","summary":"**What this standard is really asking:** This extends arithmetic into the full set of rational numbers — meaning negatives, fractions, and decimals all together. Students must understand *why* the rules work, not just apply them: subtraction is defined as adding the additive inverse (p − q = p + (−q)), and distance on the number line gives meaning to absolute value. The number line representation is more than a visual aid — it's the conceptual model that grounds the operations. *Cross-check: Can students explain why subtracting a negative is equivalent to adding a positive, using the number line?* ","components":[{"text":"Add rational numbers","skills":[{"code":"SD2","name":"Add and subtract positive and negative fractions","url":"https://www.ixl.com/math/grade-7/add-and-subtract-positive-and-negative-fractions","studied":false},{"code":"WCZ","name":"Add and subtract positive and negative decimals","url":"https://www.ixl.com/math/grade-7/add-and-subtract-positive-and-negative-decimals","studied":false}],"no_match":false},{"text":"Subtract rational numbers","skills":[{"code":"SD2","name":"Add and subtract positive and negative fractions","url":"https://www.ixl.com/math/grade-7/add-and-subtract-positive-and-negative-fractions","studied":false},{"code":"WCZ","name":"Add and subtract positive and negative decimals","url":"https://www.ixl.com/math/grade-7/add-and-subtract-positive-and-negative-decimals","studied":false}],"no_match":false},{"text":"Add and subtract rational numbers (combined fluency)","skills":[{"code":"GKU","name":"Add and subtract rational numbers","url":"https://www.ixl.com/math/grade-7/add-and-subtract-rational-numbers","studied":true},{"code":"XDG","name":"Checkpoint: Add and subtract rational numbers","url":"https://www.ixl.com/math/grade-7/checkpoint-add-and-subtract-rational-numbers","studied":true}],"no_match":false},{"text":"Represent addition and subtraction of rational numbers on a number line","skills":[{"code":"A63","name":"Add integers using number lines","url":"https://www.ixl.com/math/grade-7/add-integers-using-number-lines","studied":true},{"code":"FGG","name":"Subtract integers using number lines","url":"https://www.ixl.com/math/grade-7/subtract-integers-using-number-lines","studied":false}],"no_match":false},{"text":"Understand subtraction as adding the additive inverse; apply to distance on a number line *(conceptual — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.NS.A.2","title":"Multiply and divide rational numbers","summary":"**What this standard is really asking:** Students extend multiplication and division to all rational numbers, developing and applying sign rules. The standard also requires converting any rational number to a decimal via long division, and recognizing whether the result terminates or repeats — a key link between the fraction and decimal representations of the same number. *Cross-check: Have students encountered the terminating vs. repeating distinction, and can they explain why 1/3 = 0.333… while 1/4 = 0.25?* ","components":[{"text":"Multiply rational numbers","skills":[{"code":"2B5","name":"Multiply and divide positive and negative fractions","url":"https://www.ixl.com/math/grade-7/multiply-and-divide-positive-and-negative-fractions","studied":false},{"code":"K7V","name":"Multiply and divide positive and negative decimals","url":"https://www.ixl.com/math/grade-7/multiply-and-divide-positive-and-negative-decimals","studied":false}],"no_match":false},{"text":"Divide rational numbers","skills":[{"code":"2B5","name":"Multiply and divide positive and negative fractions","url":"https://www.ixl.com/math/grade-7/multiply-and-divide-positive-and-negative-fractions","studied":false},{"code":"JT9","name":"Identify quotients of rational numbers: word problems","url":"https://www.ixl.com/math/grade-7/identify-quotients-of-rational-numbers-word-problems","studied":true}],"no_match":false},{"text":"Multiply and divide rational numbers (combined fluency)","skills":[{"code":"BXW","name":"Multiply and divide rational numbers","url":"https://www.ixl.com/math/grade-7/multiply-and-divide-rational-numbers","studied":true},{"code":"PGR","name":"Checkpoint: Multiply and divide rational numbers","url":"https://www.ixl.com/math/grade-7/checkpoint-multiply-and-divide-rational-numbers","studied":true}],"no_match":false},{"text":"Convert a rational number to a decimal via long division; recognize terminating vs. repeating *(full standard scope — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.NS.A.3","title":"Solve real-world and mathematical problems using all four operations with rational numbers","summary":"**What this standard is really asking:** The four operations on rational numbers now need to work in context — both in abstract mathematical problems and in real-world scenarios. This standard is largely about fluency and transfer: students should be able to pick the right operation, execute it with rational numbers (including negatives), and arrive at a reasonable answer. It is the culminating skill of the 7.NS cluster. *Cross-check: Are students choosing operations in context, not just executing a labeled computation?* ","components":[{"text":"Add rational numbers to solve mathematical problems","skills":[{"code":"GKU","name":"Add and subtract rational numbers","url":"https://www.ixl.com/math/grade-7/add-and-subtract-rational-numbers","studied":true}],"no_match":false},{"text":"Add rational numbers to solve real-world problems","skills":[{"code":"2DD","name":"Add and subtract integers: word problems","url":"https://www.ixl.com/math/grade-7/add-and-subtract-integers-word-problems","studied":false}],"no_match":false},{"text":"Subtract rational numbers to solve mathematical problems","skills":[{"code":"GKU","name":"Add and subtract rational numbers","url":"https://www.ixl.com/math/grade-7/add-and-subtract-rational-numbers","studied":true}],"no_match":false},{"text":"Subtract rational numbers to solve real-world problems","skills":[{"code":"2DD","name":"Add and subtract integers: word problems","url":"https://www.ixl.com/math/grade-7/add-and-subtract-integers-word-problems","studied":false}],"no_match":false},{"text":"Multiply rational numbers to solve mathematical problems","skills":[{"code":"BXW","name":"Multiply and divide rational numbers","url":"https://www.ixl.com/math/grade-7/multiply-and-divide-rational-numbers","studied":true}],"no_match":false},{"text":"Multiply rational numbers to solve real-world problems","skills":[{"code":"5NJ","name":"Multiply fractions and mixed numbers: word problems","url":"https://www.ixl.com/math/grade-7/multiply-fractions-and-mixed-numbers-word-problems","studied":false}],"no_match":false},{"text":"Divide rational numbers to solve mathematical problems","skills":[{"code":"BXW","name":"Multiply and divide rational numbers","url":"https://www.ixl.com/math/grade-7/multiply-and-divide-rational-numbers","studied":true}],"no_match":false},{"text":"Divide rational numbers to solve real-world problems","skills":[{"code":"5VR","name":"Divide fractions and mixed numbers: word problems","url":"https://www.ixl.com/math/grade-7/divide-fractions-and-mixed-numbers-word-problems","studied":false},{"code":"AJ9","name":"Checkpoint: Problem solving with rational numbers","url":"https://www.ixl.com/math/grade-7/checkpoint-problem-solving-with-rational-numbers","studied":true}],"no_match":false}]}]},{"title":"🔣 Expressions & Equations (7.EE)","type":"Major Cluster","standards":[{"code":"7.EE.A.1","title":"Add, subtract, factor, and expand linear expressions with rational coefficients","summary":"**What this standard is really asking:** Students operate on expressions the same way they operate on numbers — adding, subtracting, distributing, and factoring — but the terms now carry rational (possibly fractional or negative) coefficients. Factoring is particularly important as the inverse of distribution and a preview of algebraic structure. All four operations must work with coefficients like −¾ or 2.5, not just whole numbers. *Cross-check: Are students factoring expressions with fractional coefficients, not just expanding whole-number ones?* ","components":[{"text":"Add linear expressions with rational coefficients","skills":[{"code":"6BT","name":"Add and subtract linear expressions","url":"https://www.ixl.com/math/grade-7/add-and-subtract-linear-expressions","studied":false},{"code":"JJG","name":"Simplify expressions by combining like terms","url":"https://www.ixl.com/math/grade-7/simplify-expressions-by-combining-like-terms","studied":false}],"no_match":false},{"text":"Subtract linear expressions with rational coefficients","skills":[{"code":"6BT","name":"Add and subtract linear expressions","url":"https://www.ixl.com/math/grade-7/add-and-subtract-linear-expressions","studied":false}],"no_match":false},{"text":"Expand linear expressions with rational coefficients","skills":[{"code":"NUY","name":"Multiply using the distributive property","url":"https://www.ixl.com/math/grade-7/multiply-using-the-distributive-property","studied":false},{"code":"6XR","name":"Write equivalent expressions using properties","url":"https://www.ixl.com/math/grade-7/write-equivalent-expressions-using-properties","studied":false}],"no_match":false},{"text":"Factor linear expressions with rational coefficients","skills":[{"code":"J9G","name":"Factors of linear expressions","url":"https://www.ixl.com/math/grade-7/factors-of-linear-expressions","studied":false},{"code":"QRL","name":"Factor linear expressions: area models","url":"https://www.ixl.com/math/grade-7/factor-linear-expressions-area-models","studied":false}],"no_match":false}]},{"code":"7.EE.A.2","title":"Rewrite expressions in different forms to reveal relationships in a problem context","summary":"**What this standard is really asking:** This is a conceptual standard about *why* we rewrite expressions, not just *how*. The classic example — a + 0.05a = 1.05a — shows that a \"5% increase\" and \"multiply by 1.05\" are the same operation. Students should develop the habit of asking what a rewritten form *reveals* about a situation. This standard is easily overlooked in favor of procedural expression work, but it previews the algebraic insight students will rely on through high school. *Cross-check: Can students explain what a rewritten expression means in the problem context, not just verify equivalence?* ","components":[{"text":"Rewrite an expression in different equivalent forms within a problem context","skills":[{"code":"DRB","name":"Identify equivalent linear expressions I","url":"https://www.ixl.com/math/grade-7/identify-equivalent-linear-expressions","studied":false},{"code":"KWH","name":"Identify equivalent linear expressions: word problems","url":"https://www.ixl.com/math/grade-7/identify-equivalent-linear-expressions-word-problems","studied":false}],"no_match":false},{"text":"Interpret how quantities in a rewritten expression are related (e.g., a + 0.05a = 1.05a means \"increase by 5% = multiply by 1.05\")","skills":[{"code":"SPN","name":"Percent of a number: tax, discount, and more","url":"https://www.ixl.com/math/grade-7/percent-of-a-number-tax-discount-and-more","studied":true},{"code":"KWH","name":"Identify equivalent linear expressions: word problems","url":"https://www.ixl.com/math/grade-7/identify-equivalent-linear-expressions-word-problems","studied":false}],"no_match":false}]},{"code":"7.EE.B.3","title":"Solve multi-step real-life problems with rational numbers in any form; assess reasonableness","summary":"**What this standard is really asking:** Students must be able to work fluidly with any number form — whole numbers, fractions, decimals, percents — converting between them as a problem demands, and executing multi-step calculations that mix forms. Equally important is the habit of checking whether an answer is reasonable using estimation or mental math. This standard rewards number sense alongside computation. *Cross-check: Are students pausing to estimate or sanity-check answers, not just executing and moving on?* ","components":[{"text":"Apply properties of operations to calculate with numbers in any form, converting between forms as needed","skills":[{"code":"2HW","name":"Convert between percents, fractions, and decimals","url":"https://www.ixl.com/math/grade-7/convert-between-percents-fractions-and-decimals","studied":true},{"code":"QBF","name":"Add, subtract, multiply, and divide rational numbers","url":"https://www.ixl.com/math/grade-7/add-subtract-multiply-and-divide-rational-numbers","studied":false}],"no_match":false},{"text":"Solve multi-step mathematical problems with positive and negative rational numbers in any form","skills":[{"code":"QBF","name":"Add, subtract, multiply, and divide rational numbers","url":"https://www.ixl.com/math/grade-7/add-subtract-multiply-and-divide-rational-numbers","studied":false},{"code":"7YN","name":"Evaluate numerical expressions involving integers","url":"https://www.ixl.com/math/grade-7/evaluate-numerical-expressions-involving-integers","studied":false}],"no_match":false},{"text":"Solve multi-step real-life problems with positive and negative rational numbers in any form","skills":[{"code":"JVU","name":"Multi-step word problems with positive rational numbers","url":"https://www.ixl.com/math/grade-7/multi-step-word-problems-with-positive-rational-numbers","studied":false},{"code":"TGN","name":"Add, subtract, multiply, and divide decimals: word problems","url":"https://www.ixl.com/math/grade-7/add-subtract-multiply-and-divide-decimals-word-problems","studied":false}],"no_match":false},{"text":"Assess the reasonableness of answers using mental computation and estimation strategies","skills":[{"code":"EGF","name":"Estimate sums, differences, and products of decimals","url":"https://www.ixl.com/math/grade-7/estimate-sums-differences-and-products-of-decimals","studied":false},{"code":"JKK","name":"Estimate products and quotients of fractions and mixed numbers","url":"https://www.ixl.com/math/grade-7/estimate-products-and-quotients-of-fractions-and-mixed-numbers","studied":false}],"no_match":false}]},{"code":"7.EE.B.4","title":"Use variables to represent quantities; construct and solve equations and inequalities","summary":"**What this standard is really asking:** The full arc here is: recognize a quantitative situation → define a variable → write an equation or inequality that models it → solve it → interpret the answer. Students who can only solve a pre-written equation haven't met this standard; they must also construct the model from a verbal description. Inequalities are equally expected — the solution is a range, not a single value, and students must graph or interpret that range. *Cross-check: Are students writing the equations themselves from word problems, not only solving equations that are handed to them?* ","components":[{"text":"Use variables to represent quantities in mathematical problems","skills":[{"code":"XMD","name":"Write variable expressions: word problems","url":"https://www.ixl.com/math/grade-7/write-variable-expressions-word-problems","studied":true},{"code":"N2T","name":"Write an equation from words","url":"https://www.ixl.com/math/grade-7/write-an-equation-from-words","studied":false}],"no_match":false},{"text":"Use variables to represent quantities in real-world problems","skills":[{"code":"8NH","name":"Choose two-step equations: word problems","url":"https://www.ixl.com/math/grade-7/choose-two-step-equations-word-problems","studied":false},{"code":"FVH","name":"Write and solve equations that represent diagrams","url":"https://www.ixl.com/math/grade-7/write-and-solve-equations-that-represent-diagrams","studied":false}],"no_match":false},{"text":"Construct simple equations to solve problems","skills":[{"code":"D2Y","name":"Solve two-step equations: word problems","url":"https://www.ixl.com/math/grade-7/solve-two-step-equations-word-problems","studied":false},{"code":"V96","name":"Checkpoint: Solve two-step equations","url":"https://www.ixl.com/math/grade-7/checkpoint-solve-two-step-equations","studied":false}],"no_match":false},{"text":"Construct simple inequalities to solve problems","skills":[{"code":"6HD","name":"One-step inequalities: word problems","url":"https://www.ixl.com/math/grade-7/one-step-inequalities-word-problems","studied":false},{"code":"HWQ","name":"Checkpoint: Solve two-step inequalities","url":"https://www.ixl.com/math/grade-7/checkpoint-solve-two-step-inequalities","studied":false}],"no_match":false}]}]},{"title":"📏 Geometry (7.G)","type":"Supporting Cluster","standards":[{"code":"7.G.A.1","title":"Solve problems involving scale drawings","summary":"**What this standard is really asking:** Scale drawings are proportional reasoning in a geometric context. Students find actual lengths and areas from a drawing and — crucially — reproduce drawings at a new scale. The area case is subtler: areas scale by the *square* of the scale factor, so a drawing twice as large has four times the area. This connection to proportionality links 7.G.A.1 directly to 7.RP. *Cross-check: Are students handling the area case explicitly, recognizing that it doesn't scale the same way lengths do?* ","components":[{"text":"Compute actual lengths from a scale drawing","skills":[{"code":"84H","name":"Scale drawings: word problems","url":"https://www.ixl.com/math/grade-7/scale-drawings-word-problems","studied":true},{"code":"WEA","name":"Scale drawings of polygons","url":"https://www.ixl.com/math/grade-7/scale-drawings-of-polygons","studied":true}],"no_match":false},{"text":"Compute actual areas from a scale drawing","skills":[{"code":"ZC6","name":"Perimeter and area: changes in scale","url":"https://www.ixl.com/math/grade-7/perimeter-and-area-changes-in-scale","studied":true}],"no_match":false},{"text":"Reproduce a scale drawing at a different scale","skills":[{"code":"KCM","name":"Scale drawings: scale factor word problems","url":"https://www.ixl.com/math/grade-7/scale-drawings-scale-factor-word-problems","studied":true},{"code":"SJ9","name":"Checkpoint: Scale drawings","url":"https://www.ixl.com/math/grade-7/checkpoint-scale-drawings","studied":true}],"no_match":false}]},{"code":"7.G.A.2","title":"Draw geometric shapes with given conditions; determine uniqueness of triangles","summary":"**What this standard is really asking:** Students construct shapes (especially triangles) from partial information — three angles, three sides, or a mix — and reason about how many distinct triangles are possible given those constraints. This builds geometric intuition: sometimes the constraints pin down a unique triangle, sometimes they allow multiple, and sometimes they're contradictory. The physical construction process (with ruler and protractor) is part of the standard and can't be fully replicated by a digital platform. *Cross-check: Have students physically constructed triangles from given measurements, not just classified or calculated angles?* ","components":[{"text":"Draw geometric shapes with given conditions (side lengths, angle measures)","skills":[{"code":"N5Z","name":"Classify triangles","url":"https://www.ixl.com/math/grade-7/classify-triangles","studied":false},{"code":"MEZ","name":"Graph triangles and quadrilaterals","url":"https://www.ixl.com/math/grade-7/graph-triangles-and-quadrilaterals","studied":false}],"no_match":false},{"text":"Determine when three angle/side measures produce a unique triangle, more than one, or no triangle","skills":[{"code":"5RX","name":"Triangle inequality","url":"https://www.ixl.com/math/grade-7/triangle-inequality","studied":false}],"no_match":false},{"text":"Use physical tools (ruler, protractor) or technology to construct shapes *(hands-on construction — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.G.A.3","title":"Describe 2D cross-sections of 3D figures","summary":"**What this standard is really asking:** When a plane slices through a prism or pyramid, what shape does the cut face form? Students need to develop 3D spatial visualization — the ability to mentally rotate and slice objects — and name the resulting 2D polygon. The three cut orientations (parallel to base, perpendicular to base, and oblique) yield different shapes and require genuinely different spatial reasoning. This is a visualization standard; written descriptions and sketching from memory matter as much as recognizing a correct answer. *Cross-check: Can students predict the cross-section shape without a diagram, not just identify it from a picture?* ","components":[{"text":"Identify the 2D figure from slicing a prism/pyramid perpendicular to a face","skills":[{"code":"HFJ","name":"Cross sections of three-dimensional figures","url":"https://www.ixl.com/math/grade-7/cross-sections-of-three-dimensional-figures","studied":false}],"no_match":false},{"text":"Identify the 2D figure from slicing a prism/pyramid parallel to a base","skills":[{"code":"HFJ","name":"Cross sections of three-dimensional figures","url":"https://www.ixl.com/math/grade-7/cross-sections-of-three-dimensional-figures","studied":false}],"no_match":false},{"text":"Identify the 2D figure from diagonal or oblique slices","skills":[{"code":"HFJ","name":"Cross sections of three-dimensional figures","url":"https://www.ixl.com/math/grade-7/cross-sections-of-three-dimensional-figures","studied":false}],"no_match":false},{"text":"Visualize and describe cross-sections without a physical model *(spatial reasoning — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.G.B.4","title":"Area and circumference of a circle","summary":"**What this standard is really asking:** Students learn both formulas (C = 2πr, A = πr²), apply them to solve problems, and develop an informal understanding of *why* they're related — the area formula can be thought of as \"unrolling\" the circle into a triangle with base C and height r. The derivation component is conceptual and often skipped, but it matters for mathematical reasoning. Students should also work comfortably with diameter vs. radius and leave answers in terms of π. *Cross-check: Have students seen an informal derivation connecting C and A, or have they only memorized the formulas?* ","components":[{"text":"Find the circumference of a circle using the formula","skills":[{"code":"KS7","name":"Circumference of circles","url":"https://www.ixl.com/math/grade-7/circumference-of-circles","studied":false},{"code":"P56","name":"Circles: word problems","url":"https://www.ixl.com/math/grade-7/circles-word-problems","studied":false}],"no_match":false},{"text":"Find the area of a circle using the formula","skills":[{"code":"YA8","name":"Area of circles","url":"https://www.ixl.com/math/grade-7/area-of-circles","studied":false},{"code":"2NM","name":"Area of semicircles and quarter circles","url":"https://www.ixl.com/math/grade-7/area-of-semicircles-and-quarter-circles","studied":false}],"no_match":false},{"text":"Give an informal derivation of the relationship between circumference and area *(conceptual/reasoning — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.G.B.5","title":"Use angle relationships to write and solve equations for unknown angles","summary":"**What this standard is really asking:** Students use the properties of supplementary, complementary, vertical, and adjacent angles not just to identify angle pairs, but to set up and solve equations when angle measures are expressed algebraically. This is where geometry and algebra genuinely merge: a figure becomes a system of constraints, and solving for x is the tool for finding the unknown measure. *Cross-check: Are students writing equations from figures themselves, not just substituting into a given equation?* ","components":[{"text":"Write equations for multi-step problems to find an unknown angle","skills":[{"code":"DN9","name":"Write and solve equations using angle relationships","url":"https://www.ixl.com/math/grade-7/write-and-solve-equations-using-angle-relationships","studied":false}],"no_match":false},{"text":"Find an unknown angle using supplementary, complementary, vertical, and adjacent angle facts","skills":[{"code":"CST","name":"Find measures of complementary, supplementary, vertical, and adjacent angles","url":"https://www.ixl.com/math/grade-7/find-measures-of-complementary-supplementary-vertical-and-adjacent-angles","studied":false},{"code":"CG9","name":"Transversals of parallel lines: find angle measures","url":"https://www.ixl.com/math/grade-7/transversals-of-parallel-lines-find-angle-measures","studied":false}],"no_match":false}]},{"code":"7.G.B.6","title":"Area, surface area, and volume of 2D and 3D figures","summary":"**What this standard is really asking:** Students apply area, surface area, and volume formulas to figures composed of triangles, quadrilaterals, polygons, cubes, and right prisms — in both abstract and real-world contexts. The key demand beyond 6th grade is *composition*: figures are not simple shapes but combinations, requiring students to decompose, compute parts, and sum results. Surface area problems require connecting a 3D figure to its net. *Cross-check: Are students working with composite figures and nets, not just applying a single formula to a simple shape?* ","components":[{"text":"Determine area of composite 2D figures (mathematical context)","skills":[{"code":"MRG","name":"Area of compound figures with triangles","url":"https://www.ixl.com/math/grade-7/area-of-compound-figures-with-triangles","studied":false},{"code":"N97","name":"Area of compound figures with triangles, semicircles, and quarter circles","url":"https://www.ixl.com/math/grade-7/area-of-compound-figures-with-triangles-semicircles-and-quarter-circles","studied":false}],"no_match":false},{"text":"Determine area of composite 2D figures (real-world context)","skills":[{"code":"JFR","name":"Area and perimeter: word problems","url":"https://www.ixl.com/math/grade-7/area-and-perimeter-word-problems","studied":false},{"code":"RKC","name":"Area between two shapes","url":"https://www.ixl.com/math/grade-7/area-between-two-shapes","studied":false}],"no_match":false},{"text":"Determine surface area of 3D prisms (mathematical context)","skills":[{"code":"RFP","name":"Surface area of cubes and prisms","url":"https://www.ixl.com/math/grade-7/surface-area-of-cubes-and-prisms","studied":false},{"code":"XAK","name":"Lateral area of prisms and pyramids","url":"https://www.ixl.com/math/grade-7/lateral-area-of-prisms-and-pyramids","studied":false}],"no_match":false},{"text":"Determine surface area of 3D prisms (real-world context)","skills":[{"code":"RFP","name":"Surface area of cubes and prisms","url":"https://www.ixl.com/math/grade-7/surface-area-of-cubes-and-prisms","studied":false},{"code":"XSJ","name":"Surface area of pyramids","url":"https://www.ixl.com/math/grade-7/surface-area-of-pyramids","studied":false}],"no_match":false},{"text":"Determine volume of cubes and right prisms (mathematical context)","skills":[{"code":"URT","name":"Volume of cubes and prisms","url":"https://www.ixl.com/math/grade-7/volume-of-cubes-and-prisms","studied":false},{"code":"EP5","name":"Volume of prisms: advanced","url":"https://www.ixl.com/math/grade-7/volume-of-prisms-advanced","studied":false}],"no_match":false},{"text":"Determine volume of cubes and right prisms (real-world context)","skills":[{"code":"8WV","name":"Volume of cubes and rectangular prisms: word problems","url":"https://www.ixl.com/math/grade-7/volume-of-cubes-and-rectangular-prisms-word-problems","studied":false},{"code":"GP9","name":"Checkpoint: Area, circumference, surface area, and volume","url":"https://www.ixl.com/math/grade-7/checkpoint-area-circumference-surface-area-and-volume","studied":false}],"no_match":false}]}]},{"title":"📊 Statistics & Probability (7.SP)","type":"Supporting Cluster","standards":[{"code":"7.SP.A.1","title":"Understand statistical sampling and valid inference","summary":"**What this standard is really asking:** Before drawing any conclusions from data, students must ask: *Where did this data come from?* A biased sample makes inferences invalid regardless of the math applied to it. Students should understand that randomness is the mechanism that makes a sample trustworthy, and that convenience samples or voluntary-response samples are systematically unreliable. This is largely a conceptual standard — the key vocabulary is in service of genuine statistical reasoning. *Cross-check: Can students identify *why* a sampling method is biased, not just label it as such?* ","components":[{"text":"Understand that valid generalizations require a representative sample","skills":[{"code":"YHZ","name":"Populations and samples","url":"https://www.ixl.com/math/grade-7/populations-and-samples","studied":false},{"code":"5V3","name":"Identify representative, random, and biased samples","url":"https://www.ixl.com/math/grade-7/identify-representative-random-and-biased-samples","studied":false}],"no_match":false},{"text":"Understand that random sampling tends to produce representative samples","skills":[{"code":"5V3","name":"Identify representative, random, and biased samples","url":"https://www.ixl.com/math/grade-7/identify-representative-random-and-biased-samples","studied":false}],"no_match":false}]},{"code":"7.SP.A.2","title":"Use random sample data to draw inferences about a population","summary":"**What this standard is really asking:** Given data from a random sample, students make inferences about the full population — estimating a parameter, predicting a winner, or projecting a count. The deeper insight is that different samples of the same size will produce different estimates, so there's always uncertainty. Generating multiple samples to gauge that variability is the standard's most underemphasized component, and it's best done as a simulation or activity rather than a single-answer computation. *Cross-check: Have students seen that different random samples can produce different conclusions, and reasoned about the range of plausible estimates?* ","components":[{"text":"Use data from a random sample to draw inferences about a population","skills":[{"code":"2BM","name":"Make inferences from multiple samples","url":"https://www.ixl.com/math/grade-7/make-inferences-from-multiple-samples","studied":false},{"code":"3C9","name":"Estimate population size using proportions","url":"https://www.ixl.com/math/grade-7/estimate-population-size-using-proportions","studied":false}],"no_match":false},{"text":"Understand that sample statistics are estimates of population statistics and vary by sample","skills":[{"code":"2BM","name":"Make inferences from multiple samples","url":"https://www.ixl.com/math/grade-7/make-inferences-from-multiple-samples","studied":false}],"no_match":false},{"text":"Generate multiple samples to gauge variation in estimates *(simulation activity — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.SP.B.3","title":"Assess visual overlap of two distributions; measure difference relative to variability","summary":"**What this standard is really asking:** Students compare two data sets not just by their centers (mean or median) but by asking how large the difference is *relative to how spread out each distribution is*. The key measure is expressing the center gap as a multiple of the MAD — e.g., \"the basketball players are 10 cm taller on average, which is about twice the typical spread within each team.\" This normalizes the comparison and gives it practical meaning. Dot plots and box plots are the primary visual tools. *Cross-check: Are students expressing center differences as multiples of variability, not just noting which group has a higher mean?* ","components":[{"text":"Informally assess the degree of visual overlap of two distributions with similar variability","skills":[{"code":"PCK","name":"Compare populations using measures of center and spread","url":"https://www.ixl.com/math/grade-7/compare-populations-using-measures-of-center-and-spread","studied":false},{"code":"SKN","name":"Box plots","url":"https://www.ixl.com/math/grade-7/box-plots","studied":false}],"no_match":false},{"text":"Interpret the mean absolute deviation (MAD) of a data set","skills":[{"code":"YNM","name":"Calculate mean absolute deviation","url":"https://www.ixl.com/math/grade-7/calculate-mean-absolute-deviation","studied":false}],"no_match":false},{"text":"Measure the difference between centers of two distributions as a multiple of a measure of variability","skills":[{"code":"PCK","name":"Compare populations using measures of center and spread","url":"https://www.ixl.com/math/grade-7/compare-populations-using-measures-of-center-and-spread","studied":false},{"code":"NZN","name":"Calculate quartiles and interquartile range","url":"https://www.ixl.com/math/grade-7/calculate-quartiles-and-interquartile-range","studied":false}],"no_match":false}]},{"code":"7.SP.B.4","title":"Draw comparative inferences about two populations using center and variability","summary":"**What this standard is really asking:** This is 7.SP.B.3 in application: students use measures of center and spread to make and justify informal claims about two different populations. The emphasis is on informal inference — \"the data suggest…\" rather than formal hypothesis testing. Students should be able to state a conclusion, name the evidence (specific statistics), and acknowledge the limitations of the comparison. *Cross-check: Are students articulating a conclusion with supporting statistics, not just describing each dataset separately?* ","components":[{"text":"Draw informal comparative inferences about two populations using measures of center and variability","skills":[{"code":"PCK","name":"Compare populations using measures of center and spread","url":"https://www.ixl.com/math/grade-7/compare-populations-using-measures-of-center-and-spread","studied":false},{"code":"2BM","name":"Make inferences from multiple samples","url":"https://www.ixl.com/math/grade-7/make-inferences-from-multiple-samples","studied":false},{"code":"XHL","name":"Identify an outlier","url":"https://www.ixl.com/math/grade-7/identify-an-outlier","studied":false}],"no_match":false}]},{"code":"7.SP.C.5","title":"Understand probability as a number between 0 and 1","summary":"**What this standard is really asking:** This is the conceptual foundation of the entire probability cluster. Probability is a number that encodes likelihood on a scale from 0 (impossible) to 1 (certain), with 0.5 as the midpoint of equally-likely. Students need to internalize this scale — not just know the definition — so that they can evaluate whether a calculated probability is reasonable. *Cross-check: Can students look at a probability like 0.85 and immediately characterize it as likely without any further calculation?* ","components":[{"text":"Understand that probability is a number between 0 and 1 expressing the likelihood of an event","skills":[{"code":"ZZB","name":"Probability of simple events","url":"https://www.ixl.com/math/grade-7/probability-of-simple-events","studied":false},{"code":"J6M","name":"Sample spaces of simple events","url":"https://www.ixl.com/math/grade-7/sample-spaces-of-simple-events","studied":false}],"no_match":false},{"text":"Interpret probability relative to likelihood (near 0 = unlikely, near 1 = likely, ~0.5 = equally likely)","skills":[{"code":"F88","name":"Probability of simple events and opposite events","url":"https://www.ixl.com/math/grade-7/probability-of-simple-events-and-opposite-events","studied":false},{"code":"8TP","name":"Probability of mutually exclusive events and overlapping events","url":"https://www.ixl.com/math/grade-7/probability-of-mutually-exclusive-events-and-overlapping-events","studied":false}],"no_match":false}]},{"code":"7.SP.C.6","title":"Approximate probability using long-run relative frequency","summary":"**What this standard is really asking:** Theoretical probability predicts what *should* happen; experimental data shows what *did* happen. Students must understand that experimental frequencies approach theoretical probability as trials increase — the Law of Large Numbers in an intuitive form. They should predict expected frequencies from a known probability and work backward from frequencies to approximate probabilities. Collecting real data (even simulated) is central to this standard. *Cross-check: Have students run or analyzed a repeated experiment to see frequency converge on probability, not just read about the concept?* ","components":[{"text":"Predict approximate relative frequency given a known probability","skills":[{"code":"9UW","name":"Make predictions using theoretical probability","url":"https://www.ixl.com/math/grade-7/make-predictions-using-theoretical-probability","studied":false},{"code":"WP6","name":"Make predictions using experimental probability","url":"https://www.ixl.com/math/grade-7/make-predictions-using-experimental-probability","studied":false}],"no_match":false},{"text":"Understand that more trials increases the accuracy of a probability estimate","skills":[{"code":"9AA","name":"Experimental probability","url":"https://www.ixl.com/math/grade-7/experimental-probability","studied":false},{"code":"VST","name":"Use collected data to find probabilities and make predictions","url":"https://www.ixl.com/math/grade-7/use-collected-data-to-find-probabilities-and-make-predictions","studied":false}],"no_match":false},{"text":"Collect data on a chance process and use long-run relative frequency to approximate probability *(data-collection process — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.SP.C.7","title":"Develop a probability model; compare to observed frequencies","summary":"**What this standard is really asking:** Students build two kinds of probability models — uniform (all outcomes equally likely) and non-uniform (outcomes have different probabilities) — and test them against real or simulated data. When the model and the observed frequencies don't agree well, students must reason about *why*: is the model wrong, or is the sample just small? This standard develops critical thinking about the relationship between mathematical models and empirical reality. *Cross-check: Can students articulate a plausible reason why a fair coin might come up heads 60% of the time in a short experiment?* ","components":[{"text":"Develop a probability model and use it to find probabilities of events","skills":[{"code":"9UW","name":"Make predictions using theoretical probability","url":"https://www.ixl.com/math/grade-7/make-predictions-using-theoretical-probability","studied":false},{"code":"D87","name":"Which simulation represents the situation?","url":"https://www.ixl.com/math/grade-7/which-simulation-represents-the-situation","studied":false}],"no_match":false},{"text":"Compare probabilities from a model to observed frequencies","skills":[{"code":"9AA","name":"Experimental probability","url":"https://www.ixl.com/math/grade-7/experimental-probability","studied":false},{"code":"VST","name":"Use collected data to find probabilities and make predictions","url":"https://www.ixl.com/math/grade-7/use-collected-data-to-find-probabilities-and-make-predictions","studied":false}],"no_match":false},{"text":"Explain discrepancies between a theoretical model and observed frequencies *(written reasoning — no IXL match)*","skills":[],"no_match":true}]},{"code":"7.SP.C.8","title":"Find probabilities of compound events","summary":"**What this standard is really asking:** Compound events involve two or more stages, and students must systematically enumerate all outcomes using organized lists, tables, or tree diagrams before computing probabilities. The critical distinction is between independent events (drawing with replacement — the first draw doesn't affect the second) and dependent events (without replacement — it does). Students should also be able to design a simulation as a stand-in for a hard-to-run experiment. *Cross-check: Are students building sample spaces systematically, and distinguishing clearly between the with- and without-replacement cases?* ","components":[{"text":"Find probabilities of compound independent events","skills":[{"code":"8HY","name":"Sample spaces for compound events","url":"https://www.ixl.com/math/grade-7/sample-spaces-for-compound-events","studied":false},{"code":"YPQ","name":"Probability of compound events","url":"https://www.ixl.com/math/grade-7/probability-of-compound-events","studied":false},{"code":"NED","name":"Probability of independent and dependent events","url":"https://www.ixl.com/math/grade-7/probability-of-independent-and-dependent-events","studied":false}],"no_match":false},{"text":"Find probabilities of compound events without replacement (dependent events)","skills":[{"code":"NED","name":"Probability of independent and dependent events","url":"https://www.ixl.com/math/grade-7/probability-of-independent-and-dependent-events","studied":false},{"code":"EKX","name":"Find the number of outcomes: word problems","url":"https://www.ixl.com/math/grade-7/find-the-number-of-outcomes-word-problems","studied":false}],"no_match":false},{"text":"Represent sample spaces using organized lists, tables, and tree diagrams","skills":[{"code":"8HY","name":"Sample spaces for compound events","url":"https://www.ixl.com/math/grade-7/sample-spaces-for-compound-events","studied":false},{"code":"HZR","name":"Compound events: find the number of outcomes","url":"https://www.ixl.com/math/grade-7/compound-events-find-the-number-of-outcomes","studied":false}],"no_match":false},{"text":"Design and use simulations to generate frequencies for compound events *(simulation design — no IXL match)*","skills":[],"no_match":true}]}]}];
+const INITIAL_SKILLS = {"2B5":{"name":"Multiply and divide positive and negative fractions","studied":false},"2BM":{"name":"Make inferences from multiple samples","studied":false},"2DD":{"name":"Add and subtract integers: word problems","studied":true},"2HW":{"name":"Convert between percents, fractions, and decimals","studied":true},"2NB":{"name":"Unit rates","studied":true},"2NM":{"name":"Area of semicircles and quarter circles","studied":false},"3C9":{"name":"Estimate population size using proportions","studied":false},"54S":{"name":"Percent of change: word problems","studied":true},"57X":{"name":"Calculate unit rates with fractions","studied":true},"5NJ":{"name":"Multiply fractions and mixed numbers: word problems","studied":false},"5RX":{"name":"Triangle inequality","studied":false},"5V3":{"name":"Identify representative, random, and biased samples","studied":false},"5VR":{"name":"Divide fractions and mixed numbers: word problems","studied":false},"6BT":{"name":"Add and subtract linear expressions","studied":false},"6GU":{"name":"Write equations for proportional relationships from tables","studied":true},"6HD":{"name":"One-step inequalities: word problems","studied":false},"6V7":{"name":"Identify proportional relationships from tables","studied":true},"6XR":{"name":"Write equivalent expressions using properties","studied":false},"7YN":{"name":"Evaluate numerical expressions involving integers","studied":false},"84H":{"name":"Scale drawings: word problems","studied":true},"8HY":{"name":"Sample spaces for compound events","studied":false},"8NH":{"name":"Choose two-step equations: word problems","studied":false},"8TP":{"name":"Probability of mutually exclusive events and overlapping events","studied":false},"8WV":{"name":"Volume of cubes and rectangular prisms: word problems","studied":false},"9AA":{"name":"Experimental probability","studied":false},"9UW":{"name":"Make predictions using theoretical probability","studied":false},"A63":{"name":"Add integers using number lines","studied":true},"AAN":{"name":"Identify proportional relationships by graphing","studied":true},"AJ9":{"name":"Checkpoint: Problem solving with rational numbers","studied":true},"BXW":{"name":"Multiply and divide rational numbers","studied":true},"CG9":{"name":"Transversals of parallel lines: find angle measures","studied":false},"CNF":{"name":"Checkpoint: Unit rates, ratios, and percents","studied":true},"CST":{"name":"Find measures of complementary, supplementary, vertical, and adjacent angles","studied":false},"D2Y":{"name":"Solve two-step equations: word problems","studied":false},"D87":{"name":"Which simulation represents the situation?","studied":false},"DJ8":{"name":"Equivalent ratios: word problems","studied":true},"DN9":{"name":"Write and solve equations using angle relationships","studied":false},"DRB":{"name":"Identify equivalent linear expressions I","studied":false},"EGF":{"name":"Estimate sums, differences, and products of decimals","studied":false},"EKX":{"name":"Find the number of outcomes: word problems","studied":false},"EP5":{"name":"Volume of prisms: advanced","studied":false},"F88":{"name":"Probability of simple events and opposite events","studied":false},"FGG":{"name":"Subtract integers using number lines","studied":true},"FVH":{"name":"Write and solve equations that represent diagrams","studied":false},"GKU":{"name":"Add and subtract rational numbers","studied":true},"GP9":{"name":"Checkpoint: Area, circumference, surface area, and volume","studied":false},"HFJ":{"name":"Cross sections of three-dimensional figures","studied":false},"HWQ":{"name":"Checkpoint: Solve two-step inequalities","studied":false},"HZR":{"name":"Compound events: find the number of outcomes","studied":false},"J6M":{"name":"Sample spaces of simple events","studied":false},"J9G":{"name":"Factors of linear expressions","studied":false},"JFR":{"name":"Area and perimeter: word problems","studied":false},"JJG":{"name":"Simplify expressions by combining like terms","studied":false},"JKK":{"name":"Estimate products and quotients of fractions and mixed numbers","studied":false},"JT9":{"name":"Identify quotients of rational numbers: word problems","studied":true},"JVU":{"name":"Multi-step word problems with positive rational numbers","studied":false},"K7V":{"name":"Multiply and divide positive and negative decimals","studied":false},"KCM":{"name":"Scale drawings: scale factor word problems","studied":true},"KS7":{"name":"Circumference of circles","studied":false},"KWH":{"name":"Identify equivalent linear expressions: word problems","studied":false},"LKZ":{"name":"Find the constant of proportionality from a table","studied":true},"MEZ":{"name":"Graph triangles and quadrilaterals","studied":false},"MRG":{"name":"Area of compound figures with triangles","studied":false},"N2T":{"name":"Write an equation from words","studied":false},"N5Z":{"name":"Classify triangles","studied":false},"N97":{"name":"Area of compound figures with triangles, semicircles, and quarter circles","studied":false},"NB5":{"name":"Identify proportional relationships from graphs and equations","studied":true},"NED":{"name":"Probability of independent and dependent events","studied":false},"NUY":{"name":"Multiply using the distributive property","studied":false},"NWM":{"name":"Solve word problems using unit rates","studied":true},"NZN":{"name":"Calculate quartiles and interquartile range","studied":false},"P56":{"name":"Circles: word problems","studied":false},"PCK":{"name":"Compare populations using measures of center and spread","studied":false},"PGR":{"name":"Checkpoint: Multiply and divide rational numbers","studied":true},"QBF":{"name":"Add, subtract, multiply, and divide rational numbers","studied":false},"QRL":{"name":"Factor linear expressions: area models","studied":false},"RFP":{"name":"Surface area of cubes and prisms","studied":false},"RKC":{"name":"Area between two shapes","studied":false},"SD2":{"name":"Add and subtract positive and negative fractions","studied":false},"SJ9":{"name":"Checkpoint: Scale drawings","studied":true},"SKN":{"name":"Box plots","studied":false},"SPN":{"name":"Percent of a number: tax, discount, and more","studied":true},"TGN":{"name":"Add, subtract, multiply, and divide decimals: word problems","studied":false},"URT":{"name":"Volume of cubes and prisms","studied":false},"V96":{"name":"Checkpoint: Solve two-step equations","studied":false},"VKK":{"name":"Write and solve equations for proportional relationships","studied":true},"VST":{"name":"Use collected data to find probabilities and make predictions","studied":false},"VVS":{"name":"Compare rates: word problems","studied":false},"WB7":{"name":"Solve proportions: word problems","studied":false},"WCZ":{"name":"Add and subtract positive and negative decimals","studied":false},"WEA":{"name":"Scale drawings of polygons","studied":true},"WP6":{"name":"Make predictions using experimental probability","studied":false},"XAK":{"name":"Lateral area of prisms and pyramids","studied":false},"XDG":{"name":"Checkpoint: Add and subtract rational numbers","studied":true},"XHL":{"name":"Identify an outlier","studied":false},"XMD":{"name":"Write variable expressions: word problems","studied":true},"XSJ":{"name":"Surface area of pyramids","studied":false},"YA8":{"name":"Area of circles","studied":false},"YHZ":{"name":"Populations and samples","studied":false},"YNM":{"name":"Calculate mean absolute deviation","studied":false},"YPQ":{"name":"Probability of compound events","studied":false},"ZC6":{"name":"Perimeter and area: changes in scale","studied":true},"ZHX":{"name":"Multi-step problems with percents","studied":true},"ZUT":{"name":"Find the constant of proportionality from a graph","studied":true},"ZZB":{"name":"Probability of simple events","studied":false}};
+const LS_PAT   = 'ixl-gh-pat';
+const LS_GIST  = 'ixl-gh-gist';
+const LS_LOCAL = 'ixl-studied-local';
+const CC = ['#1565c0','#e65100','#6a1b9a','#2e7d32','#ad1457'];
+
+let studied = {};
+let currentFilter = 'all';
+let saveTimer = null;
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function getPAT()    { return localStorage.getItem(LS_PAT) || ''; }
+function getGistId() { return localStorage.getItem(LS_GIST) || ''; }
+
+function setStatus(msg, cls) {
+  const el = document.getElementById('savestatus');
+  el.textContent = msg; el.className = 'save-status' + (cls ? ' '+cls : '');
+}
+
+function renderMd(text) {
+  if (!text) return '';
+  return text
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g,'<em>$1</em>');
+}
+
+// ── PAT / config ─────────────────────────────────────────────────────────────
+
+async function savePAT() {
+  const val = document.getElementById('pat-input').value.trim();
+  if (!val) { alert('Please paste your GitHub PAT first.'); return; }
+  localStorage.setItem(LS_PAT, val);
+  dismissBanner();
+  setStatus('Testing token…', 'saving');
+  // Test the token first with a simple authenticated call
+  try {
+    const r = await fetch('https://api.github.com/user', {
+      headers: {
+        'Authorization': 'Bearer ' + val,
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28'
+      }
+    });
+    if (!r.ok) {
+      const j = await r.json().catch(() => ({}));
+      setStatus('⚠ Token rejected by GitHub: ' + (j.message || r.status) + ' — check the token and try again.', 'error');
+      return;
+    }
+    const user = await r.json();
+    setStatus('Token valid (✓ authenticated as ' + user.login + '). Creating Gist…', 'saved');
+    await persistStudied();
+  } catch(e) {
+    setStatus('⚠ ' + e.message, 'error');
+  }
+}
+
+function dismissBanner() {
+  document.getElementById('config-banner').classList.add('hidden');
+  localStorage.setItem('ixl-banner-dismissed','1');
+}
+
+// ── Gist API ─────────────────────────────────────────────────────────────────
+
+async function gistFetch(method, path, body) {
+  const pat = getPAT();
+  const headers = { 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+  if (pat) headers['Authorization'] = 'Bearer ' + pat;
+  const opts = { method, headers };
+  if (body) { headers['Content-Type'] = 'application/json'; opts.body = JSON.stringify(body); }
+  let r;
+  try {
+    r = await fetch('https://api.github.com' + path, opts);
+  } catch(networkErr) {
+    throw new Error('Network error — check that you are on https:// not file://. Detail: ' + networkErr.message);
+  }
+  if (!r.ok) {
+    let detail = r.status;
+    try { const j = await r.json(); detail = r.status + ' ' + (j.message || JSON.stringify(j)); } catch(e) {}
+    throw new Error('GitHub API error: ' + detail);
+  }
+  return r.json();
+}
+
+async function createGist(data) {
+  const res = await gistFetch('POST', '/gists', {
+    description: 'IXL 7th Grade Math — studied state',
+    public: false,
+    files: { 'ixl-studied.json': { content: JSON.stringify(data) } }
+  });
+  localStorage.setItem(LS_GIST, res.id);
+  return res.id;
+}
+
+async function updateGist(gistId, data) {
+  await gistFetch('PATCH', '/gists/' + gistId, {
+    files: { 'ixl-studied.json': { content: JSON.stringify(data) } }
+  });
+}
+
+async function readGist(gistId) {
+  const res = await gistFetch('GET', '/gists/' + gistId);
+  const raw = res.files['ixl-studied.json']?.content;
+  return raw ? JSON.parse(raw) : null;
+}
+
+// Anonymous read via raw URL (no auth needed for secret gists if you know the ID)
+async function readGistRaw(gistId) {
+  const res = await fetch(`https://api.github.com/gists/${gistId}`);
+  if (!res.ok) throw new Error('Could not read gist');
+  const data = await res.json();
+  const raw = data.files['ixl-studied.json']?.content;
+  return raw ? JSON.parse(raw) : null;
+}
+
+// ── Persistence ───────────────────────────────────────────────────────────────
+
+async function persistStudied() {
+  const pat = getPAT();
+  if (!pat) {
+    // local only
+    localStorage.setItem(LS_LOCAL, JSON.stringify(studied));
+    setStatus('Saved locally (no Gist configured)', '');
+    return;
+  }
+  setStatus('Saving…', 'saving');
+  try {
+    let gistId = getGistId();
+    if (!gistId) {
+      gistId = await createGist(studied);
+    } else {
+      await updateGist(gistId, studied);
+    }
+    localStorage.setItem(LS_LOCAL, JSON.stringify(studied));
+    setStatus('✓ Saved to GitHub Gist', 'saved');
+    setTimeout(() => setStatus('', ''), 2500);
+  } catch(e) {
+    localStorage.setItem(LS_LOCAL, JSON.stringify(studied));
+    setStatus('⚠ Gist save failed — saved locally only', 'error');
+    console.error(e);
+  }
+}
+
+function scheduleSave() {
+  if (saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(persistStudied, 800);
+}
+
+// ── Load ──────────────────────────────────────────────────────────────────────
+
+async function loadStudied() {
+  // Base: seed from INITIAL_SKILLS
+  const base = {};
+  for (const [k,v] of Object.entries(INITIAL_SKILLS)) base[k] = v.studied;
+
+  // Check URL for a shared gist ID (?gist=xxx)
+  const urlParams = new URLSearchParams(window.location.search);
+  const urlGistId = urlParams.get('gist');
+
+  if (urlGistId) {
+    // Viewer mode — read gist anonymously, don't allow saving
+    // Hide config banner and share button immediately — viewers never need these
+    document.getElementById('config-banner').classList.add('hidden');
+    document.getElementById('sharebtn').style.display = 'none';
+    try {
+      setStatus('Loading shared progress\u2026', 'saving');
+      const saved = await readGistRaw(urlGistId);
+      if (saved) { Object.assign(base, saved); setStatus('Viewing shared progress (read-only)', ''); }
+      else setStatus('Could not load shared gist', 'error');
+    } catch(e) {
+      setStatus('Could not load shared gist', 'error');
+    }
+    studied = base;
+    // Mark body as read-only so toggle() is a no-op for viewers
+    document.body.dataset.readonly = 'true';
+    return;
+  }
+
+  // Owner mode — check local then try gist
+  const localRaw = localStorage.getItem(LS_LOCAL);
+  if (localRaw) { try { Object.assign(base, JSON.parse(localRaw)); } catch(e){} }
+
+  const pat = getPAT();
+  const gistId = getGistId();
+  if (pat && gistId) {
+    try {
+      setStatus('Syncing with Gist…', 'saving');
+      const saved = await readGist(gistId);
+      if (saved) Object.assign(base, saved);
+      setStatus('', '');
+    } catch(e) {
+      setStatus('Using local data (Gist unavailable)', '');
+    }
+  }
+
+  studied = base;
+
+  // Show/hide config banner
+  if (pat || localStorage.getItem('ixl-banner-dismissed')) {
+    document.getElementById('config-banner').classList.add('hidden');
+  }
+}
+
+// ── Toggle ────────────────────────────────────────────────────────────────────
+
+function toggle(code) {
+  if (document.body.dataset.readonly === 'true') return;
+  studied[code] = !studied[code];
+  updateAll();
+  scheduleSave();
+}
+
+// ── Share link ────────────────────────────────────────────────────────────────
+
+function copyShareLink() {
+  const gistId = getGistId();
+  if (!gistId) {
+    alert('No Gist configured yet — save your progress first, then share.');
+    return;
+  }
+  const url = window.location.origin + window.location.pathname + '?gist=' + gistId;
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.getElementById('sharebtn');
+    btn.textContent = '✓ Link copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.innerHTML = '&#128279; Share'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── Filter ────────────────────────────────────────────────────────────────────
+
+function setFilter(f, btn) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilter();
+}
+
+// ── Update UI ─────────────────────────────────────────────────────────────────
+
+function updateStats() {
+  const total = Object.keys(INITIAL_SKILLS).length;
+  const done = Object.values(studied).filter(Boolean).length;
+  const pct = Math.round(done/total*100);
+  let tc=0, dc=0;
+  for (const cl of DOCUMENT) for (const st of cl.standards) for (const co of st.components) {
+    if (!co.no_match && co.skills?.length) { tc++; if (co.skills.every(sk => studied[sk.code])) dc++; }
+  }
+  document.getElementById('pbar').style.width = pct+'%';
+  document.getElementById('plabel').innerHTML = '<strong>'+done+'</strong>/'+total+' skills  ·  <strong>'+dc+'</strong>/'+tc+' components';
+}
+
+function updateSkillButtons() {
+  document.querySelectorAll('.skill-btn').forEach(btn => {
+    const code = btn.dataset.code;
+    const s = studied[code];
+    btn.className = 'skill-btn' + (s ? ' studied' : '');
+    const chk = btn.querySelector('.skill-check-btn');
+    if (chk) chk.textContent = s ? '✔' : '○';
+    const sc = btn.querySelector('.skill-code');
+    if (sc) { sc.style.color = s ? '#1b4332' : '#bbb'; sc.style.background = s ? '#b7e4c7' : '#efefef'; }
+  });
+}
+
+function updateCompCells() {
+  document.querySelectorAll('tr[data-codes]').forEach(row => {
+    const codes = row.dataset.codes ? row.dataset.codes.split(',').filter(Boolean) : [];
+    const cell = row.querySelector('.comp-cell');
+    if (!cell || !codes.length) return;
+    const allD = codes.every(c => studied[c]);
+    const anyD = codes.some(c => studied[c]);
+    cell.className = 'comp-cell' + (allD?' all-done':anyD?' any-done':'');
+    const badge = cell.querySelector('.addressed-badge');
+    if (allD && !badge) {
+      const b = document.createElement('span');
+      b.className='addressed-badge'; b.textContent='✓ addressed';
+      cell.appendChild(b);
+    } else if (!allD && badge) badge.remove();
+  });
+}
+
+function updateStdMetas() {
+  document.querySelectorAll('.std-card').forEach(card => {
+    const codes = card.dataset.allcodes ? card.dataset.allcodes.split(',').filter(Boolean) : [];
+    const nDone = codes.filter(c => studied[c]).length;
+    const nTot = codes.length;
+    let cDone = 0;
+    card.querySelectorAll('tr[data-codes]').forEach(row => {
+      const rc = row.dataset.codes ? row.dataset.codes.split(',').filter(Boolean) : [];
+      if (rc.length && rc.every(c => studied[c])) cDone++;
+    });
+    const meta = card.querySelector('.std-meta');
+    if (meta) meta.innerHTML = nDone+'/'+nTot+' skills' +
+      (cDone ? '<span class="comp-done">· '+cDone+' component'+(cDone!==1?'s':'')+' fully addressed</span>' : '');
+  });
+}
+
+function applyFilter() {
+  document.querySelectorAll('.std-card').forEach(card => {
+    const codes = card.dataset.allcodes ? card.dataset.allcodes.split(',').filter(Boolean) : [];
+    const hasSt = codes.some(c => studied[c]);
+    const hasUn = codes.some(c => !studied[c]);
+    if (currentFilter==='studied' && !hasSt) { card.classList.add('hidden'); return; }
+    if (currentFilter==='unstudied' && !hasUn) { card.classList.add('hidden'); return; }
+    card.classList.remove('hidden');
+    card.querySelectorAll('tr[data-codes]').forEach(row => {
+      const rc = row.dataset.codes ? row.dataset.codes.split(',').filter(Boolean) : [];
+      if (!rc.length) { row.classList.remove('hidden'); return; }
+      const anyD = rc.some(c => studied[c]);
+      const allD = rc.every(c => studied[c]);
+      if (currentFilter==='studied' && !anyD) row.classList.add('hidden');
+      else if (currentFilter==='unstudied' && allD) row.classList.add('hidden');
+      else row.classList.remove('hidden');
+    });
+  });
+}
+
+function updateAll() {
+  updateStats();
+  updateSkillButtons();
+  updateCompCells();
+  updateStdMetas();
+  applyFilter();
+}
+
+// ── Build DOM ─────────────────────────────────────────────────────────────────
+
+function buildUI() {
+  const content = document.getElementById('content');
+  content.innerHTML = '';
+  DOCUMENT.forEach((cluster, ci) => {
+    const color = CC[ci] || CC[0];
+    const clDiv = document.createElement('div');
+    clDiv.className = 'cluster';
+    const clHdr = document.createElement('div');
+    clHdr.className = 'cluster-header';
+    clHdr.innerHTML = '<span class="cluster-title">'+cluster.title+'</span><span class="cluster-type">'+cluster.type+'</span>';
+    clDiv.appendChild(clHdr);
+
+    cluster.standards.forEach(std => {
+      const allSk = std.components.flatMap(c => c.skills||[]);
+      const uniqueCodes = [...new Set(allSk.map(sk => sk.code))];
+
+      const card = document.createElement('div');
+      card.className = 'std-card';
+      card.dataset.allcodes = uniqueCodes.join(',');
+
+      // Header
+      const hdr = document.createElement('div');
+      hdr.className = 'std-header';
+      hdr.innerHTML =
+        '<span class="std-code" style="background:'+color+'">'+std.code+'</span>'+
+        '<div class="std-info">'+
+          '<div class="std-title">'+std.title+'</div>'+
+          '<div class="std-meta">0/'+allSk.length+' skills</div>'+
+        '</div>'+
+        '<span class="std-toggle">▲</span>';
+      hdr.onclick = () => {
+        const body = card.querySelector('.std-body');
+        const tog = card.querySelector('.std-toggle');
+        const opening = !body.classList.contains('open');
+        body.classList.toggle('open', opening);
+        tog.textContent = opening ? '▲' : '▼';
+      };
+      card.appendChild(hdr);
+
+      // Body
+      const body = document.createElement('div');
+      body.className = 'std-body open';
+
+      // Summary + cross-check
+      const crossI = std.summary.indexOf('*Cross-check:');
+      const mainText = crossI>=0 ? std.summary.slice(0,crossI).trim() : std.summary.trim();
+      const crossText = crossI>=0 ? std.summary.slice(crossI).replace(/^\*|\*\s*$/g,'').replace(/^Cross-check:\s*/,'').trim() : null;
+      const sumDiv = document.createElement('div');
+      sumDiv.className = 'summary';
+      sumDiv.innerHTML = renderMd(mainText) +
+        (crossText ? '<div class="crosscheck"><strong>Cross-check:</strong> '+renderMd(crossText)+'</div>' : '');
+      body.appendChild(sumDiv);
+
+      // Table
+      const table = document.createElement('table');
+      const thead = document.createElement('thead');
+      thead.innerHTML = '<tr><th style="width:36%">Learning Component</th><th>IXL Skills — <em>click to toggle</em></th></tr>';
+      table.appendChild(thead);
+      const tbody = document.createElement('tbody');
+
+      std.components.forEach(comp => {
+        const compCodes = (comp.skills||[]).map(sk => sk.code);
+        const row = document.createElement('tr');
+        row.dataset.codes = compCodes.join(',');
+
+        const label = comp.text.replace(/\s*\*[^*]+\*/g,'').replace(/\s*— no IXL match/g,'').replace(/\s*- no IXL match/g,'').trim();
+
+        const td1 = document.createElement('td');
+        td1.className = 'comp-cell';
+        td1.textContent = label;
+
+        const td2 = document.createElement('td');
+        if (comp.no_match || !comp.skills?.length) {
+          td2.innerHTML = '<span class="no-match">— no IXL skill match</span>';
+        } else {
+          const wrap = document.createElement('div');
+          wrap.className = 'skills-cell';
+          comp.skills.forEach(sk => {
+            const btn = document.createElement('div');
+            btn.className = 'skill-btn' + (studied[sk.code] ? ' studied' : '');
+            btn.dataset.code = sk.code;
+            // Left: link to IXL skill page
+            const link = document.createElement('a');
+            link.href = sk.url || ('https://www.ixl.com/math/grade-7/' + sk.code.toLowerCase());
+            link.target = '_blank';
+            link.rel = 'noopener';
+            link.className = 'skill-link-area';
+            link.innerHTML = '<span class="skill-code">'+sk.code+'</span><span class="skill-name">'+sk.name+'</span>';
+            // Right: toggle button
+            const chk = document.createElement('button');
+            chk.className = 'skill-check-btn';
+            chk.title = 'Mark as studied';
+            chk.innerHTML = (studied[sk.code]?'✔':'○');
+            chk.onclick = () => toggle(sk.code);
+            btn.appendChild(link);
+            btn.appendChild(chk);
+            wrap.appendChild(btn);
+          });
+          td2.appendChild(wrap);
+        }
+        row.appendChild(td1);
+        row.appendChild(td2);
+        tbody.appendChild(row);
+      });
+
+      table.appendChild(tbody);
+      body.appendChild(table);
+      card.appendChild(body);
+      clDiv.appendChild(card);
+    });
+    content.appendChild(clDiv);
+  });
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+
+(async () => {
+  buildUI();
+  await loadStudied();
+  updateAll();
+})();
+</script>
+</body>
+</html>
