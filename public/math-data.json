@@ -1,5 +1,5 @@
 {
-  "synced": "2026-04-01T03:56:19.934Z",
+  "synced": "2026-04-01T09:54:04.535Z",
   "subject": "Math",
   "standards": [
     {
@@ -512,15 +512,6 @@
               "status": "Practiced",
               "subject": "Math",
               "isDupe": false
-            },
-            {
-              "id": "3337d181-fab4-804a-a9ec-d46d8f29bab6",
-              "name": "Y8T",
-              "permacode": "Y8T",
-              "url": "https://www.ixl.com/search?q=Y8T",
-              "status": "Practiced",
-              "subject": "Math",
-              "isDupe": false
             }
           ]
         }
@@ -813,15 +804,6 @@
               "isDupe": false
             },
             {
-              "id": "3337d181-fab4-8029-b0fb-c35eb30aa55f",
-              "name": "ENL",
-              "permacode": "ENL",
-              "url": "https://www.ixl.com/search?q=ENL",
-              "status": "Not started",
-              "subject": "Math",
-              "isDupe": false
-            },
-            {
               "id": "3337d181-fab4-8084-b21e-ec3621332e6a",
               "name": "HGN",
               "permacode": "HGN",
@@ -1083,7 +1065,7 @@
               "name": "66R",
               "permacode": "66R",
               "url": "https://www.ixl.com/search?q=66R",
-              "status": "Not started",
+              "status": "Assigned",
               "subject": "Math",
               "isDupe": false
             }
@@ -1113,7 +1095,7 @@
               "name": "TFK",
               "permacode": "TFK",
               "url": "https://www.ixl.com/search?q=TFK",
-              "status": "Not started",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             }
@@ -1269,7 +1251,7 @@
               "name": "YA8",
               "permacode": "YA8",
               "url": "https://www.ixl.com/search?q=YA8",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             }
@@ -1288,7 +1270,7 @@
               "name": "P56",
               "permacode": "P56",
               "url": "https://www.ixl.com/search?q=P56",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             }
@@ -1307,7 +1289,7 @@
               "name": "2VL",
               "permacode": "2VL",
               "url": "https://www.ixl.com/search?q=2VL",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             },
@@ -1316,7 +1298,7 @@
               "name": "KS7",
               "permacode": "KS7",
               "url": "https://www.ixl.com/search?q=KS7",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             }
