@@ -1,0 +1,1939 @@
+{
+  "synced": "2026-04-01T03:56:19.934Z",
+  "subject": "Math",
+  "standards": [
+    {
+      "id": "32f7d181-fab4-80f9-bd5b-fb63928dc99f",
+      "code": "7.RP.A.1",
+      "domain": "RP",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Unit rates with fractions",
+      "plainLanguage": "You can figure out \"how much per one\" even when the amounts are messy fractions.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8083-ac01-ca07b707cade",
+          "text": "7.RP.A.1.lc3",
+          "shortTitle": "Unit rate from mathematical rates",
+          "code": "7.RP.A.1.lc3",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80d3-afe4-f0d809b87288",
+              "name": "57X",
+              "permacode": "57X",
+              "url": "https://www.ixl.com/search?q=57X",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8001-98d2-cf79130d47b7",
+              "name": "NWM",
+              "permacode": "NWM",
+              "url": "https://www.ixl.com/search?q=NWM",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80b9-9987-d7cd575826fe",
+      "code": "7.RP.A.2.a",
+      "domain": "RP",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Spot the proportional relationship",
+      "plainLanguage": "You can look at a table or a graph and tell whether two things are truly growing together in a steady, reliable way.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80ea-bbf8-d5890fb2f70f",
+          "text": "7.RP.A.2.a.lc1",
+          "shortTitle": "Proportionality in tables",
+          "code": "7.RP.A.2.a.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-804d-a983-f3e942b3aa8f",
+              "name": "6V7",
+              "permacode": "6V7",
+              "url": "https://www.ixl.com/search?q=6V7",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8057-9b11-ec51f144fcf5",
+              "name": "DJ8",
+              "permacode": "DJ8",
+              "url": "https://www.ixl.com/search?q=DJ8",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8039-825b-fffd2a7308c2",
+              "name": "MJQ",
+              "permacode": "MJQ",
+              "url": "https://www.ixl.com/search?q=MJQ",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-805a-a630-e0c5f69b76aa",
+              "name": "NB5",
+              "permacode": "NB5",
+              "url": "https://www.ixl.com/search?q=NB5",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-809f-aa61-e8c1ff6cf7ae",
+              "name": "SHV",
+              "permacode": "SHV",
+              "url": "https://www.ixl.com/search?q=SHV",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-808b-99ad-d1cd6a599a59",
+              "name": "ZFM",
+              "permacode": "ZFM",
+              "url": "https://www.ixl.com/search?q=ZFM",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-80c1-a9fe-c453ea698553",
+          "text": "7.RP.A.2.a.lc2",
+          "shortTitle": "Proportionality in graphs",
+          "code": "7.RP.A.2.a.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80d9-a167-fde33385058f",
+              "name": "AAN",
+              "permacode": "AAN",
+              "url": "https://www.ixl.com/search?q=AAN",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80cd-b3c4-ebe27bed5f62",
+      "code": "7.RP.A.2.b",
+      "domain": "RP",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Find the constant (k)",
+      "plainLanguage": "You can find the \"magic multiplier\" that connects two things — whether it's written as a table, a graph, an equation, a diagram, or just described in words.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-804a-88bc-d48c2a42e76d",
+          "text": "7.RP.A.2.b.lc1",
+          "shortTitle": "Constant of proportionality in graphs, tables",
+          "code": "7.RP.A.2.b.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8036-84ae-f077fe7381ab",
+              "name": "LKZ",
+              "permacode": "LKZ",
+              "url": "https://www.ixl.com/search?q=LKZ",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8042-89e9-fa4f0afcc9bd",
+              "name": "ZUT",
+              "permacode": "ZUT",
+              "url": "https://www.ixl.com/search?q=ZUT",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80ac-88bd-c1239d5453ae",
+      "code": "7.RP.A.2.c",
+      "domain": "RP",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Write the equation",
+      "plainLanguage": "You can write a simple equation that captures any proportional relationship, so you can plug in any number and get your answer instantly.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8040-8658-ef2448dfcf6b",
+          "text": "7.RP.A.2.c.lc1",
+          "shortTitle": "Write proportional equations",
+          "code": "7.RP.A.2.c.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80db-9092-c2d54caacaa5",
+              "name": "6GU",
+              "permacode": "6GU",
+              "url": "https://www.ixl.com/search?q=6GU",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8086-8d63-f3679c412c21",
+              "name": "67F",
+              "permacode": "67F",
+              "url": "https://www.ixl.com/search?q=67F",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80a4-b35f-c867d98de41f",
+              "name": "93K",
+              "permacode": "93K",
+              "url": "https://www.ixl.com/search?q=93K",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-803a-a69f-eda16b9b5e9f",
+              "name": "EXE",
+              "permacode": "EXE",
+              "url": "https://www.ixl.com/search?q=EXE",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80c3-9905-c8ecab2a3706",
+              "name": "JKH",
+              "permacode": "JKH",
+              "url": "https://www.ixl.com/search?q=JKH",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8051-98d9-cf850941c0e0",
+              "name": "JS6",
+              "permacode": "JS6",
+              "url": "https://www.ixl.com/search?q=JS6",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80f1-adbf-f019e8f6ae77",
+              "name": "VKK",
+              "permacode": "VKK",
+              "url": "https://www.ixl.com/search?q=VKK",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8057-bb25-f831bafec646",
+      "code": "7.RP.A.2.d",
+      "domain": "RP",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Read the graph",
+      "plainLanguage": "You can look at any point on a proportional graph and explain in plain English what it actually means — especially the two most important points.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80de-bfda-ebacf2ec3e19",
+          "text": "7.RP.A.2.d.lc1",
+          "shortTitle": "Interpret points on a graph",
+          "code": "7.RP.A.2.d.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8089-9bd0-d23f7ba2bbab",
+              "name": "RMH",
+              "permacode": "RMH",
+              "url": "https://www.ixl.com/search?q=RMH",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80f1-99a1-f5dfd5dab640",
+      "code": "7.RP.A.3",
+      "domain": "RP",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Real-world percent problems",
+      "plainLanguage": "You can handle the percent problems that come up in real life — sales tax, discounts, tips, interest — even when they take more than one step.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80f0-8fb1-eaba905d9874",
+          "text": "7.RP.A.3.lc1",
+          "shortTitle": "Solve multi-step ratio, percent problems",
+          "code": "7.RP.A.3.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8068-9185-f2eb684a7afc",
+              "name": "6UY",
+              "permacode": "6UY",
+              "url": "https://www.ixl.com/search?q=6UY",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8052-aa5c-d0ebff3533b0",
+              "name": "54S",
+              "permacode": "54S",
+              "url": "https://www.ixl.com/search?q=54S",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8002-ba27-d7b3ce37feae",
+              "name": "BDA",
+              "permacode": "BDA",
+              "url": "https://www.ixl.com/search?q=BDA",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8030-9e9f-f35b2086d609",
+              "name": "BL7",
+              "permacode": "BL7",
+              "url": "https://www.ixl.com/search?q=BL7",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-800e-b91d-d4050202a616",
+              "name": "E7Y",
+              "permacode": "E7Y",
+              "url": "https://www.ixl.com/search?q=E7Y",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80d9-bbdd-d3802cde8d06",
+              "name": "ENH",
+              "permacode": "ENH",
+              "url": "https://www.ixl.com/search?q=ENH",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80ef-98c1-f33142bf4119",
+              "name": "PBM",
+              "permacode": "PBM",
+              "url": "https://www.ixl.com/search?q=PBM",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80b7-a603-cd7512224c20",
+              "name": "QT6",
+              "permacode": "QT6",
+              "url": "https://www.ixl.com/search?q=QT6",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80c3-9aab-e2efc59dc13b",
+              "name": "SPN",
+              "permacode": "SPN",
+              "url": "https://www.ixl.com/search?q=SPN",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-801e-ad9b-c785b5ae1345",
+              "name": "ZHX",
+              "permacode": "ZHX",
+              "url": "https://www.ixl.com/search?q=ZHX",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8046-8e45-d84e42587604",
+      "code": "7.NS.A.1.a",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Opposites cancel",
+      "plainLanguage": "You understand that two opposite numbers cancel each other out completely — and can spot that pattern in real life.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-805f-b226-fec12b4fddab",
+          "text": "7.NS.A.1.a.lc1",
+          "shortTitle": "Opposite quantities sum to zero",
+          "code": "7.NS.A.1.a.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80a4-b0c9-dc9b9743907c",
+              "name": "7SP",
+              "permacode": "7SP",
+              "url": "https://www.ixl.com/search?q=7SP",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8045-82c6-d49ab953ee9f",
+      "code": "7.NS.A.1.b",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Add on the number line",
+      "plainLanguage": "You can add any two rational numbers by thinking of it as movement on a number line — and explain what the result means in real life.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8098-a5eb-db5f81d218f7",
+          "text": "7.NS.A.1.b.lc1",
+          "shortTitle": "Interpret p + q on number line",
+          "code": "7.NS.A.1.b.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8005-a781-e93ad6988694",
+              "name": "A63",
+              "permacode": "A63",
+              "url": "https://www.ixl.com/search?q=A63",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-803a-8981-f4e8e69aabb7",
+          "text": "7.NS.A.1.b.lc2",
+          "shortTitle": "Additive inverses",
+          "code": "7.NS.A.1.b.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-804a-a9ec-d46d8f29bab6",
+              "name": "Y8T",
+              "permacode": "Y8T",
+              "url": "https://www.ixl.com/search?q=Y8T",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-809f-83a8-fc0b9a11f756",
+      "code": "7.NS.A.1.c",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Subtract = add the opposite",
+      "plainLanguage": "You know that subtracting a number is the same as adding its opposite — and can use that to find the distance between any two numbers.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8004-837c-c34951b3bed8",
+          "text": "7.NS.A.1.c.lc2",
+          "shortTitle": "Distance as absolute value of difference",
+          "code": "7.NS.A.1.c.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-801a-b19b-d339b7459e2e",
+              "name": "FGG",
+              "permacode": "FGG",
+              "url": "https://www.ixl.com/search?q=FGG",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-808c-a734-fd534f1b6130",
+              "name": "QZA",
+              "permacode": "QZA",
+              "url": "https://www.ixl.com/search?q=QZA",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-804a-a9ec-d46d8f29bab6",
+              "name": "Y8T",
+              "permacode": "Y8T",
+              "url": "https://www.ixl.com/search?q=Y8T",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8042-8753-ca21d1196b66",
+      "code": "7.NS.A.1.d",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Regroup to add/subtract",
+      "plainLanguage": "You can rearrange or regroup numbers when adding and subtracting to make the math easier — and still get the right answer.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8078-889f-d8a8df811757",
+          "text": "7.NS.A.1.d.lc1",
+          "shortTitle": "Properties of addition and subtraction",
+          "code": "7.NS.A.1.d.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8065-937e-f6d5e1b5d0da",
+              "name": "BP2",
+              "permacode": "BP2",
+              "url": "https://www.ixl.com/search?q=BP2",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8022-88b6-cba7107d89ce",
+              "name": "FTM",
+              "permacode": "FTM",
+              "url": "https://www.ixl.com/search?q=FTM",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8052-b34c-fa70b1d812d6",
+              "name": "GKU",
+              "permacode": "GKU",
+              "url": "https://www.ixl.com/search?q=GKU",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8086-b867-fb8acc9d8a3b",
+              "name": "QFU",
+              "permacode": "QFU",
+              "url": "https://www.ixl.com/search?q=QFU",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-800a-adb5-ff3a4d16f103",
+      "code": "7.NS.A.2.a",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Multiply signed numbers",
+      "plainLanguage": "You understand why multiplying two negatives gives a positive — and can interpret what multiplication of signed numbers means in context.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-805a-8306-c5b27e5e48ca",
+          "text": "7.NS.A.2.a.lc1",
+          "shortTitle": "Interpret products in context",
+          "code": "7.NS.A.2.a.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-803f-b152-f39d34c51a8b",
+              "name": "V5V",
+              "permacode": "V5V",
+              "url": "https://www.ixl.com/search?q=V5V",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-80f4-aa4a-d14364dac182",
+          "text": "7.NS.A.2.a.lc2",
+          "shortTitle": "Rules for multiplying signed numbers",
+          "code": "7.NS.A.2.a.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80ea-848c-ceadf8484846",
+              "name": "5R8",
+              "permacode": "5R8",
+              "url": "https://www.ixl.com/search?q=5R8",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8009-8228-feb352b78f31",
+              "name": "K7U",
+              "permacode": "K7U",
+              "url": "https://www.ixl.com/search?q=K7U",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80a1-8d7e-cf41075542ad",
+      "code": "7.NS.A.2.b",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Divide signed numbers",
+      "plainLanguage": "You can divide any two rational numbers (as long as you’re not dividing by zero) and know how the signs work.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80fd-813c-ca853042840b",
+          "text": "7.NS.A.2.b.lc1",
+          "shortTitle": "Interpret quotients in context",
+          "code": "7.NS.A.2.b.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8098-a439-c39bb45f1736",
+              "name": "2QY",
+              "permacode": "2QY",
+              "url": "https://www.ixl.com/search?q=2QY",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-809b-880b-ee0531930db3",
+              "name": "JT9",
+              "permacode": "JT9",
+              "url": "https://www.ixl.com/search?q=JT9",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-8039-a91a-e4affa08431a",
+          "text": "7.NS.A.2.b.lc3",
+          "shortTitle": "Rules for dividing signed numbers",
+          "code": "7.NS.A.2.b.lc3",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8008-88ce-d056afc5eec3",
+              "name": "T9Q",
+              "permacode": "T9Q",
+              "url": "https://www.ixl.com/search?q=T9Q",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8057-baab-d77b09814622",
+      "code": "7.NS.A.2.c",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Regroup to multiply/divide",
+      "plainLanguage": "You can reorder or regroup numbers when multiplying and dividing to make the calculation easier.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80af-a1aa-d60310238354",
+          "text": "7.NS.A.2.c.lc1",
+          "shortTitle": "Properties of multiplication and division",
+          "code": "7.NS.A.2.c.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8024-8e89-fc7f9e0bcf8e",
+              "name": "BXW",
+              "permacode": "BXW",
+              "url": "https://www.ixl.com/search?q=BXW",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-807e-9940-e8a2e67dac42",
+      "code": "7.NS.A.2.d",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "Fractions → decimals",
+      "plainLanguage": "You can convert any fraction to a decimal using long division, and you know the decimal will either stop or repeat forever.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8087-ac59-e8e190ec6926",
+          "text": "7.NS.A.2.d.lc1",
+          "shortTitle": "Convert fractions to decimals",
+          "code": "7.NS.A.2.d.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8083-be09-f6bcaf67d1ec",
+              "name": "LCS",
+              "permacode": "LCS",
+              "url": "https://www.ixl.com/search?q=LCS",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8012-906c-cd6360bb8194",
+              "name": "M2D",
+              "permacode": "M2D",
+              "url": "https://www.ixl.com/search?q=M2D",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8073-978d-fe9e753a6f13",
+      "code": "7.NS.A.3",
+      "domain": "NS",
+      "status": "Mastered",
+      "subject": "Math",
+      "shortTitle": "All four operations, any number",
+      "plainLanguage": "You can add, subtract, multiply, and divide with any rational numbers — including negatives and fractions — to solve real problems.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8037-aafd-eae1f923bc6c",
+          "text": "7.NS.A.3.lc1",
+          "shortTitle": "Add, subtract, multiply, divide rationals (math)",
+          "code": "7.NS.A.3.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8046-a7b4-c3396a21f915",
+              "name": "2DD",
+              "permacode": "2DD",
+              "url": "https://www.ixl.com/search?q=2DD",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-801f-a988-fa4c5ebdde1b",
+              "name": "6YT",
+              "permacode": "6YT",
+              "url": "https://www.ixl.com/search?q=6YT",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-807c-83dc-dfe7cda6f463",
+              "name": "CVW",
+              "permacode": "CVW",
+              "url": "https://www.ixl.com/search?q=CVW",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8029-b0fb-c35eb30aa55f",
+              "name": "ENL",
+              "permacode": "ENL",
+              "url": "https://www.ixl.com/search?q=ENL",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8084-b21e-ec3621332e6a",
+              "name": "HGN",
+              "permacode": "HGN",
+              "url": "https://www.ixl.com/search?q=HGN",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8061-b4e4-fa19e6b630ba",
+              "name": "KR7",
+              "permacode": "KR7",
+              "url": "https://www.ixl.com/search?q=KR7",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8024-b511-d4e1b3ef038b",
+      "code": "7.EE.A.1",
+      "domain": "EE",
+      "status": "In progress",
+      "subject": "Math",
+      "shortTitle": "Expand, factor, simplify",
+      "plainLanguage": "You can simplify and rearrange algebraic expressions — combining like terms, distributing, and factoring — even when the numbers are fractions or decimals.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-806d-93b4-f23da5afeada",
+          "text": "7.EE.A.1.lc2",
+          "shortTitle": "Add and subtract linear expressions",
+          "code": "7.EE.A.1.lc2",
+          "status": "In progress",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8051-ae09-de745003bcb4",
+              "name": "6BT",
+              "permacode": "6BT",
+              "url": "https://www.ixl.com/search?q=6BT",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-8018-a75b-f7221b6261ec",
+          "text": "7.EE.A.1.lc3",
+          "shortTitle": "Expand linear expressions",
+          "code": "7.EE.A.1.lc3",
+          "status": "In progress",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-804f-aec2-fc04b818e4ba",
+              "name": "38V",
+              "permacode": "38V",
+              "url": "https://www.ixl.com/search?q=38V",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-805f-8453-c56134c2322f",
+              "name": "6XR",
+              "permacode": "6XR",
+              "url": "https://www.ixl.com/search?q=6XR",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-801b-9290-ff08160dcc20",
+              "name": "NUY",
+              "permacode": "NUY",
+              "url": "https://www.ixl.com/search?q=NUY",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-801e-aae3-f622dd60bdd5",
+              "name": "DRB",
+              "permacode": "DRB",
+              "url": "https://www.ixl.com/search?q=DRB",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-80d8-a5c3-d1fa6bccdfc6",
+          "text": "7.EE.A.1.lc1",
+          "shortTitle": "Factor linear expressions",
+          "code": "7.EE.A.1.lc1",
+          "status": "In progress",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-806a-8a01-d0581c8d099b",
+              "name": "J9G",
+              "permacode": "J9G",
+              "url": "https://www.ixl.com/search?q=J9G",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80e9-a892-e33209c6d4ad",
+              "name": "J8K",
+              "permacode": "J8K",
+              "url": "https://www.ixl.com/search?q=J8K",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80b8-868f-f611a12c932c",
+      "code": "7.EE.A.2",
+      "domain": "EE",
+      "status": "In progress",
+      "subject": "Math",
+      "shortTitle": "Rewrite to reveal meaning",
+      "plainLanguage": "You can rewrite a math expression in a different form to make it easier to understand what it’s actually telling you.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-806a-b1df-fe6731fb5837",
+          "text": "7.EE.A.2.lc1",
+          "shortTitle": "Rewrite and interpret expressions",
+          "code": "7.EE.A.2.lc1",
+          "status": "Done",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8084-b75d-f79325f86d32",
+              "name": "PCU",
+              "permacode": "PCU",
+              "url": "https://www.ixl.com/search?q=PCU",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80a4-8c95-df4844e3dfe4",
+              "name": "JJG",
+              "permacode": "JJG",
+              "url": "https://www.ixl.com/search?q=JJG",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-800e-a282-c4dcd2905043",
+      "code": "7.EE.B.3",
+      "domain": "EE",
+      "status": "In progress",
+      "subject": "Math",
+      "shortTitle": "Multi-step rational number problems",
+      "plainLanguage": "You can solve messy, multi-step real-world problems using whatever number form works best — fractions, decimals, or percents — and check whether your answer actually makes sense.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80c9-a85f-d3f0913a9c63",
+          "text": "7.EE.B.3.lc3",
+          "shortTitle": "Solve mathematical multi-step problems",
+          "code": "7.EE.B.3.lc3",
+          "status": "In progress",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80e1-bf6a-e7a7f8866dd6",
+              "name": "7YN",
+              "permacode": "7YN",
+              "url": "https://www.ixl.com/search?q=7YN",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-804e-86a0-e1ee2d0b3016",
+              "name": "T56",
+              "permacode": "T56",
+              "url": "https://www.ixl.com/search?q=T56",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-809f-aa02-c9c62ba1f0c2",
+              "name": "UG6",
+              "permacode": "UG6",
+              "url": "https://www.ixl.com/search?q=UG6",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80bf-8079-c5e8f6c6b683",
+              "name": "XXQ",
+              "permacode": "XXQ",
+              "url": "https://www.ixl.com/search?q=XXQ",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8065-aea7-cdfa5e99a79e",
+      "code": "7.EE.B.4.a",
+      "domain": "EE",
+      "status": "In progress",
+      "subject": "Math",
+      "shortTitle": "Solve equations (px + q = r)",
+      "plainLanguage": "You can write and solve an equation to find an unknown number in a real-world situation — and explain each step you took.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80ed-9e54-fd06f2be71b2",
+          "text": "7.EE.B.4.a.lc1",
+          "shortTitle": "Solve px + q = r and p(x + q) = r",
+          "code": "7.EE.B.4.a.lc1",
+          "status": "In progress",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8049-a923-d72a360e5e59",
+              "name": "CMX",
+              "permacode": "CMX",
+              "url": "https://www.ixl.com/search?q=CMX",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80f1-a91b-eddda091594a",
+              "name": "EGK",
+              "permacode": "EGK",
+              "url": "https://www.ixl.com/search?q=EGK",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8049-a4f0-fd2976e7bcde",
+              "name": "66R",
+              "permacode": "66R",
+              "url": "https://www.ixl.com/search?q=66R",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8019-a426-c7747d822efb",
+      "code": "7.EE.B.4.b",
+      "domain": "EE",
+      "status": "In progress",
+      "subject": "Math",
+      "shortTitle": "Solve inequalities",
+      "plainLanguage": "You can solve problems where the answer isn’t one exact number but a whole range — and show that range on a number line.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-808b-8951-cae4a33cc7f8",
+          "text": "7.EE.B.4.b.lc2",
+          "shortTitle": "Solve px + q > r or px + q < r",
+          "code": "7.EE.B.4.b.lc2",
+          "status": "In progress",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-803f-82c4-f515f4097eba",
+              "name": "TFK",
+              "permacode": "TFK",
+              "url": "https://www.ixl.com/search?q=TFK",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-808d-8387-ec53a5e98ab4",
+      "code": "7.G.A.1",
+      "domain": "G",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Scale drawings",
+      "plainLanguage": "You can use a scale drawing to figure out real measurements — lengths, areas, and distances — and redraw it at a different scale.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8091-baf5-d99defd86317",
+          "text": "7.G.A.1.lc3",
+          "shortTitle": "Reproduce scale drawings at new scale",
+          "code": "7.G.A.1.lc3",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8035-aab1-dc0dcd40a964",
+              "name": "84H",
+              "permacode": "84H",
+              "url": "https://www.ixl.com/search?q=84H",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8043-a518-e5d3e7a658ae",
+              "name": "KCM",
+              "permacode": "KCM",
+              "url": "https://www.ixl.com/search?q=KCM",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8091-a9c7-f737b054d54c",
+              "name": "WEA",
+              "permacode": "WEA",
+              "url": "https://www.ixl.com/search?q=WEA",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8042-b0e2-f3d3d22efe89",
+              "name": "ZC6",
+              "permacode": "ZC6",
+              "url": "https://www.ixl.com/search?q=ZC6",
+              "status": "Practiced",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80be-8030-fe0ea184087e",
+      "code": "7.G.A.2",
+      "domain": "G",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Construct shapes from constraints",
+      "plainLanguage": "You can construct triangles and other shapes from given measurements — and know when the measurements make a unique shape, multiple shapes, or no shape at all.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80c1-bebc-c2cafa3733c8",
+          "text": "7.G.A.2.lc2",
+          "shortTitle": "Conditions for unique triangles",
+          "code": "7.G.A.2.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-806f-9428-f5556f840e4f",
+              "name": "5RX",
+              "permacode": "5RX",
+              "url": "https://www.ixl.com/search?q=5RX",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-806f-b125-c7f7c0169440",
+              "name": "MEZ",
+              "permacode": "MEZ",
+              "url": "https://www.ixl.com/search?q=MEZ",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80f9-a682-fe2db5430c6b",
+      "code": "7.G.A.3",
+      "domain": "G",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Slice a 3D shape",
+      "plainLanguage": "You can picture what shape you’d see if you sliced through a 3D object — like cutting through a box or a pyramid at different angles.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8074-a496-cdaeecee41c0",
+          "text": "7.G.A.3.lc3",
+          "shortTitle": "Cross-sections parallel or perpendicular to base",
+          "code": "7.G.A.3.lc3",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80ce-8134-deb4e3433c1a",
+              "name": "HFJ",
+              "permacode": "HFJ",
+              "url": "https://www.ixl.com/search?q=HFJ",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-806d-85ce-d70f47a858fd",
+      "code": "7.G.B.4",
+      "domain": "G",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Circle area & circumference",
+      "plainLanguage": "You can calculate how far around a circle is and how much flat space it covers — and you understand why the two formulas are related.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80d4-b98b-cf16c8ee8bb0",
+          "text": "7.G.B.4.lc1",
+          "shortTitle": "Find the area of a circle",
+          "code": "7.G.B.4.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8011-9782-c2db76b09f33",
+              "name": "YA8",
+              "permacode": "YA8",
+              "url": "https://www.ixl.com/search?q=YA8",
+              "status": "Assigned",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-8081-b1b9-dcb8d02ce5d9",
+          "text": "7.G.B.4.lc2",
+          "shortTitle": "Derive circumference-area relationship",
+          "code": "7.G.B.4.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80ef-a875-dcd01ee77b20",
+              "name": "P56",
+              "permacode": "P56",
+              "url": "https://www.ixl.com/search?q=P56",
+              "status": "Assigned",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-80ae-94df-dd468895f423",
+          "text": "7.G.B.4.lc3",
+          "shortTitle": "Find the circumference of a circle",
+          "code": "7.G.B.4.lc3",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8097-9d4e-c337e4c6a003",
+              "name": "2VL",
+              "permacode": "2VL",
+              "url": "https://www.ixl.com/search?q=2VL",
+              "status": "Assigned",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8093-b636-df76f9a6603e",
+              "name": "KS7",
+              "permacode": "KS7",
+              "url": "https://www.ixl.com/search?q=KS7",
+              "status": "Assigned",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-801c-b45a-e5defad9c8f5",
+      "code": "7.G.B.5",
+      "domain": "G",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Find the missing angle",
+      "plainLanguage": "You can look at a diagram with intersecting or adjacent angles and write an equation to find any missing angle measure.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80d2-8689-ed3854d5d8b3",
+          "text": "7.G.B.5.lc1",
+          "shortTitle": "Find an unknown angle",
+          "code": "7.G.B.5.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-807e-abdc-e43c7f7228a4",
+              "name": "CST",
+              "permacode": "CST",
+              "url": "https://www.ixl.com/search?q=CST",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-807e-a14b-e4acd5907e7b",
+              "name": "DN9",
+              "permacode": "DN9",
+              "url": "https://www.ixl.com/search?q=DN9",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-802a-8aab-f725b4e07c90",
+              "name": "HKG",
+              "permacode": "HKG",
+              "url": "https://www.ixl.com/search?q=HKG",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-809c-b8c6-ccebaf8a749a",
+      "code": "7.G.B.6",
+      "domain": "G",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Area, surface area & volume",
+      "plainLanguage": "You can find the area of flat shapes, the surface area of 3D objects, and the volume of boxes and prisms — even when the shape is made of smaller pieces combined.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8039-a489-cf294feb4f77",
+          "text": "7.G.B.6.lc5",
+          "shortTitle": "Area of composite figures (math)",
+          "code": "7.G.B.6.lc5",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80d5-b894-ded6fa08d685",
+              "name": "MRG",
+              "permacode": "MRG",
+              "url": "https://www.ixl.com/search?q=MRG",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-800d-92aa-ee922ead8402",
+              "name": "RKC",
+              "permacode": "RKC",
+              "url": "https://www.ixl.com/search?q=RKC",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-8051-ac71-ddb4b46d073c",
+          "text": "7.G.B.6.lc2",
+          "shortTitle": "Surface area of prisms (math)",
+          "code": "7.G.B.6.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8064-b87c-e383d0f21366",
+              "name": "8WV",
+              "permacode": "8WV",
+              "url": "https://www.ixl.com/search?q=8WV",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-80bc-a466-d306ce10391b",
+          "text": "7.G.B.6.lc6",
+          "shortTitle": "Surface area of prisms (real-world)",
+          "code": "7.G.B.6.lc6",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-802c-92bb-fd1a84fb304a",
+              "name": "RFP",
+              "permacode": "RFP",
+              "url": "https://www.ixl.com/search?q=RFP",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-802a-994a-d8767a022f5f",
+          "text": "7.G.B.6.lc1",
+          "shortTitle": "Volume of composite prisms (math)",
+          "code": "7.G.B.6.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80b6-9681-d160f714b565",
+              "name": "62H",
+              "permacode": "62H",
+              "url": "https://www.ixl.com/search?q=62H",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80e0-9918-e2a01f820b93",
+              "name": "EP5",
+              "permacode": "EP5",
+              "url": "https://www.ixl.com/search?q=EP5",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-8071-8d75-c9ea09d5809a",
+          "text": "7.G.B.6.lc3",
+          "shortTitle": "Volume of composite prisms (real-world)",
+          "code": "7.G.B.6.lc3",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8035-94fb-da0dc0814a6a",
+              "name": "ENE",
+              "permacode": "ENE",
+              "url": "https://www.ixl.com/search?q=ENE",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-803c-aa4d-d22088b31214",
+              "name": "URT",
+              "permacode": "URT",
+              "url": "https://www.ixl.com/search?q=URT",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8097-b9df-d82aa3d69005",
+      "code": "7.SP.A.1",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Fair sampling",
+      "plainLanguage": "You understand that you can learn about a whole group by studying a smaller sample — but only if that sample was chosen fairly.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80fe-bf01-fcb181af0e84",
+          "text": "7.SP.A.1.lc1",
+          "shortTitle": "Random sampling and representation",
+          "code": "7.SP.A.1.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-802b-b6bb-dcff5cf9aaee",
+              "name": "YHZ",
+              "permacode": "YHZ",
+              "url": "https://www.ixl.com/search?q=YHZ",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-8089-8518-f8bc7669a73f",
+          "text": "7.SP.A.1.lc2",
+          "shortTitle": "Generalizations from samples",
+          "code": "7.SP.A.1.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8024-8b7b-da9611095beb",
+              "name": "5V3",
+              "permacode": "5V3",
+              "url": "https://www.ixl.com/search?q=5V3",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80f7-9334-e1ef906587b2",
+      "code": "7.SP.A.2",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Sample → population inference",
+      "plainLanguage": "You can use data from a random sample to make a reasonable guess about a whole population — and you know that different samples give slightly different answers.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80fd-9ad6-fb7bef7e4401",
+          "text": "7.SP.A.2.lc1",
+          "shortTitle": "Draw inferences from samples",
+          "code": "7.SP.A.2.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8047-a72c-d6d9497f1385",
+              "name": "2BM",
+              "permacode": "2BM",
+              "url": "https://www.ixl.com/search?q=2BM",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8094-9621-ec42cfd90704",
+              "name": "3C9",
+              "permacode": "3C9",
+              "url": "https://www.ixl.com/search?q=3C9",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8005-b08f-d4526b7554d4",
+      "code": "7.SP.B.3",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Compare distributions visually",
+      "plainLanguage": "You can look at two sets of data side by side and judge whether they’re really different, or just randomly varying — using spread to put the gap in perspective.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-806d-b4be-fac095b13a09",
+          "text": "7.SP.B.3.lc1",
+          "shortTitle": "Compare visual overlap of distributions",
+          "code": "7.SP.B.3.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": []
+        },
+        {
+          "id": "3317d181-fab4-8014-bfb0-d9d18a189c3d",
+          "text": "7.SP.B.3.lc3",
+          "shortTitle": "Center difference as multiple of variability",
+          "code": "7.SP.B.3.lc3",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": []
+        },
+        {
+          "id": "3317d181-fab4-8068-acfc-c91a8b4522c9",
+          "text": "7.SP.B.3.lc2",
+          "shortTitle": "Interpret mean absolute deviation",
+          "code": "7.SP.B.3.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": []
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-806b-b944-c0957e3c9d87",
+      "code": "7.SP.B.4",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Compare two populations",
+      "plainLanguage": "You can compare two groups using both their averages and how spread out their data is, and draw a reasonable conclusion about which group performs better.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80f3-9670-c74fe0db0635",
+          "text": "7.SP.B.4.lc1",
+          "shortTitle": "Compare two populations",
+          "code": "7.SP.B.4.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80af-a746-e3f8a144ebca",
+              "name": "PCK",
+              "permacode": "PCK",
+              "url": "https://www.ixl.com/search?q=PCK",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8078-b8c1-f6f8000c5fd7",
+      "code": "7.SP.C.5",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Probability as a number",
+      "plainLanguage": "You know that probability is a number between 0 and 1 that tells you how likely something is — and you can match everyday language like “rare” or “guaranteed” to that scale.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8035-8554-e3ae92b5b7da",
+          "text": "7.SP.C.5.lc1",
+          "shortTitle": "Probability indicates likelihood",
+          "code": "7.SP.C.5.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-803c-a813-ca6fb8f64010",
+              "name": "ZZB",
+              "permacode": "ZZB",
+              "url": "https://www.ixl.com/search?q=ZZB",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8028-a84c-e1fc69c10346",
+      "code": "7.SP.C.6",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Experimental probability",
+      "plainLanguage": "You can estimate the probability of something by actually doing it many times and tracking results — and you know your estimate gets more reliable with more tries.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80f4-b4da-f3fdc147d585",
+          "text": "7.SP.C.6.lc1",
+          "shortTitle": "Predict relative frequency",
+          "code": "7.SP.C.6.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-806c-9428-e38ff539eb82",
+              "name": "WP6",
+              "permacode": "WP6",
+              "url": "https://www.ixl.com/search?q=WP6",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        },
+        {
+          "id": "3317d181-fab4-806f-8bb4-c1fe87eb5d4a",
+          "text": "7.SP.C.6.lc2",
+          "shortTitle": "More trials improve estimates",
+          "code": "7.SP.C.6.lc2",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8048-8945-f86d290bf5dc",
+              "name": "VST",
+              "permacode": "VST",
+              "url": "https://www.ixl.com/search?q=VST",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-808a-a387-e926e99317d3",
+      "code": "7.SP.C.7.a",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Uniform probability model",
+      "plainLanguage": "You can calculate the probability of any outcome when all outcomes are equally likely — by counting favorable outcomes and dividing by total outcomes.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80cc-9d52-e8b8ee3399b5",
+          "text": "7.SP.C.7.a.lc1",
+          "shortTitle": "Develop uniform probability model",
+          "code": "7.SP.C.7.a.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-804e-8782-e1e8d6969f06",
+              "name": "9UW",
+              "permacode": "9UW",
+              "url": "https://www.ixl.com/search?q=9UW",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-8066-b9af-ead0bc2669fc",
+              "name": "F88",
+              "permacode": "F88",
+              "url": "https://www.ixl.com/search?q=F88",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-802c-9150-eb613c738e24",
+      "code": "7.SP.C.7.b",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Non-uniform probability model",
+      "plainLanguage": "You can build a probability model from real data when outcomes aren’t equally likely — and use it to make predictions.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8038-b2a2-fa7a6e968c1e",
+          "text": "7.SP.C.7.b.lc1",
+          "shortTitle": "Simple events with unequal outcomes",
+          "code": "7.SP.C.7.b.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-800c-9881-cf55f6131840",
+              "name": "9AA",
+              "permacode": "9AA",
+              "url": "https://www.ixl.com/search?q=9AA",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-8030-b09a-c7d44bf5f8f4",
+      "code": "7.SP.C.8.a",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Compound event probability",
+      "plainLanguage": "You understand that when two things happen together, you need to think about all possible combinations — not just each thing separately.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-8036-b5a2-d9333c52332d",
+          "text": "7.SP.C.8.a.lc1",
+          "shortTitle": "Compound event probability",
+          "code": "7.SP.C.8.a.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-802c-b842-e08f90c831c4",
+              "name": "NED",
+              "permacode": "NED",
+              "url": "https://www.ixl.com/search?q=NED",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-804f-b6e1-f08f1328b61f",
+              "name": "YPQ",
+              "permacode": "YPQ",
+              "url": "https://www.ixl.com/search?q=YPQ",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-800c-a2a6-c1bf2a33fc0f",
+      "code": "7.SP.C.8.b",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Map the sample space",
+      "plainLanguage": "You can systematically list every possible outcome of a multi-step situation using a list, table, or tree diagram — without missing any or double-counting.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-802e-aa93-d58caff3ab70",
+          "text": "7.SP.C.8.b.lc1",
+          "shortTitle": "Identify outcomes in sample space",
+          "code": "7.SP.C.8.b.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-8056-9ba6-e2f7a7791d7b",
+              "name": "8HY",
+              "permacode": "8HY",
+              "url": "https://www.ixl.com/search?q=8HY",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80d1-8c2d-f2767245ce9f",
+              "name": "EKX",
+              "permacode": "EKX",
+              "url": "https://www.ixl.com/search?q=EKX",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-80f8-8851-fa0729d7d07d",
+              "name": "HZR",
+              "permacode": "HZR",
+              "url": "https://www.ixl.com/search?q=HZR",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            },
+            {
+              "id": "3337d181-fab4-802d-945a-d8acff1af992",
+              "name": "SCV",
+              "permacode": "SCV",
+              "url": "https://www.ixl.com/search?q=SCV",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32f7d181-fab4-80ba-bd3e-e6fc9fb6dd18",
+      "code": "7.SP.C.8.c",
+      "domain": "SP",
+      "status": "Not started",
+      "subject": "Math",
+      "shortTitle": "Simulate compound events",
+      "plainLanguage": "You can design and run a simulation to estimate the probability of a complicated event that’s too hard to calculate directly.",
+      "lcs": [
+        {
+          "id": "3317d181-fab4-80de-9afa-d80fbebd6f55",
+          "text": "7.SP.C.8.c.lc1",
+          "shortTitle": "Design simulations for compound events",
+          "code": "7.SP.C.8.c.lc1",
+          "status": "Not started",
+          "subject": "Math",
+          "skills": [
+            {
+              "id": "3337d181-fab4-80ec-af68-dcede6e7ade7",
+              "name": "D87",
+              "permacode": "D87",
+              "url": "https://www.ixl.com/search?q=D87",
+              "status": "Not started",
+              "subject": "Math",
+              "isDupe": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
