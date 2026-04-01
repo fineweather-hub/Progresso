@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Run MathSync
-        run: node MathSync.js
+      - name: Run Mathsync
+        run: node Mathsync.js
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
 
