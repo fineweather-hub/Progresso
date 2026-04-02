@@ -1,5 +1,5 @@
 {
-  "synced": "2026-04-01T09:53:44.293Z",
+  "synced": "2026-04-02T05:07:18.686Z",
   "subject": "ELA",
   "standards": [
     {
@@ -1154,7 +1154,7 @@
               "name": "U49",
               "permacode": "U49",
               "url": "https://www.ixl.com/search?q=U49",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             }
@@ -1376,7 +1376,7 @@
               "name": "U49",
               "permacode": "U49",
               "url": "https://www.ixl.com/search?q=U49",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             }
@@ -1876,7 +1876,7 @@
               "name": "KMT",
               "permacode": "KMT",
               "url": "https://www.ixl.com/search?q=KMT",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             },
@@ -2129,7 +2129,7 @@
       "id": "32a7d181-fab4-819d-ba52-f4fedd23d7b9",
       "code": "L.7.1",
       "domain": "L",
-      "status": "In progress",
+      "status": "Mastered",
       "subject": "ELA",
       "shortTitle": "Grammar & Usage",
       "plainLanguage": "use\n  phrases, clauses, and varied sentence structures correctly",
@@ -2231,7 +2231,7 @@
           "text": "Place phrases and clauses within a\n  sentence, recognizing and correcting misplaced and dangling modifiers.",
           "shortTitle": "Fix misplaced and dangling modifiers",
           "code": "L.7.1.c",
-          "status": "In progress",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {
@@ -2239,7 +2239,7 @@
               "name": "55A",
               "permacode": "55A",
               "url": "https://www.ixl.com/search?q=55A",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             },
@@ -2504,7 +2504,7 @@
               "name": "RCL",
               "permacode": "RCL",
               "url": "https://www.ixl.com/search?q=RCL",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             },
@@ -2772,7 +2772,7 @@
               "name": "MCB",
               "permacode": "MCB",
               "url": "https://www.ixl.com/search?q=MCB",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             },
@@ -3187,7 +3187,7 @@
               "name": "MCB",
               "permacode": "MCB",
               "url": "https://www.ixl.com/search?q=MCB",
-              "status": "Assigned",
+              "status": "Practiced",
               "subject": "ELA",
               "isDupe": false
             },
