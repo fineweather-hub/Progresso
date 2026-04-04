@@ -87,6 +87,7 @@ async function main() {
     skillById[row.id] = {
       id:        row.id,
       name:      title(p["Skill Name"]),
+      skillTitle: text(p["Skill Title"]),
       permacode,
       url:       permacode ? `https://www.ixl.com/search?q=${permacode}` : "",
       status:    select(p["Status"]) || "Not started",
