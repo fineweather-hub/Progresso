@@ -1,5 +1,5 @@
 {
-  "synced": "2026-04-04T08:01:15.008Z",
+  "synced": "2026-04-04T18:38:27.514Z",
   "subject": "Math",
   "standards": [
     {
@@ -22,6 +22,7 @@
             {
               "id": "3337d181-fab4-80d3-afe4-f0d809b87288",
               "name": "57X",
+              "skillTitle": "Calculate unit rates with fractions",
               "permacode": "57X",
               "url": "https://www.ixl.com/search?q=57X",
               "status": "Practiced",
@@ -31,6 +32,7 @@
             {
               "id": "3337d181-fab4-8001-98d2-cf79130d47b7",
               "name": "NWM",
+              "skillTitle": "Solve word problems using unit rates",
               "permacode": "NWM",
               "url": "https://www.ixl.com/search?q=NWM",
               "status": "Practiced",
@@ -61,6 +63,7 @@
             {
               "id": "3337d181-fab4-804d-a983-f3e942b3aa8f",
               "name": "6V7",
+              "skillTitle": "Identify proportional relationships from tables",
               "permacode": "6V7",
               "url": "https://www.ixl.com/search?q=6V7",
               "status": "Practiced",
@@ -70,6 +73,7 @@
             {
               "id": "3337d181-fab4-8057-9b11-ec51f144fcf5",
               "name": "DJ8",
+              "skillTitle": "Equivalent ratios: word problems",
               "permacode": "DJ8",
               "url": "https://www.ixl.com/search?q=DJ8",
               "status": "Practiced",
@@ -79,6 +83,7 @@
             {
               "id": "3337d181-fab4-8039-825b-fffd2a7308c2",
               "name": "MJQ",
+              "skillTitle": "Do the ratios form a proportion?",
               "permacode": "MJQ",
               "url": "https://www.ixl.com/search?q=MJQ",
               "status": "Practiced",
@@ -88,6 +93,7 @@
             {
               "id": "3337d181-fab4-805a-a630-e0c5f69b76aa",
               "name": "NB5",
+              "skillTitle": "Identify proportional relationships from graphs and\n  equations",
               "permacode": "NB5",
               "url": "https://www.ixl.com/search?q=NB5",
               "status": "Practiced",
@@ -97,6 +103,7 @@
             {
               "id": "3337d181-fab4-809f-aa61-e8c1ff6cf7ae",
               "name": "SHV",
+              "skillTitle": "Do the ratios\n  form a proportion: word problems",
               "permacode": "SHV",
               "url": "https://www.ixl.com/search?q=SHV",
               "status": "Practiced",
@@ -106,6 +113,7 @@
             {
               "id": "3337d181-fab4-808b-99ad-d1cd6a599a59",
               "name": "ZFM",
+              "skillTitle": "Identify\n  equivalent ratios",
               "permacode": "ZFM",
               "url": "https://www.ixl.com/search?q=ZFM",
               "status": "Practiced",
@@ -125,6 +133,7 @@
             {
               "id": "3337d181-fab4-80d9-a167-fde33385058f",
               "name": "AAN",
+              "skillTitle": "Identify proportional relationships by graphing",
               "permacode": "AAN",
               "url": "https://www.ixl.com/search?q=AAN",
               "status": "Practiced",
@@ -155,6 +164,7 @@
             {
               "id": "3337d181-fab4-8036-84ae-f077fe7381ab",
               "name": "LKZ",
+              "skillTitle": "Find the\n  constant of proportionality from a table",
               "permacode": "LKZ",
               "url": "https://www.ixl.com/search?q=LKZ",
               "status": "Practiced",
@@ -164,6 +174,7 @@
             {
               "id": "3337d181-fab4-8042-89e9-fa4f0afcc9bd",
               "name": "ZUT",
+              "skillTitle": "Find the constant of proportionality from a graph",
               "permacode": "ZUT",
               "url": "https://www.ixl.com/search?q=ZUT",
               "status": "Practiced",
@@ -194,6 +205,7 @@
             {
               "id": "3337d181-fab4-80db-9092-c2d54caacaa5",
               "name": "6GU",
+              "skillTitle": "Write equations\n  for proportional relationships from tables",
               "permacode": "6GU",
               "url": "https://www.ixl.com/search?q=6GU",
               "status": "Practiced",
@@ -203,6 +215,7 @@
             {
               "id": "3337d181-fab4-8086-8d63-f3679c412c21",
               "name": "67F",
+              "skillTitle": "Solve percent equations",
               "permacode": "67F",
               "url": "https://www.ixl.com/search?q=67F",
               "status": "Practiced",
@@ -212,6 +225,7 @@
             {
               "id": "3337d181-fab4-80a4-b35f-c867d98de41f",
               "name": "93K",
+              "skillTitle": "Percents of\n  numbers and money amounts",
               "permacode": "93K",
               "url": "https://www.ixl.com/search?q=93K",
               "status": "Practiced",
@@ -221,6 +235,7 @@
             {
               "id": "3337d181-fab4-803a-a69f-eda16b9b5e9f",
               "name": "EXE",
+              "skillTitle": "Percents of numbers: word problems",
               "permacode": "EXE",
               "url": "https://www.ixl.com/search?q=EXE",
               "status": "Practiced",
@@ -230,6 +245,7 @@
             {
               "id": "3337d181-fab4-80c3-9905-c8ecab2a3706",
               "name": "JKH",
+              "skillTitle": "Write equations\n  for proportional relationships from graphs",
               "permacode": "JKH",
               "url": "https://www.ixl.com/search?q=JKH",
               "status": "Practiced",
@@ -239,6 +255,7 @@
             {
               "id": "3337d181-fab4-8051-98d9-cf850941c0e0",
               "name": "JS6",
+              "skillTitle": "Solve percent\n  equations: word problems",
               "permacode": "JS6",
               "url": "https://www.ixl.com/search?q=JS6",
               "status": "Practiced",
@@ -248,6 +265,7 @@
             {
               "id": "3337d181-fab4-80f1-adbf-f019e8f6ae77",
               "name": "VKK",
+              "skillTitle": "Write and solve\n  equations for proportional relationships",
               "permacode": "VKK",
               "url": "https://www.ixl.com/search?q=VKK",
               "status": "Practiced",
@@ -278,6 +296,7 @@
             {
               "id": "3337d181-fab4-8089-9bd0-d23f7ba2bbab",
               "name": "RMH",
+              "skillTitle": "Interpret graphs of proportional relationships",
               "permacode": "RMH",
               "url": "https://www.ixl.com/search?q=RMH",
               "status": "Practiced",
@@ -308,6 +327,7 @@
             {
               "id": "3337d181-fab4-8068-9185-f2eb684a7afc",
               "name": "6UY",
+              "skillTitle": "Percent error:\n  word problems",
               "permacode": "6UY",
               "url": "https://www.ixl.com/search?q=6UY",
               "status": "Practiced",
@@ -317,6 +337,7 @@
             {
               "id": "3337d181-fab4-8052-aa5c-d0ebff3533b0",
               "name": "54S",
+              "skillTitle": "Percent of\n  change: word problems",
               "permacode": "54S",
               "url": "https://www.ixl.com/search?q=54S",
               "status": "Practiced",
@@ -326,6 +347,7 @@
             {
               "id": "3337d181-fab4-8002-ba27-d7b3ce37feae",
               "name": "BDA",
+              "skillTitle": "Sale prices:\n  find the original price",
               "permacode": "BDA",
               "url": "https://www.ixl.com/search?q=BDA",
               "status": "Practiced",
@@ -335,6 +357,7 @@
             {
               "id": "3337d181-fab4-8030-9e9f-f35b2086d609",
               "name": "BL7",
+              "skillTitle": "Percent of\n  change",
               "permacode": "BL7",
               "url": "https://www.ixl.com/search?q=BL7",
               "status": "Practiced",
@@ -344,6 +367,7 @@
             {
               "id": "3337d181-fab4-800e-b91d-d4050202a616",
               "name": "E7Y",
+              "skillTitle": "Simple interest",
               "permacode": "E7Y",
               "url": "https://www.ixl.com/search?q=E7Y",
               "status": "Practiced",
@@ -353,6 +377,7 @@
             {
               "id": "3337d181-fab4-80d9-bbdd-d3802cde8d06",
               "name": "ENH",
+              "skillTitle": "Unit prices: find the total price",
               "permacode": "ENH",
               "url": "https://www.ixl.com/search?q=ENH",
               "status": "Practiced",
@@ -362,6 +387,7 @@
             {
               "id": "3337d181-fab4-80ef-98c1-f33142bf4119",
               "name": "PBM",
+              "skillTitle": "Find the percent: tax, discount, and more",
               "permacode": "PBM",
               "url": "https://www.ixl.com/search?q=PBM",
               "status": "Practiced",
@@ -371,6 +397,7 @@
             {
               "id": "3337d181-fab4-80b7-a603-cd7512224c20",
               "name": "QT6",
+              "skillTitle": "Which is the better coupon?",
               "permacode": "QT6",
               "url": "https://www.ixl.com/search?q=QT6",
               "status": "Practiced",
@@ -380,6 +407,7 @@
             {
               "id": "3337d181-fab4-80c3-9aab-e2efc59dc13b",
               "name": "SPN",
+              "skillTitle": "Percent of a number: tax, discount, and more",
               "permacode": "SPN",
               "url": "https://www.ixl.com/search?q=SPN",
               "status": "Practiced",
@@ -389,6 +417,7 @@
             {
               "id": "3337d181-fab4-801e-ad9b-c785b5ae1345",
               "name": "ZHX",
+              "skillTitle": "Multi-step problems with percents",
               "permacode": "ZHX",
               "url": "https://www.ixl.com/search?q=ZHX",
               "status": "Practiced",
@@ -419,6 +448,7 @@
             {
               "id": "3337d181-fab4-80a4-b0c9-dc9b9743907c",
               "name": "7SP",
+              "skillTitle": "Quantities that\n  combine to zero: word problems",
               "permacode": "7SP",
               "url": "https://www.ixl.com/search?q=7SP",
               "status": "Practiced",
@@ -449,6 +479,7 @@
             {
               "id": "3337d181-fab4-8005-a781-e93ad6988694",
               "name": "A63",
+              "skillTitle": "Add integers\n  using number lines",
               "permacode": "A63",
               "url": "https://www.ixl.com/search?q=A63",
               "status": "Practiced",
@@ -468,6 +499,7 @@
             {
               "id": "3337d181-fab4-804a-a9ec-d46d8f29bab6",
               "name": "Y8T",
+              "skillTitle": "Apply addition and subtraction rules",
               "permacode": "Y8T",
               "url": "https://www.ixl.com/search?q=Y8T",
               "status": "Practiced",
@@ -498,6 +530,7 @@
             {
               "id": "3337d181-fab4-801a-b19b-d339b7459e2e",
               "name": "FGG",
+              "skillTitle": "Subtract integers using number lines",
               "permacode": "FGG",
               "url": "https://www.ixl.com/search?q=FGG",
               "status": "Practiced",
@@ -507,6 +540,7 @@
             {
               "id": "3337d181-fab4-808c-a734-fd534f1b6130",
               "name": "QZA",
+              "skillTitle": "Integer subtraction rules",
               "permacode": "QZA",
               "url": "https://www.ixl.com/search?q=QZA",
               "status": "Practiced",
@@ -537,6 +571,7 @@
             {
               "id": "3337d181-fab4-8065-937e-f6d5e1b5d0da",
               "name": "BP2",
+              "skillTitle": "Add and subtract decimals",
               "permacode": "BP2",
               "url": "https://www.ixl.com/search?q=BP2",
               "status": "Practiced",
@@ -546,6 +581,7 @@
             {
               "id": "3337d181-fab4-8022-88b6-cba7107d89ce",
               "name": "FTM",
+              "skillTitle": "Add integers\n  using counters",
               "permacode": "FTM",
               "url": "https://www.ixl.com/search?q=FTM",
               "status": "Practiced",
@@ -555,6 +591,7 @@
             {
               "id": "3337d181-fab4-8052-b34c-fa70b1d812d6",
               "name": "GKU",
+              "skillTitle": "Add and subtract rational numbers",
               "permacode": "GKU",
               "url": "https://www.ixl.com/search?q=GKU",
               "status": "Practiced",
@@ -564,6 +601,7 @@
             {
               "id": "3337d181-fab4-8086-b867-fb8acc9d8a3b",
               "name": "QFU",
+              "skillTitle": "Add integers",
               "permacode": "QFU",
               "url": "https://www.ixl.com/search?q=QFU",
               "status": "Practiced",
@@ -594,6 +632,7 @@
             {
               "id": "3337d181-fab4-803f-b152-f39d34c51a8b",
               "name": "V5V",
+              "skillTitle": "Apply multiplication and division rules",
               "permacode": "V5V",
               "url": "https://www.ixl.com/search?q=V5V",
               "status": "Practiced",
@@ -613,6 +652,7 @@
             {
               "id": "3337d181-fab4-80ea-848c-ceadf8484846",
               "name": "5R8",
+              "skillTitle": "Integer multiplication and division rules",
               "permacode": "5R8",
               "url": "https://www.ixl.com/search?q=5R8",
               "status": "Practiced",
@@ -622,6 +662,7 @@
             {
               "id": "3337d181-fab4-8009-8228-feb352b78f31",
               "name": "K7U",
+              "skillTitle": "Integer multiplication rules",
               "permacode": "K7U",
               "url": "https://www.ixl.com/search?q=K7U",
               "status": "Practiced",
@@ -652,6 +693,7 @@
             {
               "id": "3337d181-fab4-8098-a439-c39bb45f1736",
               "name": "2QY",
+              "skillTitle": "Equal quotients of integers",
               "permacode": "2QY",
               "url": "https://www.ixl.com/search?q=2QY",
               "status": "Practiced",
@@ -661,6 +703,7 @@
             {
               "id": "3337d181-fab4-809b-880b-ee0531930db3",
               "name": "JT9",
+              "skillTitle": "Identify quotients of rational numbers: word problems",
               "permacode": "JT9",
               "url": "https://www.ixl.com/search?q=JT9",
               "status": "Practiced",
@@ -680,6 +723,7 @@
             {
               "id": "3337d181-fab4-8008-88ce-d056afc5eec3",
               "name": "T9Q",
+              "skillTitle": "Integer division rules",
               "permacode": "T9Q",
               "url": "https://www.ixl.com/search?q=T9Q",
               "status": "Practiced",
@@ -710,6 +754,7 @@
             {
               "id": "3337d181-fab4-8024-8e89-fc7f9e0bcf8e",
               "name": "BXW",
+              "skillTitle": "Multiply and\n  divide rational numbers",
               "permacode": "BXW",
               "url": "https://www.ixl.com/search?q=BXW",
               "status": "Practiced",
@@ -740,6 +785,7 @@
             {
               "id": "3337d181-fab4-8083-be09-f6bcaf67d1ec",
               "name": "LCS",
+              "skillTitle": "Classify rational numbers",
               "permacode": "LCS",
               "url": "https://www.ixl.com/search?q=LCS",
               "status": "Practiced",
@@ -749,6 +795,7 @@
             {
               "id": "3337d181-fab4-8012-906c-cd6360bb8194",
               "name": "M2D",
+              "skillTitle": "Convert fractions or mixed numbers to decimals",
               "permacode": "M2D",
               "url": "https://www.ixl.com/search?q=M2D",
               "status": "Practiced",
@@ -779,6 +826,7 @@
             {
               "id": "3337d181-fab4-8046-a7b4-c3396a21f915",
               "name": "2DD",
+              "skillTitle": "Add and\n  subtract integers: word problems",
               "permacode": "2DD",
               "url": "https://www.ixl.com/search?q=2DD",
               "status": "Practiced",
@@ -788,6 +836,7 @@
             {
               "id": "3337d181-fab4-801f-a988-fa4c5ebdde1b",
               "name": "6YT",
+              "skillTitle": "Add and subtract mixed numbers: word problems",
               "permacode": "6YT",
               "url": "https://www.ixl.com/search?q=6YT",
               "status": "Practiced",
@@ -797,6 +846,7 @@
             {
               "id": "3337d181-fab4-807c-83dc-dfe7cda6f463",
               "name": "CVW",
+              "skillTitle": "Price lists",
               "permacode": "CVW",
               "url": "https://www.ixl.com/search?q=CVW",
               "status": "Practiced",
@@ -806,6 +856,7 @@
             {
               "id": "3337d181-fab4-8084-b21e-ec3621332e6a",
               "name": "HGN",
+              "skillTitle": "Add, subtract,\n  multiply, and divide money amounts: word problems",
               "permacode": "HGN",
               "url": "https://www.ixl.com/search?q=HGN",
               "status": "Practiced",
@@ -815,6 +866,7 @@
             {
               "id": "3337d181-fab4-8061-b4e4-fa19e6b630ba",
               "name": "KR7",
+              "skillTitle": "Add, subtract, multiply, and divide fractions and mixed\n  numbers: word problems",
               "permacode": "KR7",
               "url": "https://www.ixl.com/search?q=KR7",
               "status": "Practiced",
@@ -845,6 +897,7 @@
             {
               "id": "3337d181-fab4-8051-ae09-de745003bcb4",
               "name": "6BT",
+              "skillTitle": "Add and\n  subtract linear expressions",
               "permacode": "6BT",
               "url": "https://www.ixl.com/search?q=6BT",
               "status": "Practiced",
@@ -864,6 +917,7 @@
             {
               "id": "3337d181-fab4-804f-aec2-fc04b818e4ba",
               "name": "38V",
+              "skillTitle": "Identify equivalent linear expressions using algebra tiles",
               "permacode": "38V",
               "url": "https://www.ixl.com/search?q=38V",
               "status": "Practiced",
@@ -873,6 +927,7 @@
             {
               "id": "3337d181-fab4-805f-8453-c56134c2322f",
               "name": "6XR",
+              "skillTitle": "Write\n  equivalent expressions using properties",
               "permacode": "6XR",
               "url": "https://www.ixl.com/search?q=6XR",
               "status": "Practiced",
@@ -882,6 +937,7 @@
             {
               "id": "3337d181-fab4-801b-9290-ff08160dcc20",
               "name": "NUY",
+              "skillTitle": "Multiply using\n  the distributive property",
               "permacode": "NUY",
               "url": "https://www.ixl.com/search?q=NUY",
               "status": "Practiced",
@@ -891,6 +947,7 @@
             {
               "id": "3337d181-fab4-801e-aae3-f622dd60bdd5",
               "name": "DRB",
+              "skillTitle": "Identify\n  equivalent linear expressions I",
               "permacode": "DRB",
               "url": "https://www.ixl.com/search?q=DRB",
               "status": "Practiced",
@@ -910,6 +967,7 @@
             {
               "id": "3337d181-fab4-806a-8a01-d0581c8d099b",
               "name": "J9G",
+              "skillTitle": "Factors of\n  linear expressions",
               "permacode": "J9G",
               "url": "https://www.ixl.com/search?q=J9G",
               "status": "Practiced",
@@ -919,6 +977,7 @@
             {
               "id": "3337d181-fab4-80e9-a892-e33209c6d4ad",
               "name": "J8K",
+              "skillTitle": "Multiply using the distributive property: area models",
               "permacode": "J8K",
               "url": "https://www.ixl.com/search?q=J8K",
               "status": "Practiced",
@@ -949,6 +1008,7 @@
             {
               "id": "3337d181-fab4-8084-b75d-f79325f86d32",
               "name": "PCU",
+              "skillTitle": "Simplify expressions by combining like terms: with algebra\n  tiles",
               "permacode": "PCU",
               "url": "https://www.ixl.com/search?q=PCU",
               "status": "Practiced",
@@ -958,6 +1018,7 @@
             {
               "id": "3337d181-fab4-80a4-8c95-df4844e3dfe4",
               "name": "JJG",
+              "skillTitle": "Simplify expressions by combining like terms",
               "permacode": "JJG",
               "url": "https://www.ixl.com/search?q=JJG",
               "status": "Practiced",
@@ -988,6 +1049,7 @@
             {
               "id": "3337d181-fab4-80e1-bf6a-e7a7f8866dd6",
               "name": "7YN",
+              "skillTitle": "Evaluate numerical expressions involving integers",
               "permacode": "7YN",
               "url": "https://www.ixl.com/search?q=7YN",
               "status": "Practiced",
@@ -997,6 +1059,7 @@
             {
               "id": "3337d181-fab4-804e-86a0-e1ee2d0b3016",
               "name": "T56",
+              "skillTitle": "Evaluate\n  multi-variable expressions",
               "permacode": "T56",
               "url": "https://www.ixl.com/search?q=T56",
               "status": "Practiced",
@@ -1006,6 +1069,7 @@
             {
               "id": "3337d181-fab4-809f-aa02-c9c62ba1f0c2",
               "name": "UG6",
+              "skillTitle": "Evaluate linear\n  expressions",
               "permacode": "UG6",
               "url": "https://www.ixl.com/search?q=UG6",
               "status": "Practiced",
@@ -1015,6 +1079,7 @@
             {
               "id": "3337d181-fab4-80bf-8079-c5e8f6c6b683",
               "name": "XXQ",
+              "skillTitle": "Evaluate\n  numerical expressions involving fractions",
               "permacode": "XXQ",
               "url": "https://www.ixl.com/search?q=XXQ",
               "status": "Practiced",
@@ -1045,6 +1110,7 @@
             {
               "id": "3337d181-fab4-8049-a923-d72a360e5e59",
               "name": "CMX",
+              "skillTitle": "Solve two-step equations without parentheses",
               "permacode": "CMX",
               "url": "https://www.ixl.com/search?q=CMX",
               "status": "Practiced",
@@ -1054,6 +1120,7 @@
             {
               "id": "3337d181-fab4-80f1-a91b-eddda091594a",
               "name": "EGK",
+              "skillTitle": "Model and solve\n  equations using algebra tiles",
               "permacode": "EGK",
               "url": "https://www.ixl.com/search?q=EGK",
               "status": "Practiced",
@@ -1063,6 +1130,7 @@
             {
               "id": "3337d181-fab4-8049-a4f0-fd2976e7bcde",
               "name": "66R",
+              "skillTitle": "Solve\n  equations: complete the solution",
               "permacode": "66R",
               "url": "https://www.ixl.com/search?q=66R",
               "status": "Practiced",
@@ -1093,6 +1161,7 @@
             {
               "id": "3337d181-fab4-803f-82c4-f515f4097eba",
               "name": "TFK",
+              "skillTitle": "Graph solutions to one-step inequalities",
               "permacode": "TFK",
               "url": "https://www.ixl.com/search?q=TFK",
               "status": "Practiced",
@@ -1123,6 +1192,7 @@
             {
               "id": "3337d181-fab4-8035-aab1-dc0dcd40a964",
               "name": "84H",
+              "skillTitle": "Scale drawings:\n  word problems",
               "permacode": "84H",
               "url": "https://www.ixl.com/search?q=84H",
               "status": "Practiced",
@@ -1132,6 +1202,7 @@
             {
               "id": "3337d181-fab4-8043-a518-e5d3e7a658ae",
               "name": "KCM",
+              "skillTitle": "Scale drawings: scale factor word problems",
               "permacode": "KCM",
               "url": "https://www.ixl.com/search?q=KCM",
               "status": "Practiced",
@@ -1141,6 +1212,7 @@
             {
               "id": "3337d181-fab4-8091-a9c7-f737b054d54c",
               "name": "WEA",
+              "skillTitle": "Scale drawings of polygons",
               "permacode": "WEA",
               "url": "https://www.ixl.com/search?q=WEA",
               "status": "Practiced",
@@ -1150,6 +1222,7 @@
             {
               "id": "3337d181-fab4-8042-b0e2-f3d3d22efe89",
               "name": "ZC6",
+              "skillTitle": "Perimeter and area: changes in scale",
               "permacode": "ZC6",
               "url": "https://www.ixl.com/search?q=ZC6",
               "status": "Practiced",
@@ -1180,6 +1253,7 @@
             {
               "id": "3337d181-fab4-806f-9428-f5556f840e4f",
               "name": "5RX",
+              "skillTitle": "Triangle\n  inequality",
               "permacode": "5RX",
               "url": "https://www.ixl.com/search?q=5RX",
               "status": "Not started",
@@ -1189,6 +1263,7 @@
             {
               "id": "3337d181-fab4-806f-b125-c7f7c0169440",
               "name": "MEZ",
+              "skillTitle": "Graph triangles\n  and quadrilaterals",
               "permacode": "MEZ",
               "url": "https://www.ixl.com/search?q=MEZ",
               "status": "Not started",
@@ -1219,6 +1294,7 @@
             {
               "id": "3337d181-fab4-80ce-8134-deb4e3433c1a",
               "name": "HFJ",
+              "skillTitle": "Cross sections of three-dimensional figures",
               "permacode": "HFJ",
               "url": "https://www.ixl.com/search?q=HFJ",
               "status": "Not started",
@@ -1249,6 +1325,7 @@
             {
               "id": "3337d181-fab4-8011-9782-c2db76b09f33",
               "name": "YA8",
+              "skillTitle": "Area of circles",
               "permacode": "YA8",
               "url": "https://www.ixl.com/search?q=YA8",
               "status": "Practiced",
@@ -1268,6 +1345,7 @@
             {
               "id": "3337d181-fab4-80ef-a875-dcd01ee77b20",
               "name": "P56",
+              "skillTitle": "Circles: word\n  problems",
               "permacode": "P56",
               "url": "https://www.ixl.com/search?q=P56",
               "status": "Practiced",
@@ -1287,6 +1365,7 @@
             {
               "id": "3337d181-fab4-8097-9d4e-c337e4c6a003",
               "name": "2VL",
+              "skillTitle": "Parts of a\n  circle",
               "permacode": "2VL",
               "url": "https://www.ixl.com/search?q=2VL",
               "status": "Practiced",
@@ -1296,6 +1375,7 @@
             {
               "id": "3337d181-fab4-8093-b636-df76f9a6603e",
               "name": "KS7",
+              "skillTitle": "Circumference\n  of circles",
               "permacode": "KS7",
               "url": "https://www.ixl.com/search?q=KS7",
               "status": "Practiced",
@@ -1326,6 +1406,7 @@
             {
               "id": "3337d181-fab4-807e-abdc-e43c7f7228a4",
               "name": "CST",
+              "skillTitle": "Find measures\n  of complementary, supplementary, vertical, and adjacent angles",
               "permacode": "CST",
               "url": "https://www.ixl.com/search?q=CST",
               "status": "Not started",
@@ -1335,6 +1416,7 @@
             {
               "id": "3337d181-fab4-807e-a14b-e4acd5907e7b",
               "name": "DN9",
+              "skillTitle": "Write and solve\n  equations using angle relationships",
               "permacode": "DN9",
               "url": "https://www.ixl.com/search?q=DN9",
               "status": "Not started",
@@ -1344,6 +1426,7 @@
             {
               "id": "3337d181-fab4-802a-8aab-f725b4e07c90",
               "name": "HKG",
+              "skillTitle": "Identify complementary, supplementary, vertical, and\n  adjacent angles",
               "permacode": "HKG",
               "url": "https://www.ixl.com/search?q=HKG",
               "status": "Not started",
@@ -1374,6 +1457,7 @@
             {
               "id": "3337d181-fab4-80d5-b894-ded6fa08d685",
               "name": "MRG",
+              "skillTitle": "Area of\n  compound figures with triangles",
               "permacode": "MRG",
               "url": "https://www.ixl.com/search?q=MRG",
               "status": "Not started",
@@ -1383,6 +1467,7 @@
             {
               "id": "3337d181-fab4-800d-92aa-ee922ead8402",
               "name": "RKC",
+              "skillTitle": "Area between two shapes",
               "permacode": "RKC",
               "url": "https://www.ixl.com/search?q=RKC",
               "status": "Not started",
@@ -1402,6 +1487,7 @@
             {
               "id": "3337d181-fab4-8064-b87c-e383d0f21366",
               "name": "8WV",
+              "skillTitle": "Volume of cubes and rectangular prisms: word problems",
               "permacode": "8WV",
               "url": "https://www.ixl.com/search?q=8WV",
               "status": "Not started",
@@ -1421,6 +1507,7 @@
             {
               "id": "3337d181-fab4-802c-92bb-fd1a84fb304a",
               "name": "RFP",
+              "skillTitle": "Surface area of\n  cubes and prisms",
               "permacode": "RFP",
               "url": "https://www.ixl.com/search?q=RFP",
               "status": "Not started",
@@ -1440,6 +1527,7 @@
             {
               "id": "3337d181-fab4-80b6-9681-d160f714b565",
               "name": "62H",
+              "skillTitle": "Area of rectangles and parallelograms",
               "permacode": "62H",
               "url": "https://www.ixl.com/search?q=62H",
               "status": "Not started",
@@ -1449,6 +1537,7 @@
             {
               "id": "3337d181-fab4-80e0-9918-e2a01f820b93",
               "name": "EP5",
+              "skillTitle": "Volume of prisms: advanced",
               "permacode": "EP5",
               "url": "https://www.ixl.com/search?q=EP5",
               "status": "Not started",
@@ -1468,6 +1557,7 @@
             {
               "id": "3337d181-fab4-8035-94fb-da0dc0814a6a",
               "name": "ENE",
+              "skillTitle": "Area of\n  triangles and trapezoids",
               "permacode": "ENE",
               "url": "https://www.ixl.com/search?q=ENE",
               "status": "Not started",
@@ -1477,6 +1567,7 @@
             {
               "id": "3337d181-fab4-803c-aa4d-d22088b31214",
               "name": "URT",
+              "skillTitle": "Volume of cubes\n  and prisms",
               "permacode": "URT",
               "url": "https://www.ixl.com/search?q=URT",
               "status": "Not started",
@@ -1507,6 +1598,7 @@
             {
               "id": "3337d181-fab4-802b-b6bb-dcff5cf9aaee",
               "name": "YHZ",
+              "skillTitle": "Populations and samples",
               "permacode": "YHZ",
               "url": "https://www.ixl.com/search?q=YHZ",
               "status": "Not started",
@@ -1526,6 +1618,7 @@
             {
               "id": "3337d181-fab4-8024-8b7b-da9611095beb",
               "name": "5V3",
+              "skillTitle": "Identify representative, random, and biased samples",
               "permacode": "5V3",
               "url": "https://www.ixl.com/search?q=5V3",
               "status": "Not started",
@@ -1556,6 +1649,7 @@
             {
               "id": "3337d181-fab4-8047-a72c-d6d9497f1385",
               "name": "2BM",
+              "skillTitle": "Make inferences from multiple samples",
               "permacode": "2BM",
               "url": "https://www.ixl.com/search?q=2BM",
               "status": "Not started",
@@ -1565,6 +1659,7 @@
             {
               "id": "3337d181-fab4-8094-9621-ec42cfd90704",
               "name": "3C9",
+              "skillTitle": "Estimate\n  population size using proportions",
               "permacode": "3C9",
               "url": "https://www.ixl.com/search?q=3C9",
               "status": "Not started",
@@ -1633,6 +1728,7 @@
             {
               "id": "3337d181-fab4-80af-a746-e3f8a144ebca",
               "name": "PCK",
+              "skillTitle": "Compare\n  populations using measures of center and spread",
               "permacode": "PCK",
               "url": "https://www.ixl.com/search?q=PCK",
               "status": "Not started",
@@ -1663,6 +1759,7 @@
             {
               "id": "3337d181-fab4-803c-a813-ca6fb8f64010",
               "name": "ZZB",
+              "skillTitle": "Probability of\n  simple events",
               "permacode": "ZZB",
               "url": "https://www.ixl.com/search?q=ZZB",
               "status": "Not started",
@@ -1693,6 +1790,7 @@
             {
               "id": "3337d181-fab4-806c-9428-e38ff539eb82",
               "name": "WP6",
+              "skillTitle": "Make\n  predictions using experimental probability",
               "permacode": "WP6",
               "url": "https://www.ixl.com/search?q=WP6",
               "status": "Not started",
@@ -1712,6 +1810,7 @@
             {
               "id": "3337d181-fab4-8048-8945-f86d290bf5dc",
               "name": "VST",
+              "skillTitle": "Use collected data to find probabilities and make\n  predictions",
               "permacode": "VST",
               "url": "https://www.ixl.com/search?q=VST",
               "status": "Not started",
@@ -1742,6 +1841,7 @@
             {
               "id": "3337d181-fab4-804e-8782-e1e8d6969f06",
               "name": "9UW",
+              "skillTitle": "Make predictions using theoretical probability",
               "permacode": "9UW",
               "url": "https://www.ixl.com/search?q=9UW",
               "status": "Not started",
@@ -1751,6 +1851,7 @@
             {
               "id": "3337d181-fab4-8066-b9af-ead0bc2669fc",
               "name": "F88",
+              "skillTitle": "Probability of\n  simple events and opposite events",
               "permacode": "F88",
               "url": "https://www.ixl.com/search?q=F88",
               "status": "Not started",
@@ -1781,6 +1882,7 @@
             {
               "id": "3337d181-fab4-800c-9881-cf55f6131840",
               "name": "9AA",
+              "skillTitle": "Experimental probability",
               "permacode": "9AA",
               "url": "https://www.ixl.com/search?q=9AA",
               "status": "Not started",
@@ -1811,6 +1913,7 @@
             {
               "id": "3337d181-fab4-802c-b842-e08f90c831c4",
               "name": "NED",
+              "skillTitle": "Probability of independent and dependent events",
               "permacode": "NED",
               "url": "https://www.ixl.com/search?q=NED",
               "status": "Not started",
@@ -1820,6 +1923,7 @@
             {
               "id": "3337d181-fab4-804f-b6e1-f08f1328b61f",
               "name": "YPQ",
+              "skillTitle": "Probability of\n  compound events",
               "permacode": "YPQ",
               "url": "https://www.ixl.com/search?q=YPQ",
               "status": "Not started",
@@ -1850,6 +1954,7 @@
             {
               "id": "3337d181-fab4-8056-9ba6-e2f7a7791d7b",
               "name": "8HY",
+              "skillTitle": "Sample spaces for compound events",
               "permacode": "8HY",
               "url": "https://www.ixl.com/search?q=8HY",
               "status": "Not started",
@@ -1859,6 +1964,7 @@
             {
               "id": "3337d181-fab4-80d1-8c2d-f2767245ce9f",
               "name": "EKX",
+              "skillTitle": "Find the number of outcomes: word problems",
               "permacode": "EKX",
               "url": "https://www.ixl.com/search?q=EKX",
               "status": "Not started",
@@ -1868,6 +1974,7 @@
             {
               "id": "3337d181-fab4-80f8-8851-fa0729d7d07d",
               "name": "HZR",
+              "skillTitle": "Compound\n  events: find the number of outcomes",
               "permacode": "HZR",
               "url": "https://www.ixl.com/search?q=HZR",
               "status": "Not started",
@@ -1877,6 +1984,7 @@
             {
               "id": "3337d181-fab4-802d-945a-d8acff1af992",
               "name": "SCV",
+              "skillTitle": "Compound\n  events: find the number of sums",
               "permacode": "SCV",
               "url": "https://www.ixl.com/search?q=SCV",
               "status": "Not started",
@@ -1907,6 +2015,7 @@
             {
               "id": "3337d181-fab4-80ec-af68-dcede6e7ade7",
               "name": "D87",
+              "skillTitle": "Which\n  simulation represents the situation?",
               "permacode": "D87",
               "url": "https://www.ixl.com/search?q=D87",
               "status": "Not started",
