@@ -545,8 +545,8 @@ function renderLCRow(lc, stdCode, dc) {
       pill.href = url; pill.target = "_blank"; pill.rel = "noopener";
       pill.style.cssText = `background:${sc.bg};border-color:${sc.border};color:${sc.text}`;
       pill.innerHTML = sk.permacode
-        ? `<span class="skill-code" style="background:${sc.codeBg};color:${sc.text}">${sk.permacode}</span>${sk.name}`
-        : sk.name;
+        ? `<span class="skill-code" style="background:${sc.codeBg};color:${sc.text}">${sk.permacode}</span>${sk.skillTitle || sk.name}`
+        : sk.skillTitle || sk.name;
       skillsEl.appendChild(pill);
     }
     hdr.onclick = () => {
