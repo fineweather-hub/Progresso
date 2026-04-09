@@ -1,5 +1,5 @@
 {
-  "synced": "2026-04-09T21:06:09.943Z",
+  "synced": "2026-04-09T21:37:09.372Z",
   "subject": "ELA",
   "standards": [
     {
@@ -1102,7 +1102,7 @@
           "text": "Introduce claim(s), acknowledge alternate\n  or opposing claims, and organize the reasons and evidence logically.",
           "shortTitle": "Introduce claims and counter-claims",
           "code": "W.7.1.a",
-          "status": "In progress",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {
@@ -1212,7 +1212,7 @@
           "text": "Use words, phrases, and clauses to create\n  cohesion and clarify the relationships among claim(s), reasons, and evidence.",
           "shortTitle": "Cohesion in argumentative writing",
           "code": "W.7.1.c",
-          "status": "In progress",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {
@@ -1453,7 +1453,7 @@
           "text": "Use appropriate transitions to create\n  cohesion and clarify the relationships among ideas and concepts.",
           "shortTitle": "Transitions for informative cohesion",
           "code": "W.7.2.c",
-          "status": "In progress",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {
@@ -1624,7 +1624,7 @@
           "text": "Use a variety of transition words,\n  phrases, and clauses to convey sequence and signal shifts from one time frame\n  or setting to another.",
           "shortTitle": "Transitions for narrative sequence",
           "code": "W.7.3.c",
-          "status": "Not started",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {
@@ -3344,7 +3344,7 @@
       "id": "32a7d181-fab4-8184-8235-d6f8a1d26b79",
       "code": "L.7.6",
       "domain": "L",
-      "status": "In progress",
+      "status": "Mastered",
       "subject": "ELA",
       "shortTitle": "Academic & Domain Vocabulary",
       "plainLanguage": "use and\n  acquire grade-appropriate academic and subject-specific vocabulary",
@@ -3354,7 +3354,7 @@
           "text": "Acquire and use accurately\n  grade-appropriate general academic and domain-specific words and phrases;\n  gather vocabulary knowledge when considering a word or phrase important to\n  comprehension or expression.",
           "shortTitle": "Acquire academic and domain vocabulary",
           "code": "L.7.6",
-          "status": "In progress",
+          "status": "Done",
           "subject": "ELA",
           "skills": [
             {

@@ -1,5 +1,5 @@
 {
-  "synced": "2026-04-09T21:06:17.546Z",
+  "synced": "2026-04-09T21:37:17.230Z",
   "subject": "Math",
   "standards": [
     {
@@ -9,7 +9,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Unit rates with fractions",
-      "plainLanguage": "You can figure out \"how much per one\" even when the amounts are messy fractions.",
+      "plainLanguage": "figure out \"how much per one\" even when the amounts are messy fractions.",
       "lcs": [
         {
           "id": "3317d181-fab4-8083-ac01-ca07b707cade",
@@ -50,7 +50,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Spot the proportional relationship",
-      "plainLanguage": "You can look at a table or a graph and tell whether two things are truly growing together in a steady, reliable way.",
+      "plainLanguage": "look at a table or a graph and tell whether two things are truly growing together in a steady, reliable way.",
       "lcs": [
         {
           "id": "3317d181-fab4-80ea-bbf8-d5890fb2f70f",
@@ -151,7 +151,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Find the constant (k)",
-      "plainLanguage": "You can find the \"magic multiplier\" that connects two things — whether it's written as a table, a graph, an equation, a diagram, or just described in words.",
+      "plainLanguage": "find the \"magic multiplier\" that connects two things — whether it's written as a table, a graph, an equation, a diagram, or just described in words.",
       "lcs": [
         {
           "id": "3317d181-fab4-804a-88bc-d48c2a42e76d",
@@ -192,7 +192,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Write the equation",
-      "plainLanguage": "You can write a simple equation that captures any proportional relationship, so you can plug in any number and get your answer instantly.",
+      "plainLanguage": "write a simple equation that captures any proportional relationship, so I can plug in any number and get my answer instantly.",
       "lcs": [
         {
           "id": "3317d181-fab4-8040-8658-ef2448dfcf6b",
@@ -283,7 +283,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Read the graph",
-      "plainLanguage": "You can look at any point on a proportional graph and explain in plain English what it actually means — especially the two most important points.",
+      "plainLanguage": "look at any point on a proportional graph and explain in plain English what it actually means — especially the two most important points.",
       "lcs": [
         {
           "id": "3317d181-fab4-80de-bfda-ebacf2ec3e19",
@@ -314,7 +314,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Real-world percent problems",
-      "plainLanguage": "You can handle the percent problems that come up in real life — sales tax, discounts, tips, interest — even when they take more than one step.",
+      "plainLanguage": "handle the percent problems that come up in real life — sales tax, discounts, tips, interest — even when they take more than one step.",
       "lcs": [
         {
           "id": "3317d181-fab4-80f0-8fb1-eaba905d9874",
@@ -435,7 +435,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Opposites cancel",
-      "plainLanguage": "You understand that two opposite numbers cancel each other out completely — and can spot that pattern in real life.",
+      "plainLanguage": "understand that two opposite numbers cancel each other out completely — and can spot that pattern in real life.",
       "lcs": [
         {
           "id": "3317d181-fab4-805f-b226-fec12b4fddab",
@@ -466,7 +466,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Add on the number line",
-      "plainLanguage": "You can add any two rational numbers by thinking of it as movement on a number line — and explain what the result means in real life.",
+      "plainLanguage": "add any two rational numbers by thinking of it as movement on a number line — and explain what the result means in real life.",
       "lcs": [
         {
           "id": "3317d181-fab4-8098-a5eb-db5f81d218f7",
@@ -517,7 +517,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Subtract = add the opposite",
-      "plainLanguage": "You know that subtracting a number is the same as adding its opposite — and can use that to find the distance between any two numbers.",
+      "plainLanguage": "reorder or regroup numbers when adding and subtracting to make the math easier — and still get the right answer.",
       "lcs": [
         {
           "id": "3317d181-fab4-8004-837c-c34951b3bed8",
@@ -558,7 +558,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Regroup to add/subtract",
-      "plainLanguage": "You can rearrange or regroup numbers when adding and subtracting to make the math easier — and still get the right answer.",
+      "plainLanguage": "know that subtracting a number is the same as adding its opposite — and can use that to find the distance between any two numbers.",
       "lcs": [
         {
           "id": "3317d181-fab4-8078-889f-d8a8df811757",
@@ -619,7 +619,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Multiply signed numbers",
-      "plainLanguage": "You understand why multiplying two negatives gives a positive — and can interpret what multiplication of signed numbers means in context.",
+      "plainLanguage": "understand why multiplying two negatives gives a positive — and can interpret what multiplication of signed numbers means in context.",
       "lcs": [
         {
           "id": "3317d181-fab4-805a-8306-c5b27e5e48ca",
@@ -680,7 +680,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Divide signed numbers",
-      "plainLanguage": "You can divide any two rational numbers (as long as you’re not dividing by zero) and know how the signs work.",
+      "plainLanguage": "divide any two rational numbers (as long as I'm not dividing by zero) and know how the signs work.",
       "lcs": [
         {
           "id": "3317d181-fab4-80fd-813c-ca853042840b",
@@ -741,7 +741,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Regroup to multiply/divide",
-      "plainLanguage": "You can reorder or regroup numbers when multiplying and dividing to make the calculation easier.",
+      "plainLanguage": "reorder or regroup numbers when multiplying and dividing to make the calculation easier.",
       "lcs": [
         {
           "id": "3317d181-fab4-80af-a1aa-d60310238354",
@@ -772,7 +772,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Fractions → decimals",
-      "plainLanguage": "You can convert any fraction to a decimal using long division, and you know the decimal will either stop or repeat forever.",
+      "plainLanguage": "convert any fraction to a decimal using long division, and I know the decimal will either stop or repeat forever.",
       "lcs": [
         {
           "id": "3317d181-fab4-8087-ac59-e8e190ec6926",
@@ -813,14 +813,14 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "All four operations, any number",
-      "plainLanguage": "You can add, subtract, multiply, and divide with any rational numbers — including negatives and fractions — to solve real problems.",
+      "plainLanguage": "add, subtract, multiply, and divide with any rational numbers — including negatives and fractions — to solve real problems.",
       "lcs": [
         {
           "id": "3317d181-fab4-8037-aafd-eae1f923bc6c",
           "text": "7.NS.A.3.lc1",
           "shortTitle": "Add, subtract, multiply, divide rationals (math)",
           "code": "7.NS.A.3.lc1",
-          "status": "Not started",
+          "status": "Done",
           "subject": "Math",
           "skills": [
             {
@@ -884,7 +884,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Expand, factor, simplify",
-      "plainLanguage": "You can simplify and rearrange algebraic expressions — combining like terms, distributing, and factoring — even when the numbers are fractions or decimals.",
+      "plainLanguage": "simplify and rearrange algebraic expressions — combining like terms, distributing, and factoring — even when the numbers are fractions or decimals.",
       "lcs": [
         {
           "id": "3317d181-fab4-806d-93b4-f23da5afeada",
@@ -995,7 +995,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Rewrite to reveal meaning",
-      "plainLanguage": "You can rewrite a math expression in a different form to make it easier to understand what it’s actually telling you.",
+      "plainLanguage": "rewrite a math expression in a different form to make it easier to understand what it's actually telling me.",
       "lcs": [
         {
           "id": "3317d181-fab4-806a-b1df-fe6731fb5837",
@@ -1036,7 +1036,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Multi-step rational number problems",
-      "plainLanguage": "You can solve messy, multi-step real-world problems using whatever number form works best — fractions, decimals, or percents — and check whether your answer actually makes sense.",
+      "plainLanguage": "solve messy, multi-step real-world problems using whatever number form works best — fractions, decimals, or percents — and check whether my answer actually makes sense.",
       "lcs": [
         {
           "id": "3317d181-fab4-80c9-a85f-d3f0913a9c63",
@@ -1097,7 +1097,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Solve equations (px + q = r)",
-      "plainLanguage": "You can write and solve an equation to find an unknown number in a real-world situation — and explain each step you took.",
+      "plainLanguage": "write and solve an equation to find an unknown number in a real-world situation — and explain each step I took.",
       "lcs": [
         {
           "id": "3317d181-fab4-80ed-9e54-fd06f2be71b2",
@@ -1148,7 +1148,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Solve inequalities",
-      "plainLanguage": "You can solve problems where the answer isn’t one exact number but a whole range — and show that range on a number line.",
+      "plainLanguage": "solve problems where the answer isn't one exact number but a whole range — and show that range on a number line.",
       "lcs": [
         {
           "id": "3317d181-fab4-808b-8951-cae4a33cc7f8",
@@ -1179,7 +1179,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Scale drawings",
-      "plainLanguage": "You can use a scale drawing to figure out real measurements — lengths, areas, and distances — and redraw it at a different scale.",
+      "plainLanguage": "use a scale drawing to figure out real measurements — lengths, areas, and distances — and redraw it at a different scale.",
       "lcs": [
         {
           "id": "3317d181-fab4-8091-baf5-d99defd86317",
@@ -1240,7 +1240,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Construct shapes from constraints",
-      "plainLanguage": "You can construct triangles and other shapes from given measurements — and know when the measurements make a unique shape, multiple shapes, or no shape at all.",
+      "plainLanguage": "construct triangles and other shapes from given measurements — and know when the measurements make a unique shape, multiple shapes, or no shape at all.",
       "lcs": [
         {
           "id": "3317d181-fab4-80c1-bebc-c2cafa3733c8",
@@ -1281,7 +1281,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Slice a 3D shape",
-      "plainLanguage": "You can picture what shape you’d see if you sliced through a 3D object — like cutting through a box or a pyramid at different angles.",
+      "plainLanguage": "picture what shape I'd see if I sliced through a 3D object — like cutting through a box or a pyramid at different angles.",
       "lcs": [
         {
           "id": "3317d181-fab4-8074-a496-cdaeecee41c0",
@@ -1312,7 +1312,7 @@
       "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Circle area & circumference",
-      "plainLanguage": "You can calculate how far around a circle is and how much flat space it covers — and you understand why the two formulas are related.",
+      "plainLanguage": "calculate how far around a circle is and how much flat space it covers — and I understand why the two formulas are related.",
       "lcs": [
         {
           "id": "3317d181-fab4-80d4-b98b-cf16c8ee8bb0",
@@ -1390,10 +1390,10 @@
       "id": "32f7d181-fab4-801c-b45a-e5defad9c8f5",
       "code": "7.G.B.5",
       "domain": "G",
-      "status": "Not started",
+      "status": "Mastered",
       "subject": "Math",
       "shortTitle": "Find the missing angle",
-      "plainLanguage": "You can look at a diagram with intersecting or adjacent angles and write an equation to find any missing angle measure.",
+      "plainLanguage": "look at a diagram with intersecting or adjacent angles and write an equation to find any missing angle measure.",
       "lcs": [
         {
           "id": "3317d181-fab4-80d2-8689-ed3854d5d8b3",
@@ -1444,7 +1444,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Area, surface area & volume",
-      "plainLanguage": "You can find the area of flat shapes, the surface area of 3D objects, and the volume of boxes and prisms — even when the shape is made of smaller pieces combined.",
+      "plainLanguage": "find the area of flat shapes, the surface area of 3D objects, and the volume of boxes and prisms — even when the shape is made of smaller pieces combined.",
       "lcs": [
         {
           "id": "3317d181-fab4-8039-a489-cf294feb4f77",
@@ -1585,7 +1585,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Fair sampling",
-      "plainLanguage": "You understand that you can learn about a whole group by studying a smaller sample — but only if that sample was chosen fairly.",
+      "plainLanguage": "understand that I can learn about a whole group by studying a smaller sample — but only if that sample was chosen fairly.",
       "lcs": [
         {
           "id": "3317d181-fab4-80fe-bf01-fcb181af0e84",
@@ -1636,7 +1636,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Sample → population inference",
-      "plainLanguage": "You can use data from a random sample to make a reasonable guess about a whole population — and you know that different samples give slightly different answers.",
+      "plainLanguage": "use data from a random sample to make a reasonable guess about a whole population — and I know that different samples give slightly different answers.",
       "lcs": [
         {
           "id": "3317d181-fab4-80fd-9ad6-fb7bef7e4401",
@@ -1677,7 +1677,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Compare distributions visually",
-      "plainLanguage": "You can look at two sets of data side by side and judge whether they’re really different, or just randomly varying — using spread to put the gap in perspective.",
+      "plainLanguage": "look at two sets of data side by side and judge whether they're really different, or just randomly varying — using spread to put the gap in perspective.",
       "lcs": [
         {
           "id": "3317d181-fab4-806d-b4be-fac095b13a09",
@@ -1715,7 +1715,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Compare two populations",
-      "plainLanguage": "You can compare two groups using both their averages and how spread out their data is, and draw a reasonable conclusion about which group performs better.",
+      "plainLanguage": "compare two groups using both their averages and how spread out their data is, and draw a reasonable conclusion about which group performs better.",
       "lcs": [
         {
           "id": "3317d181-fab4-80f3-9670-c74fe0db0635",
@@ -1746,7 +1746,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Probability as a number",
-      "plainLanguage": "You know that probability is a number between 0 and 1 that tells you how likely something is — and you can match everyday language like “rare” or “guaranteed” to that scale.",
+      "plainLanguage": "know that probability is a number between 0 and 1 that tells me how likely something is — and I can match everyday language like 'rare' or 'guaranteed' to that scale.",
       "lcs": [
         {
           "id": "3317d181-fab4-8035-8554-e3ae92b5b7da",
@@ -1777,7 +1777,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Experimental probability",
-      "plainLanguage": "You can estimate the probability of something by actually doing it many times and tracking results — and you know your estimate gets more reliable with more tries.",
+      "plainLanguage": "estimate the probability of something by actually doing it many times and tracking results — and I know my estimate gets more reliable with more tries.",
       "lcs": [
         {
           "id": "3317d181-fab4-80f4-b4da-f3fdc147d585",
@@ -1828,7 +1828,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Uniform probability model",
-      "plainLanguage": "You can calculate the probability of any outcome when all outcomes are equally likely — by counting favorable outcomes and dividing by total outcomes.",
+      "plainLanguage": "calculate the probability of any outcome when all outcomes are equally likely — by counting favorable outcomes and dividing by total outcomes.",
       "lcs": [
         {
           "id": "3317d181-fab4-80cc-9d52-e8b8ee3399b5",
@@ -1869,7 +1869,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Non-uniform probability model",
-      "plainLanguage": "You can build a probability model from real data when outcomes aren’t equally likely — and use it to make predictions.",
+      "plainLanguage": "build a probability model from real data when outcomes aren't equally likely — and use it to make predictions.",
       "lcs": [
         {
           "id": "3317d181-fab4-8038-b2a2-fa7a6e968c1e",
@@ -1900,7 +1900,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Compound event probability",
-      "plainLanguage": "You understand that when two things happen together, you need to think about all possible combinations — not just each thing separately.",
+      "plainLanguage": "understand that when two things happen together, I need to think about all possible combinations — not just each thing separately.",
       "lcs": [
         {
           "id": "3317d181-fab4-8036-b5a2-d9333c52332d",
@@ -1941,7 +1941,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Map the sample space",
-      "plainLanguage": "You can systematically list every possible outcome of a multi-step situation using a list, table, or tree diagram — without missing any or double-counting.",
+      "plainLanguage": "systematically list every possible outcome of a multi-step situation using a list, table, or tree diagram — without missing any or double-counting.",
       "lcs": [
         {
           "id": "3317d181-fab4-802e-aa93-d58caff3ab70",
@@ -2002,7 +2002,7 @@
       "status": "Not started",
       "subject": "Math",
       "shortTitle": "Simulate compound events",
-      "plainLanguage": "You can design and run a simulation to estimate the probability of a complicated event that’s too hard to calculate directly.",
+      "plainLanguage": "design and run a simulation to estimate the probability of a complicated event that's too hard to calculate directly.",
       "lcs": [
         {
           "id": "3317d181-fab4-80de-9afa-d80fbebd6f55",
