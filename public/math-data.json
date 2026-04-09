@@ -1,5 +1,5 @@
 {
-  "synced": "2026-04-09T10:20:29.173Z",
+  "synced": "2026-04-09T21:06:17.546Z",
   "subject": "Math",
   "standards": [
     {
@@ -1400,7 +1400,7 @@
           "text": "7.G.B.5.lc1",
           "shortTitle": "Find an unknown angle",
           "code": "7.G.B.5.lc1",
-          "status": "Not started",
+          "status": "Done",
           "subject": "Math",
           "skills": [
             {
@@ -1409,7 +1409,7 @@
               "skillTitle": "Find measures\n  of complementary, supplementary, vertical, and adjacent angles",
               "permacode": "CST",
               "url": "https://www.ixl.com/search?q=CST",
-              "status": "Not started",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             },
@@ -1419,7 +1419,7 @@
               "skillTitle": "Write and solve\n  equations using angle relationships",
               "permacode": "DN9",
               "url": "https://www.ixl.com/search?q=DN9",
-              "status": "Not started",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             },
@@ -1429,7 +1429,7 @@
               "skillTitle": "Identify complementary, supplementary, vertical, and\n  adjacent angles",
               "permacode": "HKG",
               "url": "https://www.ixl.com/search?q=HKG",
-              "status": "Not started",
+              "status": "Practiced",
               "subject": "Math",
               "isDupe": false
             }
